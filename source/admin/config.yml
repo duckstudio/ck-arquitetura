@@ -1,6 +1,9 @@
 backend:
   name: bitbucket
   repo: duckdesign/ck-arquitetura # Path to your Bitbucket repository
+  branch: default
+  auth_type: implicit
+  app_id: D3y6SKya3z2swF4Jsw # The Key from your Bitbucket settings
 
 media_folder: source/images/uploads
 public_folder: /images/uploads
