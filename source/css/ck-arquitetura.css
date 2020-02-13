@@ -203,12 +203,17 @@ a {
   align-items: center;
 }
 
-.hero-section_content_title-box_main {
+.hero-section_content_title-box_main, .hero-section_content_title-box_main p {
   font-family: 'Noyh Geometric Slim', sans-serif;
   font-size: 5.8vw;
   line-height: 3vw;
   font-weight: 100;
   text-transform: uppercase;
+}
+
+.hero-section_content_title-box_main strong {
+  color: #a07987;
+  font-weight: 400;
 }
 
 .hero-section_content_title-box_rand {
@@ -3174,7 +3179,7 @@ html.w-mod-js *[data-ix="scrollfadein"] {
     padding-top: 100px;
     padding-bottom: 115px;
   }
-  .hero-section_content_title-box_main {
+  .hero-section_content_title-box_main, .hero-section_content_title-box_main p {
     font-size: 13vw;
     line-height: 5vw;
   }

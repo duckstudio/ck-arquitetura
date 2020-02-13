@@ -25,7 +25,7 @@ collections:
             widget: object
             fields:
               - {label: Vídeo, name: video, widget: file}
-              - {label: Título, name: title, widget: string}
+              - {label: Título, name: title, widget: markdown}
               - {label: Subtítulo 1, name: subtitle, widget: string}
               - {label: Subtítulo 2, name: subtitle2, widget: string}
               - {label: Texto do CTA, name: cta_text, widget: string}

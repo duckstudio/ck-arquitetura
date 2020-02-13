@@ -69,7 +69,7 @@
 <body class="body">
   <div data-w-id="0756c26a-9dce-1788-6b7e-9ef35fd564ec" class="intro-box"><img src="images/ck-simbolo.svg" width="125" data-w-id="bf8c8bb9-9b79-b637-57bf-ad6e346175b4" alt="" class="intro-box_logo"></div>
   <div data-w-id="3f4fd706-80ff-1556-716c-cb74667440c9" class="site-content">
-    <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="videos/bg-ck_1-poster-00001.jpg" data-video-urls="videos/bg-ck_1-transcode.mp4,videos/bg-ck_1-transcode.webm" class="hero-section_bg-video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/bg-ck_1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="videos/bg-ck_1-transcode.mp4" data-wf-ignore="true"><source src="videos/bg-ck_1-transcode.webm" data-wf-ignore="true"></video>
+    <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="videos/bg-ck_1-poster-00001.jpg" data-video-urls="<%= data.pages.home.hero.video %>" class="hero-section_bg-video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/bg-ck_1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="<%= data.pages.home.hero.video %>" data-wf-ignore="true"></video>
       <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
         <div class="navbar_content"><a href="/" class="navbar_content_brand w-nav-brand w--current"><img src="images/logo-ck-arquitetura.svg" width="175" alt=""></a>
           <nav role="navigation" class="navbar_menu w-nav-menu">
@@ -88,11 +88,11 @@
         <div class="container variable">
           <div class="hero-section_content_title-box">
             <h1 class="hero-section_content_h1">Escritório de arquitetura em Gramado</h1>
-            <div class="hero-section_content_title-box_main">Nós <strong class="bold-pink">amamos</strong></div>
+            <div class="hero-section_content_title-box_main"><%= markdown(data.pages.home.hero.title) %></div>
             <div class="hero-section_content_title-box_rand">
-              <div data-w-id="ce676074-8bd3-ad7a-53d6-68e3d40bcaad" class="hero-section_content_title-box_rand_item1">arquitetura.</div>
-              <div data-w-id="38626bec-c128-54a3-5778-c79f43c4a10b" style="opacity:0" class="hero-section_content_title-box_rand_item2">Construir sonhos.</div>
-            </div><a href="#houses-section" class="button outline w-button">Conheça nossos empreendimentos</a></div>
+              <div data-w-id="ce676074-8bd3-ad7a-53d6-68e3d40bcaad" class="hero-section_content_title-box_rand_item1"><%= data.pages.home.hero.subtitle %></div>
+              <div data-w-id="38626bec-c128-54a3-5778-c79f43c4a10b" style="opacity:0" class="hero-section_content_title-box_rand_item2"><%= data.pages.home.hero.subtitle2 %></div>
+            </div><a href="<%= data.pages.home.hero.cta_link %>" class="button outline w-button"><%= data.pages.home.hero.cta_text %></a></div>
         </div>
         <div class="hero-section_content_scroll-box">
           <div class="hero-section_content_scroll-box_content"><img src="images/scroll-mouse.svg" width="15" alt="" class="hero-section_content_scroll-box_content_mouse">
