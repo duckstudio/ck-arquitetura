@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: bitbucket
+  repo: duckdesign/ck-arquitetura # Path to your Bitbucket repository
 
 media_folder: source/images/uploads
 public_folder: /images/uploads
