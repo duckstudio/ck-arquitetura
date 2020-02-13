@@ -4,26 +4,15 @@ backend:
 media_folder: source/images/uploads
 public_folder: /images/uploads
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: duckck
+    api_key: 184259328425148
+
 #publish_mode: editorial_workflow #optional, enables publishing workflow
 
 collections:
-  #yaml middleman data example
-  - name: product
-    label: Product
-    format: yml
-    extension: yml
-    folder: data/products/
-    create: true
-    slug: '{{title}}'
-    fields:
-      - {label: Title, name: title, widget: string, required: true}
-      - {label: Publish Date, name: date, widget: datetime}
-      - {label: Image, name: image, widget: image, required: true}
-
-      - {label: Weight, name: weight, widget: number}
-      - {label: Price, name: price, widget: number}
-      - {label: Body, name: body, widget: markdown}
-
   - name: pages
     label: Pages
     files:
@@ -35,22 +24,23 @@ collections:
             name: hero
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Image, name: image, widget: image}
-          - label: Story
-            name: story
-            widget: markdown
+              - {label: Vídeo, name: video, widget: file}
+              - {label: Título, name: title, widget: string}
+              - {label: Subtítulo 1, name: subtitle, widget: string}
+              - {label: Subtítulo 2, name: subtitle2, widget: string}
+              - {label: Texto do CTA, name: cta_text, widget: string}
+              - {label: Link do CTA, name: cta_link, widget: string}
 
-  - name: settings
-    label: Settings
-    files:
-      - file: data/settings/navigation.yml
-        label: Navigation
-        name: navigation
-        fields:
-          - label: Navigation
-            name: nav_items
-            widget: list
-            fields:
-              - {label: Label, name: label, widget: string}
-              - {label: Path, name: path, widget: string}
+  # - name: settings
+  #   label: Configurações
+  #   files:
+  #     - file: data/settings/navigation.yml
+  #       label: Navigation
+  #       name: navigation
+  #       fields:
+  #         - label: Navigation
+  #           name: nav_items
+  #           widget: list
+  #           fields:
+  #             - {label: Label, name: label, widget: string}
+  #             - {label: Path, name: path, widget: string}
