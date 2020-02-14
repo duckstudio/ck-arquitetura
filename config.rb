@@ -22,27 +22,26 @@ page "/admin/*", layout: false
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
-# Proxy pages
-# https://middlemanapp.com/advanced/dynamic-pages/
+after_configuration do
+  # Proxy pages
+  # https://middlemanapp.com/advanced/dynamic-pages/
 
-proxy "/index.html", "/pages/index.html", ignore: true
-proxy "/contato.html", "/pages/contato.html", ignore: true
-proxy "/corretor.html", "/pages/corretor.html", ignore: true
-proxy "/empreendimentos.html", "/pages/empreendimentos.html", ignore: true
-proxy "/institucional.html", "/pages/institucional.html", ignore: true
-proxy "/pagina-empreendimento.html", "/pages/pagina-empreendimento.html", ignore: true
-proxy "/pagina-projeto.html", "/pages/pagina-projeto.html", ignore: true
-proxy "/politicas-de-privacidade-e-termos-de-uso.html", "/pages/politicas-de-privacidade-e-termos-de-uso.html", ignore: true
-proxy "/projetos.html", "/pages/projetos.html", ignore: true
+  proxy "/index.html", "/pages/index.html", ignore: true
+  proxy "/contato.html", "/pages/contato.html", ignore: true
+  proxy "/corretor.html", "/pages/corretor.html", ignore: true
+  proxy "/empreendimentos.html", "/pages/empreendimentos.html", ignore: true
+  proxy "/institucional.html", "/pages/institucional.html", ignore: true
+  proxy "/pagina-projeto.html", "/pages/pagina-projeto.html", ignore: true
+  proxy "/politicas-de-privacidade-e-termos-de-uso.html", "/pages/politicas-de-privacidade-e-termos-de-uso.html", ignore: true
+  proxy "/projetos.html", "/pages/projetos.html", ignore: true
 
-# proxy product.yml files to product.html
-# data.products.each do |_filename, product|
-#   # product is an array: [filename, {data}]
-#   proxy "/product/#{product[:title].parameterize}/index.html", "product.html",
-#   locals: {product: product},
-#   layout: 'product-detail',
-#   ignore: true
-# end
+  @app.data.empreendimentos.each do |_filename, empreendimento|
+    # empreendimentos is an array: [filename, {data}]
+    proxy "/empreendimento/#{empreendimento[:title].parameterize}.html", "/pages/pagina-empreendimento.html",
+    locals: {empreendimento: empreendimento},
+    ignore: true
+  end
+end
 
 # Helpers
 # Methods defined in the helpers block are available in templates

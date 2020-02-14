@@ -133,34 +133,15 @@
     <div id="houses-section" class="houses-section" data-ix="scrollfadein">
       <div class="container">
         <div class="houses-section_content">
-          <a href="/pagina-empreendimento" class="houses-section_content_block_item w-inline-block">
-            <div class="houses-section_content_block_item_image"></div>
-            <h3 class="houses-section_content_block_item_h3">Casa Romance</h3>
-            <div class="houses-section_content_block_item_address">Aspen Mountain</div>
-            <div class="houses-section_content_block_item_city">Gramado</div>
-            <div class="houses-section_content_block_item_price">R$7.000.000,00</div>
-          </a>
-          <a href="/pagina-empreendimento" class="houses-section_content_block_item w-inline-block">
-            <div class="houses-section_content_block_item_image"></div>
-            <h3 class="houses-section_content_block_item_h3">Casa Romance</h3>
-            <div class="houses-section_content_block_item_address">Aspen Mountain</div>
-            <div class="houses-section_content_block_item_city">Gramado</div>
-            <div class="houses-section_content_block_item_price">R$7.000.000,00</div>
-          </a>
-          <a href="/pagina-empreendimento" class="houses-section_content_block_item w-inline-block">
-            <div class="houses-section_content_block_item_image"></div>
-            <h3 class="houses-section_content_block_item_h3">Casa Romance</h3>
-            <div class="houses-section_content_block_item_address">Aspen Mountain</div>
-            <div class="houses-section_content_block_item_city">Gramado</div>
-            <div class="houses-section_content_block_item_price">R$7.000.000,00</div>
-          </a>
-          <a href="/pagina-empreendimento" class="houses-section_content_block_item w-inline-block">
-            <div class="houses-section_content_block_item_image"></div>
-            <h3 class="houses-section_content_block_item_h3">Casa Romance</h3>
-            <div class="houses-section_content_block_item_address">Aspen Mountain</div>
-            <div class="houses-section_content_block_item_city">Gramado</div>
-            <div class="houses-section_content_block_item_price">R$7.000.000,00</div>
-          </a>
+          <% data.empreendimentos.each do |_filename, empreendimento| %>
+            <a href="/empreendimento/<%= empreendimento.title.parameterize %>" class="houses-section_content_block_item w-inline-block">
+              <div class="houses-section_content_block_item_image" style="background-image: url('<%= empreendimento.image %>')"></div>
+              <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
+              <div class="houses-section_content_block_item_address">Aspen Mountain</div>
+              <div class="houses-section_content_block_item_city"><%= empreendimento.city %></div>
+              <div class="houses-section_content_block_item_price">R$<%= empreendimento.value %></div>
+            </a>
+          <% end %>
         </div>
       </div>
     </div>
