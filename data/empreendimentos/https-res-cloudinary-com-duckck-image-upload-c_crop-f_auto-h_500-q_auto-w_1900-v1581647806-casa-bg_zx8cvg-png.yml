@@ -1,0 +1,83 @@
+title: >-
+  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_500,q_auto,w_1900/v1581647806/casa-bg_zx8cvg.png
+subtitle: 'Mais que um lar, um legado de amor!'
+value: '7.000.000,00'
+city: Gramado
+status: Pronto para morar
+show_reasons: true
+text: >-
+  Uma residência perfeita, em um lugar único, para quem deseja investir na sua
+  serenidade e na qualidade de vida de toda a sua família e amigos.
+details:
+  - title: Imóvel com área construída de 531 m²
+  - title: Ampla garagem para até 2 carros
+  - title: Sala de jantar para até 12 pessoas
+  - title: '4 suítes, incluindo uma banheira de hidromassagem na suíte master'
+  - title: Totalmente projetada para automação por tablet ou smartphone
+  - title: 'Economia e praticidade com calefação em toda casa, incluindo piso aquecido'
+background_video: >-
+  https://res.cloudinary.com/duckck/video/upload/c_crop,f_auto,h_500,q_auto,w_1900/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
+youtube_video: n_sYgJtcwLU
+image_sections:
+  - images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648038/DSC_7514_pteemr.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648076/DSC_7518_oijqq8.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648101/DSC_7533_zw4inm.png
+    title: SUÍTE MASTER
+  - images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648038/DSC_7514_pteemr.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648076/DSC_7518_oijqq8.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648101/DSC_7533_zw4inm.png
+    title: SUÍTE MASTER
+  - images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648038/DSC_7514_pteemr.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648101/DSC_7533_zw4inm.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648076/DSC_7518_oijqq8.png
+    title: SUÍTE MASTER
+  - images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648101/DSC_7533_zw4inm.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648076/DSC_7518_oijqq8.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648038/DSC_7514_pteemr.png
+    title: SUÍTE MASTER
+  - images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648076/DSC_7518_oijqq8.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648038/DSC_7514_pteemr.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648101/DSC_7533_zw4inm.png
+    title: SUÍTE MASTER
+plants:
+  - image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1581648230/Planta_Superior2_nnb9mi.png
+    title: Planta Térreo
+  - image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1581648230/Planta_Superior2_nnb9mi.png
+    title: Planta Térreo
+  - image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1581648230/Planta_Superior2_nnb9mi.png
+    title: Planta Térreo
+more_details:
+  - title: Suntuoso hall de entrada com pé direito duplo e iluminação natural
+  - title: 'Economia e praticidade com calefação em toda casa, incluindo piso aquecido'
+  - title: Amplos decks externos
+  - title: Conforto termo acústico com esquadrias em PVC de vidro duplo
+  - title: Espaço gourmet com churrasqueira e fornoa lenha
+  - title: Sala de jogos e sala da pipoca
+  - title: Adega
+  - title: Dependência de empregada
+  - title: Moderno elevador Schindler em todos os andares
+  - title: Cozinha com solarium para café da manhã
+  - title: Espelhos d’água em seu entorno
