@@ -117,7 +117,7 @@ collections:
             default_transformations:
               - - fetch_format: auto
                   width: 1900
-                  height: 500
+                  height: 750
                   quality: auto
                   crop: crop
       - {label: Andamento, name: status, widget: string}
@@ -169,6 +169,49 @@ collections:
         widget: list
         fields:
           - {label: Detalhe, name: title, widget: string}
+
+  - name: condominios
+    label: Condomínios
+    folder: "data/condominios"
+    create: true
+    extension: "yml"
+    fields:
+      - {label: Nome, name: title, widget: string}
+      - {label: Cidade, name: city, widget: string}
+      - {label: Texto, name: text, widget: markdown}
+      - label: Image
+        name: image
+        widget: image
+        media_library:
+          config:
+            default_transformations:
+              - - fetch_format: auto
+                  width: 1900
+                  height: 600
+                  quality: auto
+                  crop: crop
+      - {label: Valor, name: value, widget: string}
+      - label: Seções
+        name: sections
+        widget: list
+        fields:
+          - {label: Nome, name: title, widget: string}
+          - label: Image
+            name: image
+            widget: image
+            media_library:
+              config:
+                default_transformations:
+                  - - fetch_format: auto
+                      width: 600
+                      height: 900
+                      quality: auto
+                      crop: crop
+          - label: Detalhes
+            name: details
+            widget: list
+            fields:
+              - {label: Texto, name: text, widget: text}
 
   # - name: settings
   #   label: Configurações
