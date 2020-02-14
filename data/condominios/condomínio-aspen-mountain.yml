@@ -1,0 +1,45 @@
+title: Condomínio Aspen Mountain
+city: Gramado - RS
+text: >-
+  Todo sonho começa de olhos fechados. Feche os seus e pense na essência, na
+  alma da serra que está no fundo de sua memória. A luz filtrada por entre as
+  araucárias, realçando o verde. O azul do céu refletido no lago cristalino. E
+  então você abre os olhos e descobre a vida emoldurada por esse ideal.
+
+
+  Uma pérola privilegiada pela natureza, que convida você a respirar fundo. Ar
+  livre, campos, árvores, matas e muito espaço. Fauna e flora integradas com a
+  perfeição à sua natureza. O sonho já encontrou um lugar para ser realizado.
+image: >-
+  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_1900/v1581647806/casa-bg_zx8cvg.png
+value: '780,00'
+sections:
+  - details:
+      - text: Restaurante
+      - text: Adega
+      - text: |-
+          Estar com:
+          – Lareira
+          – Biblioteca
+          – Sala de leituratar para até 12 pessoas
+      - text: Cinema e  Dj Club
+      - text: >-
+          Cozinha do Gourmet com fogão e forno convencionais, fogão campeiro,
+          fogo a lenha e braseiros para assados
+      - text: 'Sala de jogos,  Lan House e  Cyber Space'
+      - text: >-
+          Piscina Térmica semi-olímpica (25m) com 5 raias, Biribol, Piscina
+          Térmica de estar indoor e outdoor, Piscina infantil
+    title: Clube-House
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_900,q_auto,w_600/v1581647806/casa-bg_zx8cvg.png
+  - details:
+      - text: Sauna seca
+      - text: Sauna úmida
+      - text: Ofurô
+      - text: Fitness Center completo
+      - text: Salas de massagem climatizadas
+      - text: Hidromassagem
+    title: SPA
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_900,q_auto,w_600/v1581647806/casa-bg_zx8cvg.png
