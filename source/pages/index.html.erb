@@ -211,34 +211,12 @@
     <div id="houses-section" class="houses-section" data-ix="scrollfadein">
       <div class="container">
         <div class="houses-section_content">
-          <a href="#" class="news-section_list_item w-inline-block">
-            <div class="news-section_item"></div>
-            <h3 class="news-section_item_h3">Livro Gramado de Leonid Streliaev</h3>
-          </a>
-          <a href="#" class="news-section_list_item w-inline-block">
-            <div class="news-section_item"></div>
-            <h3 class="news-section_item_h3">Gaúcha ZH - Conheça a casa que vai custar R$ 11 mi</h3>
-          </a>
-          <a href="#" class="news-section_list_item w-inline-block">
-            <div class="news-section_item"></div>
-            <h3 class="news-section_item_h3">Livro Gramado de Leonid Streliaev</h3>
-          </a>
-          <a href="#" class="news-section_list_item w-inline-block">
-            <div class="news-section_item"></div>
-            <h3 class="news-section_item_h3">Livro Gramado de Leonid Streliaev</h3>
-          </a>
-          <a href="#" class="news-section_list_item w-inline-block">
-            <div class="news-section_item"></div>
-            <h3 class="news-section_item_h3">Livro Gramado de Leonid Streliaev</h3>
-          </a>
-          <a href="#" class="news-section_list_item w-inline-block">
-            <div class="news-section_item"></div>
-            <h3 class="news-section_item_h3">Livro Gramado de Leonid Streliaev</h3>
-          </a>
-          <a href="#" class="news-section_list_item w-inline-block">
-            <div class="news-section_item"></div>
-            <h3 class="news-section_item_h3">Livro Gramado de Leonid Streliaev</h3>
-          </a>
+          <% data.pages.home.midia.items.each do |item| %>
+            <a href="<%= item.link %>" target="_blank" class="news-section_list_item w-inline-block">
+              <div class="news-section_item" style="background-image: url('<%= item.image %>')"></div>
+              <h3 class="news-section_item_h3"><%= item.title %></h3>
+            </a>
+          <% end %>
         </div>
       </div>
     </div>
