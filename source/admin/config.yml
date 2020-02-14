@@ -30,6 +30,54 @@ collections:
               - {label: Subtítulo 2, name: subtitle2, widget: string}
               - {label: Texto do CTA, name: cta_text, widget: string}
               - {label: Link do CTA, name: cta_link, widget: string}
+          - label: Sustentabilidade
+            name: sustentabilidade
+            widget: object
+            fields:
+              - {label: Título, name: title, widget: markdown}
+              - {label: Texto, name: text, widget: markdown}
+              - label: Items
+                name: items
+                widget: list
+                  fields:
+                    - {label: Título Curto, name: title, widget: string}
+                    - {label: Título Completo, name: complete_title, widget: string}
+                    - {label: Texto, name: text, widget: text}
+                    - {label: "Estilo 'para baixo'", name: "bottom", widget: "boolean", default: false}
+                    - label: Imagem de Fundo
+                      name: image
+                      widget: image
+                      media_library:
+                        config:
+                          default_transformations:
+                            - - fetch_format: auto
+                                width: 300
+                                height: 300
+                                quality: auto
+                                crop: crop
+                    - label: Ícone Externo
+                      name: external_icon
+                      widget: image
+                      media_library:
+                        config:
+                          default_transformations:
+                            - - fetch_format: auto
+                                width: 65
+                                height: 65
+                                quality: auto
+                                crop: pad
+                    - label: Ícone Interno
+                      name: internal_icon
+                      widget: image
+                      media_library:
+                        config:
+                          default_transformations:
+                            - - fetch_format: auto
+                                width: 40
+                                height: 40
+                                quality: auto
+                                crop: pad
+
 
   # - name: settings
   #   label: Configurações
