@@ -77,6 +77,24 @@ collections:
                               height: 40
                               quality: auto
                               crop: pad
+          - label: Midia
+            name: midia
+            widget: object
+            fields:
+              - {label: Título, name: title, widget: string}
+              - {label: Link, name: link, widget: string}
+              - label: Imagem
+                name: image
+                widget: image
+                media_library:
+                  config:
+                    default_transformations:
+                      - - fetch_format: auto
+                          width: 300
+                          height: 300
+                          quality: auto
+                          crop: crop
+
 
 
   # - name: settings
