@@ -123,6 +123,12 @@ collections:
       - {label: Andamento, name: status, widget: string}
       - {label: "Aparecer 8 razões para comprar uma casa?", name: show_reasons, widget: boolean, default: false}
       - {label: "Texto de Introdução", name: text, widget: text}
+      - label: Condomínio
+        name: condominio
+        widget: relation
+        collection: condominios
+        valueField: "title"
+        searchFields: ["title"]
       - label: Detalhes
         name: details
         widget: list
