@@ -99,7 +99,76 @@ collections:
                               quality: auto
                               crop: crop
 
-
+  - name: empreendimentos
+    label: Empreendimentos
+    folder: "data/empreendimentos"
+    create: true
+    extension: "yml"
+    fields:
+      - {label: Título, name: title, widget: string}
+      - {label: Subtítulo, name: subtitle, widget: string}
+      - {label: Valor, name: value, widget: string}
+      - {label: Cidade, name: city, widget: string}
+      - label: Image
+        name: title
+        widget: image
+        media_library:
+          config:
+            default_transformations:
+              - - fetch_format: auto
+                  width: 1900
+                  height: 500
+                  quality: auto
+                  crop: crop
+      - {label: Andamento, name: status, widget: string}
+      - {label: "Aparecer 8 razões para comprar uma casa?", name: show_reasons, widget: boolean, default: false}
+      - {label: "Texto de Introdução", name: text, widget: text}
+      - label: Detalhes
+        name: details
+        widget: list
+        fields:
+          - {label: Detalhe, name: title, widget: string}
+      - {label: "Vídeo de fundo", name: background_video, widget: file }
+      - {label: "Código do Vídeo do Youtube", name: youtube_video, widget: string }
+      - label: Seções de Fotos
+        name: image_sections
+        widget: list
+        fields:
+          - {label: Título, name: title, widget: string}
+          - label: Imagens
+            name: images
+            widget: list
+            fields:
+              - label: Imagem
+                name: image
+                widget: image
+                media_library:
+                  config:
+                    default_transformations:
+                      - - fetch_format: auto
+                          width: 1900
+                          quality: auto
+                          crop: limit
+      - label: Plantas
+        name: plants
+        widget: list
+        fields:
+          - {label: Título, name: title, widget: string}
+          - label: Imagem
+            name: image
+            widget: image
+            media_library:
+              config:
+                default_transformations:
+                  - - fetch_format: auto
+                      width: 1050
+                      quality: auto
+                      crop: limit
+      - label: Detalhes Adicionais
+        name: more_details
+        widget: list
+        fields:
+          - {label: Detalhe, name: title, widget: string}
 
   # - name: settings
   #   label: Configurações
