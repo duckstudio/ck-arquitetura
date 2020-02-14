@@ -898,6 +898,10 @@ a {
   font-weight: 200;
 }
 
+.sustainability_section_intro_right_paragraph p {
+  margin-bottom: 30px;
+}
+
 .sustainability_section_intro_right_paragraph strong {
   font-weight: 500;
 }

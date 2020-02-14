@@ -176,77 +176,32 @@
       <div class="container">
         <div class="sustainability_section_intro">
           <div class="sustainability_section_intro_left">
-            <h2 class="sustainability_section_intro_left_h2">Um legado de <strong class="bold-pink">sustentabilidade </strong><br>para sua família e o planeta.</h2><img src="images/Alma-verde3.png" width="140" srcset="images/Alma-verde3-p-500.png 500w, images/Alma-verde3-p-800.png 800w, images/Alma-verde3-p-1080.png 1080w, images/Alma-verde3.png 1490w" sizes="140px" alt="" class="sustainability_section_intro_left_logo"></div>
+            <h2 class="sustainability_section_intro_left_h2"><%= markdown(data.pages.home.sustentabilidade.title) %></h2><img src="images/Alma-verde3.png" width="140" srcset="images/Alma-verde3-p-500.png 500w, images/Alma-verde3-p-800.png 800w, images/Alma-verde3-p-1080.png 1080w, images/Alma-verde3.png 1490w" sizes="140px" alt="" class="sustainability_section_intro_left_logo"></div>
           <div class="sustainability_section_intro_right">
-            <div class="sustainability_section_intro_right_paragraph">A CK Arquitetura de Gramado,  sabe que um investimento imobiliário na <strong class="semi-bold">qualidade de vida de uma família</strong> impactará por gerações.<br><br>Por isso dedica todo cuidado e especial atenção em <strong class="semi-bold">elevar o nível de sustentabilidade e reduzir os impactos ambientais</strong> que uma casa de alto padrão possa vir a causar, tornando isto parte do legado da propriedade.<br><br>Afirmando ainda mais o seu compromisso com essa visão, a CK Arquitetura criou um novo conceito imobiliário que denomina <strong class="semi-bold">ALMA VERDE.</strong></div>
+            <div class="sustainability_section_intro_right_paragraph"><%= markdown(data.pages.home.sustentabilidade.text) %></div>
           </div>
         </div>
         <div class="sustainability_section_gallery">
-          <a href="#" class="sustainability_section_gallery_item w-inline-block">
-            <div data-w-id="98211e8d-26a5-2ec5-4d02-7a6b0ef1980b" class="sustainability_section_gallery_item_block"><img src="images/iluminacaonatual.png" width="65" alt="" class="sustainability_section_gallery_item_block_icon"></div>
-            <h3 class="sustainability_section_gallery_item_h3">Iluminação Natural</h3>
-            <div style="display:none;opacity:0" class="sustainability_section_gallery_item_modal">
-              <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="sustainability_section_gallery_item_modal_box">
-                <div class="sustainability_section_gallery_item_modal_box_header"><img src="images/energialimpa_verde.png" width="40" srcset="images/energialimpa_verde-p-500.png 500w, images/energialimpa_verde.png 700w" sizes="100vw" alt="" class="sustainability_section_gallery_item_modal_box_header_icon">
-                  <div data-w-id="545c32ca-a8ef-ef46-b05b-7297f883ca1d" class="sustainability_section_gallery_item_modal_box_header_close"><img src="images/modal-close_grey.svg" width="15" alt=""></div>
-                </div>
-                <h3 class="sustainability_section_gallery_item_modal_box_h3">ALMA VERDE NA ILUMINAÇÃO NATURAL</h3>
-                <p>As casas são projetadas para obter o máximo de <br>iluminação natural, gerando significativa redução de consumo de energia, ao mesmo tempo que integra seus moradores com vistas espetaculares da natureza no entorno da propriedade, com amplos panos de vidros que expressam a transparência de uma verdadeira propriedade de serra do século XXI.</p>
+          <% data.pages.home.sustentabilidade.items.each do |item| %>
+            <a href="#" class="sustainability_section_gallery_item <%= item.bottom ? 'bottom ' : '' %>w-inline-block">
+              <div data-w-id="98211e8d-26a5-2ec5-4d02-7a6b0ef1980b" class="sustainability_section_gallery_item_block" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('<%= item.image %>')">
+                <img src="<%= item.external_icon %>" width="65" alt="" class="sustainability_section_gallery_item_block_icon">
               </div>
-            </div>
-          </a>
-          <a href="#" class="sustainability_section_gallery_item bottom w-inline-block">
-            <div data-w-id="635a1785-f563-2d75-b582-f3d36cfd90aa" class="sustainability_section_gallery_item_block"><img src="images/iluminacaonatual.png" width="65" alt="" class="sustainability_section_gallery_item_block_icon"></div>
-            <h3 class="sustainability_section_gallery_item_h3">Iluminação Natural</h3>
-            <div style="display:none;opacity:0" class="sustainability_section_gallery_item_modal">
-              <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="sustainability_section_gallery_item_modal_box">
-                <div class="sustainability_section_gallery_item_modal_box_header"><img src="images/energialimpa_verde.png" width="40" srcset="images/energialimpa_verde-p-500.png 500w, images/energialimpa_verde.png 700w" sizes="100vw" alt="" class="sustainability_section_gallery_item_modal_box_header_icon">
-                  <div data-w-id="635a1785-f563-2d75-b582-f3d36cfd90b0" class="sustainability_section_gallery_item_modal_box_header_close"><img src="images/modal-close_grey.svg" width="15" alt=""></div>
+              <h3 class="sustainability_section_gallery_item_h3"><%= item.title %></h3>
+              <div style="display:none;opacity:0" class="sustainability_section_gallery_item_modal">
+                <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="sustainability_section_gallery_item_modal_box">
+                  <div class="sustainability_section_gallery_item_modal_box_header">
+                    <img src="<%= item.internal_icon %>" width="40" alt="" class="sustainability_section_gallery_item_modal_box_header_icon">
+                    <div data-w-id="545c32ca-a8ef-ef46-b05b-7297f883ca1d" class="sustainability_section_gallery_item_modal_box_header_close">
+                      <img src="images/modal-close_grey.svg" width="15" alt="">
+                    </div>
+                  </div>
+                  <h3 class="sustainability_section_gallery_item_modal_box_h3"><%= item.complete_title %></h3>
+                  <p><%= item.text %></p>
                 </div>
-                <h3 class="sustainability_section_gallery_item_modal_box_h3">ALMA VERDE NA ILUMINAÇÃO NATURAL</h3>
-                <p>As casas são projetadas para obter o máximo de <br>iluminação natural, gerando significativa redução de consumo de energia, ao mesmo tempo que integra seus moradores com vistas espetaculares da natureza no entorno da propriedade, com amplos panos de vidros que expressam a transparência de uma verdadeira propriedade de serra do século XXI.</p>
               </div>
-            </div>
-          </a>
-          <a href="#" class="sustainability_section_gallery_item w-inline-block">
-            <div data-w-id="7fa91b1a-e135-c788-57c0-d57e347a3e03" class="sustainability_section_gallery_item_block"><img src="images/iluminacaonatual.png" width="65" alt="" class="sustainability_section_gallery_item_block_icon"></div>
-            <h3 class="sustainability_section_gallery_item_h3">Iluminação Natural</h3>
-            <div style="display:none;opacity:0" class="sustainability_section_gallery_item_modal">
-              <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="sustainability_section_gallery_item_modal_box">
-                <div class="sustainability_section_gallery_item_modal_box_header"><img src="images/energialimpa_verde.png" width="40" srcset="images/energialimpa_verde-p-500.png 500w, images/energialimpa_verde.png 700w" sizes="100vw" alt="" class="sustainability_section_gallery_item_modal_box_header_icon">
-                  <div data-w-id="7fa91b1a-e135-c788-57c0-d57e347a3e09" class="sustainability_section_gallery_item_modal_box_header_close"><img src="images/modal-close_grey.svg" width="15" alt=""></div>
-                </div>
-                <h3 class="sustainability_section_gallery_item_modal_box_h3">ALMA VERDE NA ILUMINAÇÃO NATURAL</h3>
-                <p>As casas são projetadas para obter o máximo de <br>iluminação natural, gerando significativa redução de consumo de energia, ao mesmo tempo que integra seus moradores com vistas espetaculares da natureza no entorno da propriedade, com amplos panos de vidros que expressam a transparência de uma verdadeira propriedade de serra do século XXI.</p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="sustainability_section_gallery_item w-inline-block">
-            <div data-w-id="6dd61fd3-ecfb-2284-fc52-3e2283631149" class="sustainability_section_gallery_item_block"><img src="images/iluminacaonatual.png" width="65" alt="" class="sustainability_section_gallery_item_block_icon"></div>
-            <h3 class="sustainability_section_gallery_item_h3">Iluminação Natural</h3>
-            <div style="display:none;opacity:0" class="sustainability_section_gallery_item_modal">
-              <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="sustainability_section_gallery_item_modal_box">
-                <div class="sustainability_section_gallery_item_modal_box_header"><img src="images/energialimpa_verde.png" width="40" srcset="images/energialimpa_verde-p-500.png 500w, images/energialimpa_verde.png 700w" sizes="100vw" alt="" class="sustainability_section_gallery_item_modal_box_header_icon">
-                  <div data-w-id="6dd61fd3-ecfb-2284-fc52-3e228363114f" class="sustainability_section_gallery_item_modal_box_header_close"><img src="images/modal-close_grey.svg" width="15" alt=""></div>
-                </div>
-                <h3 class="sustainability_section_gallery_item_modal_box_h3">ALMA VERDE NA ILUMINAÇÃO NATURAL</h3>
-                <p>As casas são projetadas para obter o máximo de <br>iluminação natural, gerando significativa redução de consumo de energia, ao mesmo tempo que integra seus moradores com vistas espetaculares da natureza no entorno da propriedade, com amplos panos de vidros que expressam a transparência de uma verdadeira propriedade de serra do século XXI.</p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="sustainability_section_gallery_item bottom w-inline-block">
-            <div data-w-id="82dfd399-26b6-2b36-4036-383eeddd922f" class="sustainability_section_gallery_item_block"><img src="images/iluminacaonatual.png" width="65" alt="" class="sustainability_section_gallery_item_block_icon"></div>
-            <h3 class="sustainability_section_gallery_item_h3">Iluminação Natural</h3>
-            <div style="display:none;opacity:0" class="sustainability_section_gallery_item_modal">
-              <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="sustainability_section_gallery_item_modal_box">
-                <div class="sustainability_section_gallery_item_modal_box_header"><img src="images/energialimpa_verde.png" width="40" srcset="images/energialimpa_verde-p-500.png 500w, images/energialimpa_verde.png 700w" sizes="100vw" alt="" class="sustainability_section_gallery_item_modal_box_header_icon">
-                  <div data-w-id="82dfd399-26b6-2b36-4036-383eeddd9235" class="sustainability_section_gallery_item_modal_box_header_close"><img src="images/modal-close_grey.svg" width="15" alt=""></div>
-                </div>
-                <h3 class="sustainability_section_gallery_item_modal_box_h3">ALMA VERDE NA ILUMINAÇÃO NATURAL</h3>
-                <p>As casas são projetadas para obter o máximo de <br>iluminação natural, gerando significativa redução de consumo de energia, ao mesmo tempo que integra seus moradores com vistas espetaculares da natureza no entorno da propriedade, com amplos panos de vidros que expressam a transparência de uma verdadeira propriedade de serra do século XXI.</p>
-              </div>
-            </div>
-          </a>
+            </a>
+          <% end %>
         </div>
       </div>
     </div>
