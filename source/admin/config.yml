@@ -110,7 +110,7 @@ collections:
       - {label: Valor, name: value, widget: string}
       - {label: Cidade, name: city, widget: string}
       - label: Image
-        name: title
+        name: image
         widget: image
         media_library:
           config:
