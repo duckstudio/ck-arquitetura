@@ -4,6 +4,17 @@ value: '7.000.000,00'
 city: Gramado
 image: >-
   https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_500,q_auto,w_1900/v1581647806/casa-bg_zx8cvg.png
+highlight_images:
+  - image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581744947/casa1.1_ntuunb.jpg
+  - image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581744974/casa2_y2pisi.jpg
+  - image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581745002/casa3_ortz2t.jpg
+highlight_text: |-
+  Serenidade e Perfeição
+
+  Em **Gramado**
 status: Pronto para morar
 show_reasons: true
 text: >-
