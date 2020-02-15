@@ -30,6 +30,12 @@ collections:
               - {label: Subtítulo 2, name: subtitle2, widget: string}
               - {label: Texto do CTA, name: cta_text, widget: string}
               - {label: Link do CTA, name: cta_link, widget: string}
+          - label: Empreendimento em Destaque
+            name: empreendimento
+            widget: relation
+            collection: empreendimentos
+            valueField: "title"
+            searchFields: ["title"]
           - label: Sustentabilidade
             name: sustentabilidade
             widget: object
@@ -109,7 +115,7 @@ collections:
       - {label: Subtítulo, name: subtitle, widget: string}
       - {label: Valor, name: value, widget: string}
       - {label: Cidade, name: city, widget: string}
-      - label: Image
+      - label: Imagem
         name: image
         widget: image
         media_library:
@@ -120,6 +126,22 @@ collections:
                   height: 750
                   quality: auto
                   crop: crop
+      - label: Imagens quando destaque
+        name: highlight_images
+        widget: list
+        fields:
+          - label: Imagem
+            name: image
+            widget: image
+            media_library:
+              config:
+                default_transformations:
+                  - - fetch_format: auto
+                      width: 945
+                      height: 600
+                      quality: auto
+                      crop: crop
+      - {label: Texto quando destaque, name: highlight_text, widget: markdown}
       - {label: Andamento, name: status, widget: string}
       - {label: "Aparecer 8 razões para comprar uma casa?", name: show_reasons, widget: boolean, default: false}
       - {label: "Texto de Introdução", name: text, widget: text}
