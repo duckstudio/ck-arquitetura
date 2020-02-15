@@ -37,8 +37,12 @@ after_configuration do
 
   @app.data.empreendimentos.each do |_filename, empreendimento|
     # empreendimentos is an array: [filename, {data}]
+    condominio = @app.data.condominios.find do |_filename, condominio|
+      empreendimento.condominio == condominio.title
+    end
+
     proxy "/empreendimento/#{empreendimento[:title].parameterize}.html", "/pages/pagina-empreendimento.html",
-    locals: {empreendimento: empreendimento},
+    locals: {empreendimento: empreendimento, condominio: condominio ? condominio[1] : nil},
     ignore: true
   end
 end

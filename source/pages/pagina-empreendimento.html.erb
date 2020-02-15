@@ -148,76 +148,46 @@
       </div>
     </div>
   </div>
-  <div class="house-page_-condominium-section">
-    <div class="house-page_-condominium-section_intro">
-      <div class="container">
-        <div class="house-page_-condominium-section_intro_content">
-          <div class="house-page_-condominium-section_intro_content_left">
-            <h2 class="house-page_-condominium-section_intro_content_left_title">Condomínio Aspen Mountain</h2>
-            <div class="house-page_-condominium-section_intro_content_left_subtitle">Gramado - RS</div>
-            <p class="house-page_-condominium-section_intro_content_p">Todo sonho começa de olhos fechados. Feche os seus e pense na essência, na alma da serra que está no fundo de sua memória. A luz filtrada por entre as araucárias, realçando o verde. O azul do céu refletido no lago cristalino. E então você abre os olhos e descobre a vida emoldurada por esse ideal.<br><br>Uma pérola privilegiada pela natureza, que convida você a respirar fundo. Ar livre, campos, árvores, matas e muito espaço. Fauna e flora integradas com a perfeição à sua natureza. O sonho já encontrou um lugar para ser realizado.</p>
+
+  <% if condominio %>
+    <div class="house-page_-condominium-section">
+      <div class="house-page_-condominium-section_intro" style="linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('<%= condominio.image %>')">
+        <div class="container">
+          <div class="house-page_-condominium-section_intro_content">
+            <div class="house-page_-condominium-section_intro_content_left">
+              <h2 class="house-page_-condominium-section_intro_content_left_title"><%= condominio.title %></h2>
+              <div class="house-page_-condominium-section_intro_content_left_subtitle"><%= condominio.city %></div>
+              <div class="house-page_-condominium-section_intro_content_p"><%= markdown(condominio.text) %></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="house-page_-condominium-section_list-block">
-      <div class="container">
-        <div class="house-page_about-section_block_item">
-          <div class="house-page_about-section_block_left">
-            <h2 class="house-page_-condominium-section_list-block_h2">clube-house</h2>
-            <div class="house-page_about-section_link"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon">
-              <div class="house-page_about-section_link_text">Restaurante</div>
-              <div class="house-page_about-section_link_line"></div>
+      <div class="house-page_-condominium-section_list-block">
+        <div class="container">
+          <% condominio.sections.each_with_index do |section, index| %>
+            <div class="house-page_about-section_block_item<%= index.even? ? '' : ' invert' %>">
+              <div class="house-page_about-section_block_left">
+                <h2 class="house-page_-condominium-section_list-block_h2"><%= section.title %></h2>
+
+                <% section.details.each_with_index do |detail, index| %>
+                  <div class="house-page_about-section_link">
+                    <img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon">
+                    <div class="house-page_about-section_link_text"><%= detail.text %></div>
+
+                    <% if index == 0 %>
+                      <div class="house-page_about-section_link_line"></div>
+                    <% end %>
+                  </div>
+                <% end %>
+              </div>
+              <div class="house-page_about-section_block_photo _1" style="background-image: url('<%= section.image %>')"></div>
             </div>
-            <div class="house-page_about-section_link"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon">
-              <div class="house-page_about-section_link_text">Adega</div>
-            </div>
-            <div class="house-page_about-section_link"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon">
-              <div class="house-page_about-section_link_text">Estar com:<br>– Lareira<br>– Biblioteca<br>– Sala de leituratar para até 12 pessoas</div>
-            </div>
-            <div class="house-page_about-section_link"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon">
-              <div class="house-page_about-section_link_text">Cinema e  Dj Club</div>
-            </div>
-            <div class="house-page_about-section_link"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon">
-              <div class="house-page_about-section_link_text">Cozinha do Gourmet com fogão e forno convencionais, fogão campeiro, fogo a lenha e braseiros para assados</div>
-            </div>
-            <div class="house-page_about-section_link"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon">
-              <div class="house-page_about-section_link_text">Sala de jogos,  Lan House e  Cyber Space</div>
-            </div>
-            <div class="house-page_about-section_link"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon">
-              <div class="house-page_about-section_link_text">Piscina Térmica semi-olímpica (25m) com 5 raias, Biribol, Piscina Térmica de estar indoor e outdoor, Piscina infantil</div>
-            </div>
-          </div>
-          <div class="house-page_about-section_block_photo _1"></div>
-        </div>
-        <div class="house-page_about-section_block_item invert">
-          <div class="house-page_about-section_block_left">
-            <h2 class="house-page_-condominium-section_list-block_h2 invert">spa</h2>
-            <div class="house-page_about-section_link invert"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon invert">
-              <div class="house-page_about-section_link_text">Sauna seca</div>
-              <div class="house-page_about-section_link_line invert"></div>
-            </div>
-            <div class="house-page_about-section_link invert"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon invert">
-              <div class="house-page_about-section_link_text">Sauna úmida</div>
-            </div>
-            <div class="house-page_about-section_link invert"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon invert">
-              <div class="house-page_about-section_link_text">Ofurô</div>
-            </div>
-            <div class="house-page_about-section_link invert"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon invert">
-              <div class="house-page_about-section_link_text">Fitness Center completo</div>
-            </div>
-            <div class="house-page_about-section_link invert"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon invert">
-              <div class="house-page_about-section_link_text">Salas de massagem climatizadas</div>
-            </div>
-            <div class="house-page_about-section_link invert"><img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon invert">
-              <div class="house-page_about-section_link_text">Hidromassagem</div>
-            </div>
-          </div>
-          <div class="house-page_about-section_block_photo _1"></div>
+          <% end %>
         </div>
       </div>
     </div>
-  </div>
+  <% end %>
+
   <% if empreendimento.show_reasons %>
     <div class="house-page_reasons-section">
       <div class="container">
@@ -276,7 +246,7 @@
         </div>
         <div class="house-page_price-section_list_item">
           <div class="house-page_price-section_title">Valor do condomínio</div>
-          <div class="house-page_price-section_value"><span class="price-tag">R$</span>780,00</div>
+          <div class="house-page_price-section_value"><span class="price-tag">R$</span><%= condominio.value %></div>
         </div>
       </div>
     </div>
