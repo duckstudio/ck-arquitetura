@@ -272,10 +272,9 @@ collections:
                   config:
                     default_transformations:
                       - - fetch_format: auto
-                          width: 60
-                          height: 60
+                          height: 70
                           quality: auto
-                          crop: pad
+                          crop: limit
 
       # - file: data/settings/navigation.yml
       #   label: Navigation
