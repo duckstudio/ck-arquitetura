@@ -69,21 +69,21 @@
         <div class="contact-page_left">
           <h2 class="contact-page_h2">Fale conosco</h2>
           <div class="contact-page_info_list">
-            <a href="mailto:comercial@ckarquitetura.com?subject=Contato%20Site" class="footer_contact_item w-inline-block">
+            <a href="mailto:<%= data.settings.infos.email %>?subject=Contato%20Site" class="footer_contact_item w-inline-block">
               <div class="footer_contact_item_title dark">E-mail</div>
-              <div class="footer_contact_item_infos dark">comercial@ckarquitetura.com</div>
+              <div class="footer_contact_item_infos dark"><%= data.settings.infos.email %></div>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=5555197514953&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="footer_contact_item w-inline-block">
+            <a href="https://api.whatsapp.com/send?phone=55<%= data.settings.infos.whatsapp.parameterize.gsub('-', '') %>&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="footer_contact_item w-inline-block">
               <div class="footer_contact_item_title dark">Whatsapp</div>
-              <div class="footer_contact_item_infos dark">(51) 9 9751-4953</div>
+              <div class="footer_contact_item_infos dark"><%= data.settings.infos.whatsapp %></div>
             </a>
-            <a href="mailto:comercial@ckarquitetura.com?subject=Contato%20Site" class="footer_contact_item w-inline-block">
+            <a href="tel:0<%= data.settings.infos.phone.parameterize.gsub('-', '') %>" class="footer_contact_item w-inline-block">
               <div class="footer_contact_item_title dark">Telefone</div>
-              <div class="footer_contact_item_infos dark">(54) 3286 - 1234</div>
+              <div class="footer_contact_item_infos dark"><%= data.settings.infos.phone %></div>
             </a>
             <a href="mailto:comercial@ckarquitetura.com?subject=Contato%20Site" class="footer_contact_item w-inline-block">
               <div class="footer_contact_item_title dark">Endereço</div>
-              <div class="footer_contact_item_infos dark">Rua Madre Verônica, 250, Sala 204<br>Centro - GRAMADO/RS</div>
+              <div class="footer_contact_item_infos dark"><%= markdown(data.settings.infos.address) %></div>
             </a>
           </div>
         </div>
@@ -109,8 +109,10 @@
     </div>
     <div class="contact-page_bg-grey"></div>
   </div>
+
   <%= partial "partials/footer" %>
   <%= partial "partials/menu-mobile" %>
+
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/ck-arquitetura.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->

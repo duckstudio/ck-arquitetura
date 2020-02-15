@@ -1106,7 +1106,7 @@ a {
   font-weight: 300;
 }
 
-.footer_contact_item_infos.dark {
+.footer_contact_item_infos.dark, .footer_contact_item_infos.dark p {
   color: #646464;
   font-size: 14px;
   line-height: 19px;
