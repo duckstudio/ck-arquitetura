@@ -26,7 +26,10 @@ after_configuration do
   # Proxy pages
   # https://middlemanapp.com/advanced/dynamic-pages/
 
-  proxy "/index.html", "/pages/index.html", ignore: true
+  empreendimento = @app.data.empreendimentos.find do |_filename, empreendimento|
+    @app.data.pages.home.empreendimento == empreendimento.title
+  end
+  proxy "/index.html", "/pages/index.html", locals: {empreendimento: empreendimento ? empreendimento[1] : nil}, ignore: true
   proxy "/contato.html", "/pages/contato.html", ignore: true
   proxy "/corretor.html", "/pages/corretor.html", ignore: true
   proxy "/empreendimentos.html", "/pages/empreendimentos.html", ignore: true

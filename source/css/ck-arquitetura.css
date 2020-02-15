@@ -470,6 +470,19 @@ a {
   text-transform: uppercase;
 }
 
+.slider-section_content_h2 p {
+  color: #fff;
+  font-size: 45px;
+  line-height: 43px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.slider-section_content_h2 strong {
+  color: #a07987;
+  font-weight: 400;
+}
+
 .lottie-animation {
   width: 100px;
 }
@@ -3227,7 +3240,7 @@ html.w-mod-js *[data-ix="scrollfadein"] {
     padding-top: 65px;
     padding-bottom: 65px;
   }
-  .slider-section_content_h2 {
+  .slider-section_content_h2, .slider-section_content_h2 p {
     font-size: 26px;
     line-height: 30px;
   }

@@ -101,35 +101,36 @@
         </div>
       </div>
     </div>
-    <div class="slider-section">
-      <div class="container full-mobile" data-ix="scrollfadein">
-        <div class="slider-section_title">Casa serena</div>
-        <div data-delay="4000" data-animation="cross" data-autoplay="1" data-duration="700" data-infinite="1" class="slider-section_slider w-slider" data-ix="scrollfadein">
-          <div class="slider-section_slider_mask w-slider-mask">
-            <div class="slider-section_slider_slide w-slide">
-              <div class="slide-item"></div>
+
+    <% if empreendimento %>
+      <div class="slider-section">
+        <div class="container full-mobile" data-ix="scrollfadein">
+          <div class="slider-section_title"><%= empreendimento.title %></div>
+          <div data-delay="4000" data-animation="cross" data-autoplay="1" data-duration="700" data-infinite="1" class="slider-section_slider w-slider" data-ix="scrollfadein">
+            <div class="slider-section_slider_mask w-slider-mask">
+              <% empreendimento.highlight_images.each do |highlight| %>
+                <div class="slider-section_slider_slide w-slide">
+                  <div class="slide-item" style="background-image: url('<%= highlight.image %>')"></div>
+                </div>
+              <% end %>
             </div>
-            <div class="slider-section_slider_slide w-slide">
-              <div class="slide-item _2"></div>
+            <div class="left-arrow w-slider-arrow-left">
+              <div class="w-icon-slider-left"></div>
             </div>
-            <div class="slider-section_slider_slide w-slide">
-              <div class="slide-item _3"></div>
+            <div class="right-arrow w-slider-arrow-right">
+              <div class="w-icon-slider-right"></div>
             </div>
+            <div class="slider-section_nav w-slider-nav w-slider-nav-invert w-round"></div>
           </div>
-          <div class="left-arrow w-slider-arrow-left">
-            <div class="w-icon-slider-left"></div>
-          </div>
-          <div class="right-arrow w-slider-arrow-right">
-            <div class="w-icon-slider-right"></div>
-          </div>
-          <div class="slider-section_nav w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+        <div class="container" data-ix="scrollfadein">
+          <div class="slider-section_content" data-ix="scrollfadein">
+            <h2 class="slider-section_content_h2"><%= markdown(empreendimento.highlight_text) %></h2>
+            <a href="/empreendimento/<%= empreendimento.title.parameterize %>" class="button outline w-button">Conheça a <%= empreendimento.title %></a></div>
         </div>
       </div>
-      <div class="container" data-ix="scrollfadein">
-        <div class="slider-section_content" data-ix="scrollfadein">
-          <h2 class="slider-section_content_h2">serenidade e perfeição <br>em <strong class="bold-pink">gramado</strong></h2><a href="/pagina-empreendimento" class="button outline w-button">Conheça a Casa Serena</a></div>
-      </div>
-    </div>
+    <% end %>
+
     <div id="houses-section" class="houses-section" data-ix="scrollfadein">
       <div class="container">
         <div class="houses-section_content">
