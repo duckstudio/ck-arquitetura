@@ -191,48 +191,17 @@
   <% if empreendimento.show_reasons %>
     <div class="house-page_reasons-section">
       <div class="container">
-        <h2 class="house-page_reasons-section_h2"><strong>8 razões</strong> Para Comprar Uma Casa<br>da CK em Gramado na Obra!</h2>
+        <h2 class="house-page_reasons-section_h2"><%= markdown(data.settings.reasons.title) %></h2>
         <div class="house-page_reasons-section_list">
-          <div class="house-page_reasons-section_list_item">
-            <div class="house-page_reasons-section_list_item_header"><img src="/images/icone1.svg" width="60" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-            <h3 class="house-page_reasons-section_list_item_h3">01. <strong>Economia</strong></h3>
-            <p class="house-page_reasons-section_list_item_p">Adquirindo uma de nossas casas durante a obra, você tem uma economia de R$1.000.00,00, simplesmente pelo fato de adquirir antes de estar pronta.</p>
-          </div>
-          <div class="house-page_reasons-section_list_item">
-            <div class="house-page_reasons-section_list_item_header"><img src="/images/icone2.svg" width="65" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-            <h3 class="house-page_reasons-section_list_item_h3">02. <strong>Interior e Decoração</strong></h3>
-            <p class="house-page_reasons-section_list_item_p">Na compra da casa em construção, Você Ganha os Projetos de Interiores, além de toda orientação de decoração totalmente GRÁTIS!</p>
-          </div>
-          <div class="house-page_reasons-section_list_item">
-            <div class="house-page_reasons-section_list_item_header"><img src="/images/icone3.svg" width="69" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-            <h3 class="house-page_reasons-section_list_item_h3">03. <strong>Acompanhe de Perto</strong></h3>
-            <p class="house-page_reasons-section_list_item_p">Viaje até três vezes à Gramado durante a construção, com passagens e hospedagem para casal por dois dias por nossa conta, para que possa visitar a obra e participar da escolha de acabamentos se desejar.</p>
-          </div>
-          <div class="house-page_reasons-section_list_item">
-            <div class="house-page_reasons-section_list_item_header"><img src="/images/icone6.svg" width="76" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-            <h3 class="house-page_reasons-section_list_item_h3">04. <strong>Aproveite o Condomínio</strong></h3>
-            <p class="house-page_reasons-section_list_item_p">A partir da compra, você e sua família já podem usufruir de toda a infraestrutura do condomínio, incluindo piscinas, spa, clube  e todas áreas de lazer.</p>
-          </div>
-          <div class="house-page_reasons-section_list_item">
-            <div class="house-page_reasons-section_list_item_header"><img src="/images/icone4.svg" width="70" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-            <h3 class="house-page_reasons-section_list_item_h3">05. <strong>Monitoramento Mensal</strong></h3>
-            <p class="house-page_reasons-section_list_item_p">Acompanhe toda a evolução da obra através de fotos e cronograma em nosso site mensalmente.</p>
-          </div>
-          <div class="house-page_reasons-section_list_item">
-            <div class="house-page_reasons-section_list_item_header"><img src="/images/icone5.svg" width="70" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-            <h3 class="house-page_reasons-section_list_item_h3">06. <strong>Uma Recordação de Amor</strong></h3>
-            <p class="house-page_reasons-section_list_item_p">Você recebe de cortesia, uma escultura exclusiva  do casal ou filhos, feita por um artista plástico.</p>
-          </div>
-          <div class="house-page_reasons-section_list_item">
-            <div class="house-page_reasons-section_list_item_header"><img src="/images/icone1.svg" width="60" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-            <h3 class="house-page_reasons-section_list_item_h3">07. <strong>Facilidade de Pagamento</strong></h3>
-            <p class="house-page_reasons-section_list_item_p">Adquirindo seu imóvel durante a construção, você tem facilidades especiais de parcelamento, incluindo financiamento imobiliário se preferir.</p>
-          </div>
-          <div class="house-page_reasons-section_list_item">
-            <div class="house-page_reasons-section_list_item_header"><img src="/images/icone7.svg" width="60" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-            <h3 class="house-page_reasons-section_list_item_h3">08. <strong>Valorização</strong></h3>
-            <p class="house-page_reasons-section_list_item_p">Ao comprar a casa durante a construção você se beneficia da valorização.</p>
-          </div>
+          <% data.settings.reasons.items.each_with_index do |item, index| %>
+            <div class="house-page_reasons-section_list_item">
+              <div class="house-page_reasons-section_list_item_header">
+                <img src="<%= item.icon %>" alt="" class="house-page_reasons-section_list_item_header_icon">
+              </div>
+              <h3 class="house-page_reasons-section_list_item_h3">0<%= index %>. <strong><%= item.title %></strong></h3>
+              <p class="house-page_reasons-section_list_item_p"><%= item.text %></p>
+            </div>
+          <% end %>
         </div>
       </div>
     </div>

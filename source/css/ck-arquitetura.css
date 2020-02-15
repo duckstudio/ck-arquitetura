@@ -2608,6 +2608,14 @@ a {
   text-transform: uppercase;
 }
 
+.house-page_reasons-section_h2 p {
+  color: #a07987;
+  font-size: 38px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .house-page_reasons-section_list {
   display: -webkit-box;
   display: -webkit-flex;
