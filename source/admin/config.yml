@@ -241,6 +241,29 @@ collections:
             fields:
               - {label: Texto, name: text, widget: text}
 
+  - file: data/reasons.yml
+    label: 8 Razões para comprar uma casa
+    name: reasons
+    fields:
+      - {label: Título, name: title, widget: markdown}
+      - label: Itens
+        name: items
+        widget: list
+        fields:
+          - {label: Título, name: title, widget: string}
+          - {label: Texto, name: text, widget: text}
+          - label: Ícone
+            name: icon
+            widget: image
+            media_library:
+              config:
+                default_transformations:
+                  - - fetch_format: auto
+                      width: 60
+                      height: 60
+                      quality: auto
+                      crop: pad
+
   - name: settings
     label: Configurações
     files:
