@@ -1099,7 +1099,7 @@ a {
   font-size: 13px;
 }
 
-.footer_contact_item_infos {
+.footer_contact_item_infos, .footer_contact_item_infos p {
   color: hsla(0, 0%, 100%, 0.7);
   font-size: 12px;
   line-height: 13px;

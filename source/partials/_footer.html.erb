@@ -1,0 +1,27 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer_content">
+      <div class="footer_content_left"><img src="images/logo-ck-arquitetura.svg" width="215" alt="" class="footer_content_logo">
+        <div class="footer_content_socials"><a href="#" class="footer_content_socials_item w-inline-block"><img src="images/facebook.svg" alt=""></a><a href="#" class="footer_content_socials_item w-inline-block"><img src="images/insta.svg" alt=""></a><a href="#" class="footer_content_socials_item w-inline-block"><img src="images/linkedin.svg" alt=""></a><a href="#" class="footer_content_socials_item w-inline-block"><img src="images/pinterest.svg" alt=""></a><a href="#" class="footer_content_socials_item w-inline-block"><img src="images/youtube.svg" alt=""></a></div>
+        <div class="footer_content_copyright"><%= data.settings.infos.rights %></div><a href="/politicas-de-privacidade-e-termos-de-uso" class="footer_content_copyright">Termos de Privacidade e Uso</a></div>
+      <div class="footer_content_right">
+        <div class="footer_links"><a href="/empreendimentos" class="footer_links_item">Empreendimentos</a><a href="/institucional" class="footer_links_item">A CK Arquitetura</a><a href="/corretor" class="footer_links_item">Corretores</a><a href="/contato" class="footer_links_item">Contato</a><a href="/" class="footer_links_item w--current">O melhor de Gramado</a><a href="/projetos" class="footer_links_item">Projetos personalizados</a></div>
+        <div class="footer_contact">
+          <a href="mailto:<%= data.settings.infos.email %>?subject=Contato%20Site" class="footer_contact_item w-inline-block">
+            <div class="footer_contact_item_title">E-mail</div>
+            <div class="footer_contact_item_infos"><%= data.settings.infos.email %></div>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=<%= data.settings.infos.whatsapp.parameterize.gsub('-', '') %>&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="footer_contact_item w-inline-block">
+            <div class="footer_contact_item_title">whatsapp</div>
+            <div class="footer_contact_item_infos"><%= data.settings.infos.whatsapp %></div>
+          </a>
+          <a href="#" class="footer_contact_item w-inline-block">
+            <div class="footer_contact_item_title">endereço</div>
+            <div class="footer_contact_item_infos"><%= markdown(data.settings.infos.address) %></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-signature"><a href="https://www.duckstudio.design/" target="_blank" class="w-inline-block"><img src="images/duck.svg" width="23" alt=""></a></div>
+</footer>
