@@ -241,16 +241,26 @@ collections:
             fields:
               - {label: Texto, name: text, widget: text}
 
-  # - name: settings
-  #   label: Configurações
-  #   files:
-  #     - file: data/settings/navigation.yml
-  #       label: Navigation
-  #       name: navigation
-  #       fields:
-  #         - label: Navigation
-  #           name: nav_items
-  #           widget: list
-  #           fields:
-  #             - {label: Label, name: label, widget: string}
-  #             - {label: Path, name: path, widget: string}
+  - name: settings
+    label: Configurações
+    files:
+      - file: data/settings/infos.yml
+        label: Informações
+        name: infos
+        fields:
+          - {label: Direitos Reservados, name: rights, widget: string}
+          - {label: Email, name: email, widget: string}
+          - {label: Whatsapp, name: whatsapp, widget: string}
+          - {label: Telefone, name: phone, widget: string}
+          - {label: Endereço, name: address, widget: text}
+
+      # - file: data/settings/navigation.yml
+      #   label: Navigation
+      #   name: navigation
+      #   fields:
+      #     - label: Navigation
+      #       name: nav_items
+      #       widget: list
+      #       fields:
+      #         - {label: Label, name: label, widget: string}
+      #         - {label: Path, name: path, widget: string}
