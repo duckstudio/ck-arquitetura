@@ -105,6 +105,58 @@ collections:
                               quality: auto
                               crop: crop
 
+      - file: "data/pages/institucional.yml"
+        label: Institucional
+        name: institucional
+        fields:
+          - { label: Título, name: title, widget: markdown }
+          - { label: Texto, name: text, widget: markdown }
+          - { label: Título, name: title, widget: markdown }
+          - { label: "Vídeo de fundo", name: background_video, widget: file }
+          - { label: "Código do Vídeo do Youtube", name: youtube_video, widget: string }
+          - { label: Texto Projetos, name: project_text, widget: markdown }
+          - label: Imagem Projetos
+            name: project_image
+            widget: image
+          - { label: Título História, name: history_title, widget: markdown }
+          - { label: Texto História, name: history_text, widget: markdown }
+          - label: Imagem História
+            name: history_image
+            widget: image
+            media_library:
+              config:
+                default_transformations:
+                  - - fetch_format: auto
+                      width: 400
+                      height: 650
+                      quality: auto
+                      crop: crop
+          - { label: Texto História 2, name: history_text2, widget: markdown }
+          - label: Imagem História 2
+            name: history_image2
+            widget: image
+            media_library:
+              config:
+                default_transformations:
+                  - - fetch_format: auto
+                      width: 500
+                      quality: auto
+                      crop: limit
+          - { label: Legenda História 2, name: history_legend2, widget: string }
+          - { label: Texto História 3, name: history_text3, widget: markdown }
+          - label: Imagem História 3
+            name: history_image3
+            widget: image
+            media_library:
+              config:
+                default_transformations:
+                  - - fetch_format: auto
+                      width: 500
+                      quality: auto
+                      crop: limit
+          - { label: Texto História 4, name: history_text4, widget: markdown }
+          - { label: Conclusão, name: conclusion, widget: string }
+
   - name: empreendimentos
     label: Empreendimentos
     folder: "data/empreendimentos"
@@ -113,7 +165,6 @@ collections:
     fields:
       - {label: Título, name: title, widget: string}
       - {label: Subtítulo, name: subtitle, widget: string}
-      - {label: Valor, name: value, widget: string}
       - {label: Cidade, name: city, widget: string}
       - label: Imagem
         name: image
@@ -218,7 +269,6 @@ collections:
                   height: 600
                   quality: auto
                   crop: crop
-      - {label: Valor, name: value, widget: string}
       - label: Seções
         name: sections
         widget: list

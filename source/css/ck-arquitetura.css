@@ -1223,13 +1223,17 @@ a {
   align-items: center;
 }
 
-.about-page_intro-section_h1 {
+.about-page_intro-section_h1, .about-page_intro-section_h1 p {
   margin-bottom: 0px;
   font-family: 'Noyh Geometric Slim', sans-serif;
   color: #fff;
   font-size: 46px;
   font-weight: 100;
   text-transform: uppercase;
+}
+
+.about-page_intro-section_h1 strong {
+  font-weight: 500;
 }
 
 .broker-page_intro-section_content_block {
@@ -2842,7 +2846,7 @@ html.w-mod-js *[data-ix="scrollfadein"] {
     -ms-flex-align: stretch;
     align-items: stretch;
   }
-  .about-page_intro-section_h1 {
+  .about-page_intro-section_h1, .about-page_intro-section_h1 p {
     margin-top: 0px;
     margin-bottom: 20px;
   }
@@ -3394,7 +3398,7 @@ html.w-mod-js *[data-ix="scrollfadein"] {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .about-page_intro-section_h1 {
+  .about-page_intro-section_h1, .about-page_intro-section_h1 p {
     font-size: 36px;
     line-height: 37px;
   }
