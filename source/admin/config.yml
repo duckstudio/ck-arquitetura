@@ -156,6 +156,49 @@ collections:
           - { label: Texto História 4, name: history_text4, widget: markdown }
           - { label: Conclusão, name: conclusion, widget: string }
 
+      - file: "data/pages/corretor.yml"
+        label: Corretor
+        name: corretor
+        fields:
+          - { label: Título, name: title, widget: markdown }
+          - { label: Texto, name: text, widget: markdown }
+          - { label: Botão, name: button, widget: string }
+          - { label: "Vídeo de fundo", name: background_video, widget: file }
+          - { label: "Código do Vídeo do Youtube", name: youtube_video, widget: string }
+          - { label: Título Bonus 1, name: title_bonus1, widget: markdown }
+          - { label: Texto Bonus 1, name: text_bonus1, widget: text }
+          - { label: Título Bonus 2, name: title_bonus2, widget: markdown }
+          - { label: Texto Bonus 2, name: text_bonus2, widget: text }
+          - label: Imagem Bonus 2
+            name: image_bonus2
+            widget: image
+            media_library:
+              config:
+                default_transformations:
+                  - - fetch_format: auto
+                      width: 600
+                      quality: auto
+                      crop: limit
+          - { label: Chamada, name: call, widget: markdown }
+          - { label: Botão 2, name: button2, widget: string }
+          - { label: Título Razões, name: title_reasons, widget: markdown }
+          - label: Itens Razões
+            name: items
+            widget: list
+            fields:
+              - {label: Título, name: title, widget: string}
+              - {label: Texto, name: text, widget: text}
+              - label: Ícone
+                name: icon
+                widget: image
+                media_library:
+                  config:
+                    default_transformations:
+                      - - fetch_format: auto
+                          height: 70
+                          quality: auto
+                          crop: limit
+
   - name: empreendimentos
     label: Empreendimentos
     folder: "data/empreendimentos"
