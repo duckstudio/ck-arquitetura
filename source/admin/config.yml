@@ -111,7 +111,6 @@ collections:
         fields:
           - { label: Título, name: title, widget: markdown }
           - { label: Texto, name: text, widget: markdown }
-          - { label: Título, name: title, widget: markdown }
           - { label: "Vídeo de fundo", name: background_video, widget: file }
           - { label: "Código do Vídeo do Youtube", name: youtube_video, widget: string }
           - { label: Texto Projetos, name: project_text, widget: markdown }

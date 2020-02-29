@@ -355,7 +355,7 @@ a {
   color: #a07987;
 }
 
-.about-section_title {
+.about-section_title, .about-section_title p {
   color: #a07987;
   font-size: 22px;
   line-height: 33px;
@@ -1223,13 +1223,22 @@ a {
   align-items: center;
 }
 
-.about-page_intro-section_h1, .about-page_intro-section_h1 p {
+.about-page_intro-section_h1 {
   margin-bottom: 0px;
   font-family: 'Noyh Geometric Slim', sans-serif;
   color: #fff;
   font-size: 46px;
   font-weight: 100;
   text-transform: uppercase;
+}
+
+.about-page_intro-section_h1 p {
+  font-family: 'Noyh Geometric Slim', sans-serif;
+  color: #fff;
+  font-size: 46px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 22px;
 }
 
 .about-page_intro-section_h1 strong {
@@ -1248,6 +1257,13 @@ a {
   color: #fff;
   font-size: 16px;
   line-height: 24px;
+}
+
+.broker-page_intro-section_content_block_p p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
 }
 
 .broker-page_intro-section_content_block_p.projects-page {
@@ -2180,6 +2196,19 @@ a {
   text-transform: uppercase;
 }
 
+.about-page_history-section_content_left_h2 p {
+  color: #646464;
+  font-size: 42px;
+  line-height: 42px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.about-page_history-section_content_left_h2 strong {
+  color: #a07987;
+  font-weight: 400;
+}
+
 .about-page_history-section_content_photo {
   -webkit-box-flex: 0;
   -webkit-flex: 0 37%;
@@ -2193,6 +2222,12 @@ a {
 .about-page_history-section_content_left_p {
   font-size: 16px;
   line-height: 27px;
+}
+
+.about-page_history-section_content_left_p p {
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 24px;
 }
 
 .about-page_dark-section {
@@ -2247,6 +2282,13 @@ a {
   line-height: 27px;
 }
 
+.about-page_dark-section_p p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 24px;
+}
+
 .about-page_profile-section {
   padding-bottom: 60px;
 }
@@ -2272,6 +2314,13 @@ a {
   font-size: 16px;
   line-height: 27px;
   font-weight: 200;
+}
+
+.about-page_profile-section_block_p p {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 200;
+  margin-bottom: 24px;
 }
 
 .about-page_profile-section_block_p.no-photo {

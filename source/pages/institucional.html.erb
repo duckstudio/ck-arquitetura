@@ -50,7 +50,7 @@
 </head>
 <body class="body">
   <div class="youtube-modal"><a data-w-id="4a27a4b3-9dbd-c70b-ced1-d5b152b897da" href="#" class="youtube-modal_close w-inline-block"><img src="images/close-icon.svg" width="24" alt=""></a>
-    <div style="padding-top:56.17021276595745%" id="w-node-d5b152b897dc-52b897d9" class="youtube-modal_video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fn_sYgJtcwLU&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dn_sYgJtcwLU&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2Fn_sYgJtcwLU%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
+    <div style="padding-top:56.17021276595745%" id="w-node-d5b152b897dc-52b897d9" class="youtube-modal_video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F<%= data.pages.institucional.youtube_video %>&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D<%= data.pages.institucional.youtube_video %>&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2F<%= data.pages.institucional.youtube_video %>%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
   </div>
   <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar-white w-nav">
     <div class="navbar_content"><a href="/" class="navbar_content_brand w-nav-brand"><img src="images/logo-ck-arquitetura_dark.svg" width="175" alt=""></a>
@@ -69,32 +69,46 @@
   <div class="broker-page_intro-section">
     <div class="container">
       <div class="broker-page_intro-section_content">
-        <h1 class="about-page_intro-section_h1">Conheça a<br><strong class="semi-bold">ck arquitetura</strong></h1>
+        <h1 class="about-page_intro-section_h1"><%= markdown data.pages.institucional.title %></h1>
         <div class="broker-page_intro-section_content_block">
-          <p class="broker-page_intro-section_content_block_p projects-page">A CK Arquitetura é uma jovem e arrojada empresa incorporadora da Cidade de Gramado/RS, dirigida pela paixão, integridade e amor a arquitetura e ao bem viver.<br><br>Conhecida por seu estilo único, que alia inovação, modernidade, design e profissionalismo, focada em desenvolver residências de altíssimo padrão com arquitetura minimalista contemporânea que tragam um novo significado aos seus proprietários.</p>
+          <div class="broker-page_intro-section_content_block_p projects-page">
+            <%= markdown data.pages.institucional.text %>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="broker-page_video-section">
-    <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="videos/bg-ck_1-poster-00001.jpg" data-video-urls="videos/bg-ck_1-transcode.mp4,videos/bg-ck_1-transcode.webm" class="broker-page_video-section_video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/bg-ck_1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="videos/bg-ck_1-transcode.mp4" data-wf-ignore="true"><source src="videos/bg-ck_1-transcode.webm" data-wf-ignore="true"></video><a data-w-id="64d7214b-1d27-2f9f-0a0c-c1750947d8e3" href="#" class="broker-page_video-section_video_link w-inline-block"><img src="images/play.svg" width="85" alt=""><div class="broker-page_video-section_video_link_text">Ver o vídeo completo</div></a></div>
+    <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="videos/bg-ck_1-poster-00001.jpg" data-video-urls="<%= data.pages.institucional.background_video %>" class="broker-page_video-section_video w-background-video w-background-video-atom">
+      <video autoplay="" loop="" style="background-image:url(&quot;videos/bg-ck_1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+        <source src="<%= data.pages.institucional.background_video %>" data-wf-ignore="true">
+      </video>
+      <a data-w-id="64d7214b-1d27-2f9f-0a0c-c1750947d8e3" href="#" class="broker-page_video-section_video_link w-inline-block">
+        <img src="images/play.svg" width="85" alt="">
+        <div class="broker-page_video-section_video_link_text">Ver o vídeo completo</div>
+      </a>
+    </div>
   </div>
   <div class="about-page_about-section" data-ix="scrollfadein">
     <div class="container">
       <div class="about-section_content" data-ix="scrollfadein">
-        <p class="about-section_title">Realizar projetos e incorporações imobiliárias<br>de <strong>alto padrão</strong>, com d<strong>esign inovador</strong>, <strong>tecnologia <br>e sustentabilidade</strong> que surpreendam e excedam <br>as expectativas de nossos clientes, é a nossa missão.</p>
+        <div class="about-section_title">
+          <%= markdown data.pages.institucional.project_text %>
+        </div>
       </div>
     </div>
-    <div class="about-section_graph"><img src="images/Artwork-11.svg" width="420" alt="" class="about-section_graph_img"></div>
+    <div class="about-section_graph">
+      <img src="<%= data.pages.institucional.project_image %>" width="420" alt="" class="about-section_graph_img">
+    </div>
   </div>
   <div class="about-page_history-section" data-ix="scrollfadein">
     <div class="container">
       <div class="about-page_history-section_content">
         <div class="about-page_history-section_content_left">
-          <h2 class="about-page_history-section_content_left_h2">do sangue <br>vem a <strong class="bold-pink">paixão</strong></h2>
-          <p class="about-page_history-section_content_left_p">Quando eu era pequena, adorava ouvir histórias sobre meu bisavô, Villibaldo Brussius que construía casas a partir de sua imaginação e criatividade, para atender aos imigrantes alemães e de outras origens que chegavam para povoar o Vale do Paranhana.<br><br>A casa da foto ele construiu para sua família em 1921 e hoje faz parte do patrimônio histórico da cidade que nasci, Igrejinha.<br><br>Meu avô Guido Koetz era um grande empreendedor, que  com seu serrote e martelo, me inspirava projetando e construindo peças de madeira como este avião da foto feito há mais de 60 anos e que hoje enfeita a recepção de nosso escritório.</p>
+          <h2 class="about-page_history-section_content_left_h2"><%= markdown data.pages.institucional.history_title %></h2>
+          <div class="about-page_history-section_content_left_p"><%= markdown data.pages.institucional.history_text %></div>
         </div>
-        <div class="about-page_history-section_content_photo"></div>
+        <div class="about-page_history-section_content_photo" style="background-image: url('<%= data.pages.institucional.history_image %>')"></div>
       </div>
     </div>
   </div>
@@ -102,21 +116,21 @@
     <div class="container">
       <div class="about-page_dark-section_content" data-ix="scrollfadein">
         <div class="about-page_dark-section_content_box">
-          <div class="about-page_dark-section_content_box_image"></div>
-          <div class="about-page_dark-section_content_box_subtitle">- Avião construído por meu avô Guido Koetz</div>
+          <div class="about-page_dark-section_content_box_image" style="background-image: url('<%= data.pages.institucional.history_image2 %>')"></div>
+          <div class="about-page_dark-section_content_box_subtitle"><%= data.pages.institucional.history_legend2 %></div>
         </div>
-        <p class="about-page_dark-section_p">Me lembro como se fosse hoje, ainda na primeira série, um dos temas que a professora deu foi desenhar o que eu queria ser quando crescesse. E eu já me via desenhando sobre a mesa de desenho.<br><br>Quando completei 15 anos e soube que meus pais, com muito amor e esforço me dariam uma viagem à Disney, meu sonho mais que tudo, era comprar uma camiseta da Ck em Orlando.<br><br>Não por causa da marca Calvin Klein, mas porque Ck seria o nome de minha empresa de arquitetura… E o sonho já estava se materializando ali, e a Ck nascia em meu coração.</p>
+        <div class="about-page_dark-section_p"><%= markdown data.pages.institucional.history_text2 %></div>
       </div>
     </div>
   </div>
   <div class="about-page_profile-section">
     <div class="container">
       <div class="about-page_profile-section_block" data-ix="scrollfadein">
-        <p class="about-page_profile-section_block_p">Ao entrar na faculdade, só então meu pai vibrando comigo confessou que ele já tivera uma mesa de desenho quando jovem, pois adorava desenhar.<br><br>Desde sempre me identifiquei com a arquitetura, os grandes mestres e o poder que esta profissão tem de impactar no mundo…<br><br>As grandes pirâmides, os templos mais antigos, a história da humanidade passa pela arquitetura.Você pode gostar de viajar, de ir a uma igreja, uma escola, uma fábrica, a sua casa… onde você for, terá ali o trabalho de um arquiteto…<br><br>Foi isto que sempre me guiou com persistência e determinação, me levando a graduação em arquitetura e abrindo meu escritório próprio com apenas 22 anos.</p>
-        <div class="about-page_profile-section_block_photo"></div>
+        <div class="about-page_profile-section_block_p"><%= markdown data.pages.institucional.history_text3 %></div>
+        <div class="about-page_profile-section_block_photo" style="background-image: url('<%= data.pages.institucional.history_image3 %>')"></div>
       </div>
-      <p class="about-page_profile-section_block_p no-photo" data-ix="scrollfadein">E desde lá, meu amor pela arquitetura tem sido recompensado por clientes que me permitem voar alto, por colegas de trabalho que ao longo deste tempo tem passado por meu escritório e me permitido inspirá-los, bem como por ter parceiros e fornecedores que com integridade, cada vez mais me instigam a ir além e fazer da Ck mais que uma empresa, uma declaração de amor à arquitetura.</p>
-      <div class="about-page_profile-section_signature" data-ix="scrollfadein">NÓS AMAMOS ARQUITETURA</div>
+      <div class="about-page_profile-section_block_p no-photo" data-ix="scrollfadein"><%= markdown data.pages.institucional.history_text4 %></div>
+      <div class="about-page_profile-section_signature" data-ix="scrollfadein"><%= data.pages.institucional.conclusion %></div>
     </div>
   </div>
 
