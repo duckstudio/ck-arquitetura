@@ -50,7 +50,7 @@
 </head>
 <body class="body">
   <div class="youtube-modal"><a data-w-id="4a27a4b3-9dbd-c70b-ced1-d5b152b897da" href="#" class="youtube-modal_close w-inline-block"><img src="images/close-icon.svg" width="24" alt=""></a>
-    <div style="padding-top:56.17021276595745%" id="w-node-d5b152b897dc-52b897d9" class="youtube-modal_video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fn_sYgJtcwLU&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dn_sYgJtcwLU&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2Fn_sYgJtcwLU%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
+    <div style="padding-top:56.17021276595745%" id="w-node-d5b152b897dc-52b897d9" class="youtube-modal_video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F<%= data.pages.corretor.youtube_video %>&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D<%= data.pages.corretor.youtube_video %>&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2F<%= data.pages.corretor.youtube_video %>%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
   </div>
   <div style="display:none;opacity:0" class="download-modal">
     <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="download-modal_box">
@@ -94,98 +94,74 @@
   <div class="broker-page_intro-section">
     <div class="container">
       <div class="broker-page_intro-section_content">
-        <h1 class="about-page_intro-section_h1">bem-vindo <br>acelerador de sonhos</h1>
+        <h1 class="about-page_intro-section_h1"><%= markdown data.pages.corretor.title %></h1>
         <div class="broker-page_intro-section_content_block">
-          <p class="broker-page_intro-section_content_block_p">Tratamos você corretor como Acelerador de Sonhos, pois consideramos que é uma das profissões que, em mais pessoas impacta com uma única venda! Você acelera a realização de nossos sonhos.</p><a href="#housesSection" class="button outline w-button">Quero baixar os materiais das casas</a></div>
+          <div class="broker-page_intro-section_content_block_p"><%= markdown data.pages.corretor.text %></div>
+          <a href="#housesSection" class="button outline w-button"><%= data.pages.corretor.button %></a>
+        </div>
       </div>
     </div>
   </div>
   <div class="broker-page_video-section">
-    <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="videos/bg-ck_1-poster-00001.jpg" data-video-urls="videos/bg-ck_1-transcode.mp4,videos/bg-ck_1-transcode.webm" class="broker-page_video-section_video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/bg-ck_1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="videos/bg-ck_1-transcode.mp4" data-wf-ignore="true"><source src="videos/bg-ck_1-transcode.webm" data-wf-ignore="true"></video><a data-w-id="d53c2f55-7f8f-2662-39ba-ba6eee8a9dca" href="#" class="broker-page_video-section_video_link w-inline-block"><img src="images/play.svg" width="85" alt=""><div class="broker-page_video-section_video_link_text">Ver o vídeo completo</div></a></div>
+    <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="videos/bg-ck_1-poster-00001.jpg" data-video-urls="<%= data.pages.corretor.background_video %>" class="broker-page_video-section_video w-background-video w-background-video-atom">
+      <video autoplay="" loop="" style="background-image:url(&quot;videos/bg-ck_1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+        <source src="<%= data.pages.corretor.background_video %>" data-wf-ignore="true">
+      </video>
+      <a data-w-id="d53c2f55-7f8f-2662-39ba-ba6eee8a9dca" href="#" class="broker-page_video-section_video_link w-inline-block">
+        <img src="images/play.svg" width="85" alt="">
+        <div class="broker-page_video-section_video_link_text">Ver o vídeo completo</div>
+      </a>
+    </div>
   </div>
   <div class="broker-page_bonus-section1">
     <div class="container">
       <div class="broker-page_bonus-section1_content">
-        <h2 class="broker-page_bonus-section1_content_h2">Bônus Corretor i: <strong class="bold-pink">viagem a cancún</strong></h2>
-        <p class="broker-page_bonus-section1_content_p">Vendendo uma propriedade da CK Arquitetura, além da comissão, premiamos o corretor um acompanhante com uma viagem (passagem e estadia de 7 dias) para Cancún.</p>
+        <h2 class="broker-page_bonus-section1_content_h2"><%= markdown data.pages.corretor.title_bonus1 %></h2>
+        <p class="broker-page_bonus-section1_content_p"><%= data.pages.corretor.text_bonus1 %></p>
       </div>
     </div>
   </div>
   <div class="broker-page_bonus-section2">
-    <div class="container"><img src="images/iphone-11-pro-max-space-select-2019.png" width="386" srcset="images/iphone-11-pro-max-space-select-2019-p-500.png 500w, images/iphone-11-pro-max-space-select-2019.png 620w" sizes="(max-width: 479px) 100vw, (max-width: 991px) 532.296875px, 100vw" alt="" class="broker-page_bonus-section2_image mobile">
+    <div class="container">
+      <img src="<%= data.pages.corretor.image_bonus2 %>" width="386" alt="" class="broker-page_bonus-section2_image mobile">
       <div class="broker-page_bonus-section2_intro">
-        <h2 class="broker-page_bonus-section1_content_h2 white">Bônus Corretor iI: <strong class="bold-pink">iphone 11 pro</strong></h2>
-        <p class="broker-page_bonus-section1_content_p white">Vendendo uma das Casas CK ainda na obra, o corretor pode escolher entre o Iphone X 256GB ou um IPad Pro 10.5pol 256GB novinho!</p>
+        <h2 class="broker-page_bonus-section1_content_h2 white"><%= markdown data.pages.corretor.title_bonus2 %></h2>
+        <p class="broker-page_bonus-section1_content_p white"><%= data.pages.corretor.text_bonus2 %></p>
       </div>
       <div class="slider-section_content">
-        <h2 class="slider-section_content_h2">conheça nossos<br>produtos <strong class="bold-pink">a venda</strong></h2><a data-w-id="5a03bbed-5fcd-fe8b-b931-601568007d86" href="/pagina-empreendimento" class="button outline w-button">Baixar todos os materiais de todas as casas</a></div><img src="images/iphone-11-pro-max-space-select-2019.png" width="386" srcset="images/iphone-11-pro-max-space-select-2019-p-500.png 500w, images/iphone-11-pro-max-space-select-2019.png 620w" sizes="(max-width: 991px) 100vw, 532.296875px" alt="" class="broker-page_bonus-section2_image"></div>
+        <h2 class="slider-section_content_h2"><%= markdown data.pages.corretor.call %></h2>
+        <a href="#housesSection" class="button outline w-button"><%= data.pages.corretor.button2 %></a>
+      </div>
+      <img src="<%= data.pages.corretor.image_bonus2 %>" width="386" alt="" class="broker-page_bonus-section2_image">
+    </div>
   </div>
   <div id="housesSection" class="broker-page_houses-section">
     <div class="container">
       <div class="broker-page_houses-section_list">
-        <div class="houses-section_content_block_item broker-page">
-          <div class="houses-section_content_block_item_image"></div>
-          <h3 class="houses-section_content_block_item_h3">Casa Romance</h3>
-          <div class="houses-section_content_block_item_address broker-page_house-subtitle">Mais que um lar, um legado de amor!</div><a data-w-id="6a0f4f2d-897d-206f-d18d-ac0e1b7e6f4b" href="#" class="button w-button">Baixar material</a></div>
-        <div class="houses-section_content_block_item broker-page">
-          <div class="houses-section_content_block_item_image"></div>
-          <h3 class="houses-section_content_block_item_h3">Casa Romance</h3>
-          <div class="houses-section_content_block_item_address broker-page_house-subtitle">Mais que um lar, um legado de amor!</div><a data-w-id="70d60b56-293b-8572-5384-03cc162dbc50" href="#" class="button w-button">Baixar material</a></div>
-        <div class="houses-section_content_block_item broker-page">
-          <div class="houses-section_content_block_item_image"></div>
-          <h3 class="houses-section_content_block_item_h3">Casa Romance</h3>
-          <div class="houses-section_content_block_item_address broker-page_house-subtitle">Mais que um lar, um legado de amor!</div><a data-w-id="01bae2b5-40b7-0bdf-8879-af0f646af323" href="#" class="button w-button">Baixar material</a></div>
-        <div class="houses-section_content_block_item broker-page">
-          <div class="houses-section_content_block_item_image"></div>
-          <h3 class="houses-section_content_block_item_h3">Casa Romance</h3>
-          <div class="houses-section_content_block_item_address broker-page_house-subtitle">Mais que um lar, um legado de amor!</div><a data-w-id="29db9c0e-8da1-9e95-214e-fe7a689dd392" href="#" class="button w-button">Baixar material</a></div>
+        <% data.empreendimentos.each do |_filename, empreendimento| %>
+          <div class="houses-section_content_block_item broker-page">
+            <div class="houses-section_content_block_item_image" style="background-image: url('<%= empreendimento.image %>')"></div>
+            <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
+            <div class="houses-section_content_block_item_address broker-page_house-subtitle"><%= empreendimento.subtitle %></div>
+            <a data-w-id="6a0f4f2d-897d-206f-d18d-ac0e1b7e6f4b" href="#" class="button w-button">Baixar material</a>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>
   <div class="house-page_reasons-section broker">
     <div class="container">
-      <h2 class="house-page_reasons-section_h2"><strong>8 razões</strong> Para vender Uma Casa<br>da CK em Gramado na Obra!</h2>
+      <h2 class="house-page_reasons-section_h2"><%= markdown data.pages.corretor.title_reasons %></h2>
       <div class="house-page_reasons-section_list">
-        <div class="house-page_reasons-section_list_item">
-          <div class="house-page_reasons-section_list_item_header"><img src="images/icone1.svg" width="60" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-          <h3 class="house-page_reasons-section_list_item_h3">01. <strong>Economia</strong></h3>
-          <p class="house-page_reasons-section_list_item_p">Adquirindo uma de nossas casas durante a obra, você tem uma economia de R$1.000.00,00, simplesmente pelo fato de adquirir antes de estar pronta.</p>
-        </div>
-        <div class="house-page_reasons-section_list_item">
-          <div class="house-page_reasons-section_list_item_header"><img src="images/icone2.svg" width="65" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-          <h3 class="house-page_reasons-section_list_item_h3">02. <strong>Interior e Decoração</strong></h3>
-          <p class="house-page_reasons-section_list_item_p">Na compra da casa em construção, Você Ganha os Projetos de Interiores, além de toda orientação de decoração totalmente GRÁTIS!</p>
-        </div>
-        <div class="house-page_reasons-section_list_item">
-          <div class="house-page_reasons-section_list_item_header"><img src="images/icone3.svg" width="69" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-          <h3 class="house-page_reasons-section_list_item_h3">03. <strong>Acompanhe de Perto</strong></h3>
-          <p class="house-page_reasons-section_list_item_p">Viaje até três vezes à Gramado durante a construção, com passagens e hospedagem para casal por dois dias por nossa conta, para que possa visitar a obra e participar da escolha de acabamentos se desejar.</p>
-        </div>
-        <div class="house-page_reasons-section_list_item">
-          <div class="house-page_reasons-section_list_item_header"><img src="images/icone6.svg" width="76" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-          <h3 class="house-page_reasons-section_list_item_h3">04. <strong>Aproveite o Condomínio</strong></h3>
-          <p class="house-page_reasons-section_list_item_p">A partir da compra, você e sua família já podem usufruir de toda a infraestrutura do condomínio, incluindo piscinas, spa, clube  e todas áreas de lazer.</p>
-        </div>
-        <div class="house-page_reasons-section_list_item">
-          <div class="house-page_reasons-section_list_item_header"><img src="images/icone4.svg" width="70" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-          <h3 class="house-page_reasons-section_list_item_h3">05. <strong>Monitoramento Mensal</strong></h3>
-          <p class="house-page_reasons-section_list_item_p">Acompanhe toda a evolução da obra através de fotos e cronograma em nosso site mensalmente.</p>
-        </div>
-        <div class="house-page_reasons-section_list_item">
-          <div class="house-page_reasons-section_list_item_header"><img src="images/icone5.svg" width="70" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-          <h3 class="house-page_reasons-section_list_item_h3">06. <strong>Uma Recordação de Amor</strong></h3>
-          <p class="house-page_reasons-section_list_item_p">Você recebe de cortesia, uma escultura exclusiva  do casal ou filhos, feita por um artista plástico.</p>
-        </div>
-        <div class="house-page_reasons-section_list_item">
-          <div class="house-page_reasons-section_list_item_header"><img src="images/icone1.svg" width="60" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-          <h3 class="house-page_reasons-section_list_item_h3">07. <strong>Facilidade de Pagamento</strong></h3>
-          <p class="house-page_reasons-section_list_item_p">Adquirindo seu imóvel durante a construção, você tem facilidades especiais de parcelamento, incluindo financiamento imobiliário se preferir.</p>
-        </div>
-        <div class="house-page_reasons-section_list_item">
-          <div class="house-page_reasons-section_list_item_header"><img src="images/icone7.svg" width="60" alt="" class="house-page_reasons-section_list_item_header_icon"></div>
-          <h3 class="house-page_reasons-section_list_item_h3">08. <strong>Valorização</strong></h3>
-          <p class="house-page_reasons-section_list_item_p">Ao comprar a casa durante a construção você se beneficia da valorização.</p>
-        </div>
+        <% data.pages.corretor.items.each_with_index do |item, index| %>
+          <div class="house-page_reasons-section_list_item">
+            <div class="house-page_reasons-section_list_item_header">
+              <img src="<%= item.icon %>" width="60" alt="" class="house-page_reasons-section_list_item_header_icon">
+            </div>
+            <h3 class="house-page_reasons-section_list_item_h3">0<%= index + 1 %>. <strong><%= item.title %></strong></h3>
+            <p class="house-page_reasons-section_list_item_p"><%= item.text %></p>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>
