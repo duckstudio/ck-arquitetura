@@ -139,7 +139,9 @@
             <a href="/empreendimento/<%= empreendimento.title.parameterize %>" class="houses-section_content_block_item w-inline-block">
               <div class="houses-section_content_block_item_image" style="background-image: url('<%= empreendimento.image %>')"></div>
               <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
-              <div class="houses-section_content_block_item_address"><%= condominio.title %></div>
+              <% if condominio %>
+                <div class="houses-section_content_block_item_address"><%= condominio[1].title %></div>
+              <% end %>
               <div class="houses-section_content_block_item_city"><%= empreendimento.city %></div>
             </a>
           <% end %>
