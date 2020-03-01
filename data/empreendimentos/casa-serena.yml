@@ -30,6 +30,7 @@ details:
 background_video: >-
   https://res.cloudinary.com/duckck/video/upload/c_crop,f_auto,h_500,q_auto,w_1900/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
 youtube_video: n_sYgJtcwLU
+file: 'https://res.cloudinary.com/duckck/image/upload/v1583055186/dummy_vcjiw0.pdf'
 image_sections:
   - images:
       - image: >-
