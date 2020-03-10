@@ -112,6 +112,10 @@ sustentabilidade:
 midia:
   items:
     - image: >-
+        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844622/Midia/gentequefaz_xh278n.jpg
+      link: 'https://pt.calameo.com/read/000607875782054f53210'
+      title: Revista Gente que Faz - Ano 10 nº 44
+    - image: >-
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583843310/Midia/livrogramado_f7xemn.jpg
       link: 'https://www.instagram.com/p/BxaQrJGnMNZ/'
       title: Livro Gramado de Leonid Streliaev
@@ -124,7 +128,3 @@ midia:
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844472/Midia/WhatsApp-Image-2018-06-07-at-08.44.27_mfhsgy.jpg
       link: '#'
       title: 'Guia Glass Edição Select - 10/2017 '
-    - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844622/Midia/gentequefaz_xh278n.jpg
-      link: 'https://pt.calameo.com/read/000607875782054f53210'
-      title: Revista Gente que Faz - Ano 10 nº 44
