@@ -91,13 +91,13 @@ image_sections:
 plants:
   - title: Planta Térreo
     image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1581648230/Planta_Superior2_nnb9mi.png
-  - title: Planta Térreo
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583860842/Casa%20Serena/Planta_T%C3%A9rreo2_fe8oc3.png
+  - title: Planta Superior
     image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1581648230/Planta_Superior2_nnb9mi.png
-  - title: Planta Térreo
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583860795/Casa%20Serena/Planta_Superior2_og9hrv.png
+  - title: Planta Sub Solo
     image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1581648230/Planta_Superior2_nnb9mi.png
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583860799/Casa%20Serena/planta_Subsolo_xhkuml.png
 more_details:
   - title: Suntuoso hall de entrada com pé direito duplo e iluminação natural
   - title: 'Economia e praticidade com calefação em toda casa, incluindo piso aquecido'
