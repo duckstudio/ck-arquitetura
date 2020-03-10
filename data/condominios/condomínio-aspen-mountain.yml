@@ -26,19 +26,44 @@ sections:
           Cozinha do Gourmet com fogão e forno convencionais, fogão campeiro,
           fogo a lenha e braseiros para assados
       - text: 'Sala de jogos,  Lan House e  Cyber Space'
-      - text: >-
-          Piscina Térmica semi-olímpica (25m) com 5 raias, Biribol, Piscina
-          Térmica de estar indoor e outdoor, Piscina infantil
     title: Clube-House
     image: >-
       https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_900,q_auto,w_600/v1583860974/Aspen%20Mountain/Screenshot_4_ysv3sp.png
   - details:
+      - text: >-
+          Piscina Térmica semi-olímpica (25m) com 5 raias, Biribol, Piscina
+          Térmica de estar indoor e outdoor, Piscina infantil
       - text: Sauna seca
       - text: Sauna úmida
       - text: Ofurô
       - text: Fitness Center completo
       - text: Salas de massagem climatizadas
       - text: Hidromassagem
-    title: SPA
+    title: SPA/PISCINA
     image: >-
       https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_900,q_auto,w_600/v1583861105/Aspen%20Mountain/Screenshot_8_iodxj1.png
+  - title: ECO - LEARNING
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_900,q_auto,w_600/v1583860974/Aspen%20Mountain/Screenshot_4_ysv3sp.png
+    details:
+      - text: Paisagismo Encantador
+      - text: Horta
+      - text: Belvederes
+      - text: Estufa de plantas
+      - text: Lagos
+  - title: ESPORTES
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_900,q_auto,w_600/v1583861563/Aspen%20Mountain/Screenshot_24_xe3dqi.png
+    details:
+      - text: Seis quadras de tênis descobertas
+      - text: Duas quadras de tênis de saibro cobertas
+      - text: Quatro quadras de grama para futebol infantil
+      - text: |-
+          Ginásio coberto com
+          – futsal
+          – vôlei
+          – basquete
+          – ginástica olímpica com equipamentos
+          – muro de escalada
+          – circuito de arvorismo infantil indoor
+      - text: Trilhas Ecológicas
