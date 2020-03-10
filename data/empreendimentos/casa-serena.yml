@@ -39,6 +39,8 @@ image_sections:
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858714/Casa%20Serena/md2019_05_14-144237_1_np32qs.jpg
       - image: >-
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858729/Casa%20Serena/md2019_05_14-144114_1_eqsohy.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583862336/Casa%20Serena/IMG_0358_ttf8sh.jpg
     title: SALA DA FAMÍLIA
   - images:
       - image: >-
@@ -70,7 +72,7 @@ image_sections:
       - image: >-
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859901/Casa%20Serena/md2019_05_14-142006_zjdrpi.jpg
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859999/Casa%20Serena/md2019_05_14-141957_j3iv70.jpg
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583862592/Casa%20Serena/DSC_7641_vmgd1w.jpg
     title: CAFÉ DA MANHÂ
   - title: COZINHA
     images:
