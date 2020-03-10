@@ -1,8 +1,8 @@
 hero:
   cta_link: '#houses-section'
   cta_text: Conheça nossos empreendimentos
-  subtitle: arquitetura.
-  subtitle2: Construir sonhos.
+  subtitle: arquitetura
+  subtitle2: Construir sonhos
   title: Nós **amamos**
   video: >-
     https://res.cloudinary.com/duckck/video/upload/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
@@ -12,11 +12,11 @@ sustentabilidade:
     - bottom: false
       complete_title: ALMA VERDE NA ILUMINAÇÃO NATURAL
       external_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1581643322/iluminacaonatual_of2rlf.png
+        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842921/Alma%20Verde/iluminacaonatual-branco_tnljpr.png
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581643276/galeria-sustentabilidade1_zkka86.png
       internal_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1581643358/energialimpa_verde_cnv97e.png
+        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/iluminacaoonatual-verde_kbnrfk.png
       text: >-
         As casas são projetadas para obter o máximo de 
 
@@ -27,73 +27,71 @@ sustentabilidade:
         século XXI.
       title: Iluminação Natural
     - bottom: true
-      complete_title: ALMA VERDE NA ILUMINAÇÃO NATURAL
+      complete_title: ALMA VERDE NA ENERGIA 100% LIMPA
       external_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1581643322/iluminacaonatual_of2rlf.png
+        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842921/Alma%20Verde/energialimpa-branco_yd7iyg.png
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581643276/galeria-sustentabilidade1_zkka86.png
       internal_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1581643358/energialimpa_verde_cnv97e.png
+        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842921/Alma%20Verde/energialimpaverde_oxlaly.png
       text: >-
-        As casas são projetadas para obter o máximo de 
-
-        iluminação natural, gerando significativa redução de consumo de energia,
-        ao mesmo tempo que integra seus moradores com vistas espetaculares da
-        natureza no entorno da propriedade, com amplos panos de vidros que
-        expressam a transparência de uma verdadeira propriedade de serra do
-        século XXI.
-      title: Iluminação Natural
+        A energia elétrica utilizada pelos proprietários ao longo de toda vida
+        útil da casa, é gerada em um condomínio de energia fotovoltaica, que
+        atende, além da iluminação e equipamentos elétricos da casa, o conforto
+        da climatização, da água quente e também o abastecimento de energia dos
+        carros elétricos da família, tornando a residência autossustentável em
+        energia de forma limpa e renovável.
+      title: Energia 100% Limpa
     - bottom: false
-      complete_title: ALMA VERDE NA ILUMINAÇÃO NATURAL
+      complete_title: ALMA VERDE NA EMISSÃO DE CARBONO COMPENSADA
       external_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1581643322/iluminacaonatual_of2rlf.png
+        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/carbono-ranco_jmrk0p.png
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581643276/galeria-sustentabilidade1_zkka86.png
       internal_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1581643358/energialimpa_verde_cnv97e.png
+        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842921/Alma%20Verde/carbono-verde_dyjaav.png
       text: >-
-        As casas são projetadas para obter o máximo de 
+        O gás carbônico emitido na construção das casas é inventariado e
+        totalmente compensado.
 
-        iluminação natural, gerando significativa redução de consumo de energia,
-        ao mesmo tempo que integra seus moradores com vistas espetaculares da
-        natureza no entorno da propriedade, com amplos panos de vidros que
-        expressam a transparência de uma verdadeira propriedade de serra do
-        século XXI.
-      title: Iluminação Natural
+
+        Este inventário assegura a completa compensação do gás carbônico emitido
+        na atmosfera, em área preservada e certificada.
+      title: Emissão de Carbono Compensada
     - bottom: false
-      complete_title: ALMA VERDE NA ILUMINAÇÃO NATURAL
+      complete_title: ALMA VERDE NA CAPTAÇÃO DA ÁGUA DA CHUVA
       external_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1581643322/iluminacaonatual_of2rlf.png
+        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/camptacaoagua_-_branco_cyiygm.png
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581643276/galeria-sustentabilidade1_zkka86.png
       internal_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1581643358/energialimpa_verde_cnv97e.png
+        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/camptacaoagua-verde_u8ytds.png
       text: >-
-        As casas são projetadas para obter o máximo de 
-
-        iluminação natural, gerando significativa redução de consumo de energia,
-        ao mesmo tempo que integra seus moradores com vistas espetaculares da
-        natureza no entorno da propriedade, com amplos panos de vidros que
-        expressam a transparência de uma verdadeira propriedade de serra do
-        século XXI.
-      title: Iluminação Natural
+        As casas são construídas com estrutura de captação de água da chuva para
+        uso no jardim, na irrigação de paredes vivas e espelhos d’agua quando
+        presentes nas casas.
+      title: Captação de àgua da Chuva
     - bottom: true
-      complete_title: ALMA VERDE NA ILUMINAÇÃO NATURAL
+      complete_title: ALMA VERDE NAS LAREIRAS ECOLÓGICAS
       external_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1581643322/iluminacaonatual_of2rlf.png
+        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/lareiras-branco_vegazy.png
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581643276/galeria-sustentabilidade1_zkka86.png
       internal_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1581643358/energialimpa_verde_cnv97e.png
+        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/lareiras-verde_h5uysj.png
       text: >-
-        As casas são projetadas para obter o máximo de 
+        As lareiras de tijolos contam com tecnologia de dupla combustão, que
+        além de triplicar a irradiação de calor no ambiente, reduz em mais de
+        50% o consumo de lenha vegetal certificada, e de quebra reduz a emissão
+        de gases, pois o processo de combustão produz exatamente a mesma
+        quantidade de CO2 que a madeira absorve durante o processo de
+        crescimento.
 
-        iluminação natural, gerando significativa redução de consumo de energia,
-        ao mesmo tempo que integra seus moradores com vistas espetaculares da
-        natureza no entorno da propriedade, com amplos panos de vidros que
-        expressam a transparência de uma verdadeira propriedade de serra do
-        século XXI.
-      title: Iluminação Natural
+
+        Além disso, essa quantidade de CO2 é igual à que seria provocada com a
+        decomposição natural do mesmo pedaço de madeira se não fosse usado como
+        combustível.
+      title: Lareiras Ecológicas
   text: >-
     A CK Arquitetura de Gramado, sabe que um investimento imobiliário na
     **qualidade de vida de uma família** impactará por gerações.
@@ -115,29 +113,18 @@ midia:
   items:
     - image: >-
         https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581645377/example-bg_ddaqsm.png
-      link: '#'
+      link: 'https://www.instagram.com/p/BxaQrJGnMNZ/'
       title: Livro Gramado de Leonid Streliaev
     - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581645377/example-bg_ddaqsm.png
-      link: '#'
-      title: Gaúcha ZH - Conheça a casa que vai custar R$ 11 mi
+        https://res.cloudinary.com/duckck/image/upload/c_scale,h_250,w_376/c_crop,f_auto,h_300,q_auto,w_300/v1583843836/Midia/GauchaZH_ufydud.png
+      link: >-
+        https://gauchazh.clicrbs.com.br/colunistas/marta-sfredo/noticia/2018/05/conheca-a-casa-que-vai-custar-r-11-milhoes-em-gramado-cjgy3vv4p06mn01qok4q3mk1g.html
+      title: Gaúcha ZH - Conheça a casa que vai custar R$ 11 mihões em Gramado
     - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581645377/example-bg_ddaqsm.png
+        https://res.cloudinary.com/duckck/image/upload/c_scale,w_250/c_crop,f_auto,h_300,q_auto,w_300/v1583844472/Midia/WhatsApp-Image-2018-06-07-at-08.44.27_mfhsgy.jpg
       link: '#'
-      title: Livro Gramado de Leonid Streliaev
+      title: 'Guia Glass Edição Select - 10/2017 '
     - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581645377/example-bg_ddaqsm.png
-      link: '#'
-      title: Livro Gramado de Leonid Streliaev
-    - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581645377/example-bg_ddaqsm.png
-      link: '#'
-      title: Livro Gramado de Leonid Streliaev
-    - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581645377/example-bg_ddaqsm.png
-      link: '#'
-      title: Livro Gramado de Leonid Streliaev
-    - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581645377/example-bg_ddaqsm.png
-      link: '#'
-      title: Livro Gramado de Leonid Streliaev
+        https://res.cloudinary.com/duckck/image/upload/c_scale,w_250/c_crop,f_auto,h_300,q_auto,w_300/v1583844622/Midia/gentequefaz_xh278n.jpg
+      link: 'https://pt.calameo.com/read/000607875782054f53210'
+      title: Revista Gente que Faz - Ano 10 nº 44
