@@ -112,19 +112,19 @@ sustentabilidade:
 midia:
   items:
     - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_300,q_auto,w_300/v1581645377/example-bg_ddaqsm.png
+        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583843310/Midia/livrogramado_f7xemn.jpg
       link: 'https://www.instagram.com/p/BxaQrJGnMNZ/'
       title: Livro Gramado de Leonid Streliaev
     - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,h_250,w_376/c_crop,f_auto,h_300,q_auto,w_300/v1583843836/Midia/GauchaZH_ufydud.png
+        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583843836/Midia/GauchaZH_ufydud.png
       link: >-
         https://gauchazh.clicrbs.com.br/colunistas/marta-sfredo/noticia/2018/05/conheca-a-casa-que-vai-custar-r-11-milhoes-em-gramado-cjgy3vv4p06mn01qok4q3mk1g.html
       title: Gaúcha ZH - Conheça a casa que vai custar R$ 11 mihões em Gramado
     - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_250/c_crop,f_auto,h_300,q_auto,w_300/v1583844472/Midia/WhatsApp-Image-2018-06-07-at-08.44.27_mfhsgy.jpg
+        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844472/Midia/WhatsApp-Image-2018-06-07-at-08.44.27_mfhsgy.jpg
       link: '#'
       title: 'Guia Glass Edição Select - 10/2017 '
     - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_250/c_crop,f_auto,h_300,q_auto,w_300/v1583844622/Midia/gentequefaz_xh278n.jpg
+        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844622/Midia/gentequefaz_xh278n.jpg
       link: 'https://pt.calameo.com/read/000607875782054f53210'
       title: Revista Gente que Faz - Ano 10 nº 44
