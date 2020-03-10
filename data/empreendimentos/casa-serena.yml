@@ -80,6 +80,14 @@ image_sections:
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860128/Casa%20Serena/md2019_05_14-142337_lk76us.jpg
       - image: >-
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860140/Casa%20Serena/md2019_05_14-142307_utcblf.jpg
+  - title: SALA DA PIPOCA
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7503_xosjoq.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7509_cfwizc.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7502_fwduja.jpg
 plants:
   - title: Planta Térreo
     image: >-
@@ -95,7 +103,7 @@ more_details:
   - title: 'Economia e praticidade com calefação em toda casa, incluindo piso aquecido'
   - title: Amplos decks externos
   - title: Conforto termo acústico com esquadrias em PVC de vidro duplo
-  - title: Espaço gourmet com churrasqueira e fornoa lenha
+  - title: Espaço gourmet com churrasqueira e forno a lenha
   - title: Sala de jogos e sala da pipoca
   - title: Adega
   - title: Dependência de empregada
