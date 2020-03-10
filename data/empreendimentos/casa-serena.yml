@@ -50,28 +50,36 @@ image_sections:
     title: ESPAÇO RELAX
   - images:
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648038/DSC_7514_pteemr.png
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859417/Casa%20Serena/md2019_05_14-151012_1_w3jz3k.jpg
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648101/DSC_7533_zw4inm.png
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859447/Casa%20Serena/md2019_05_14-151111_kcijb5.jpg
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648076/DSC_7518_oijqq8.png
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859584/Casa%20Serena/DSC_7561_p6h0lz.jpg
     title: SUÍTE MASTER
   - images:
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648101/DSC_7533_zw4inm.png
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859689/Casa%20Serena/md2019_05_14-153702_wbyz2o.jpg
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648076/DSC_7518_oijqq8.png
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859798/Casa%20Serena/DSC_7567_sceq81.jpg
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648038/DSC_7514_pteemr.png
-    title: SUÍTE MASTER
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859712/Casa%20Serena/md2019_05_14-153749_fh4uva.jpg
+    title: RELAX DO CASAL
   - images:
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648076/DSC_7518_oijqq8.png
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859962/Casa%20Serena/DSC_7445_bczzxc.jpg
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648038/DSC_7514_pteemr.png
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859901/Casa%20Serena/md2019_05_14-142006_zjdrpi.jpg
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648101/DSC_7533_zw4inm.png
-    title: SUÍTE MASTER
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859999/Casa%20Serena/md2019_05_14-141957_j3iv70.jpg
+    title: CAFÉ DA MANHÂ
+  - title: COZINHA
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860117/Casa%20Serena/md2019_05_14-142245_kw6dwa.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860128/Casa%20Serena/md2019_05_14-142337_lk76us.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860140/Casa%20Serena/md2019_05_14-142307_utcblf.jpg
 plants:
   - title: Planta Térreo
     image: >-
