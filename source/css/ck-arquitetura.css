@@ -949,9 +949,8 @@ a {
 
 .news-section_item {
   height: 250px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
-  background-position: 0px 0px;
-  background-size: 125px;
+  background-position: center;
+  background-size: cover;
 }
 
 .news-section_item_h3 {
