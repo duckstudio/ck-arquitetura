@@ -74,20 +74,9 @@
       </div>
     </div>
   </div>
-  <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar-white w-nav">
-    <div class="navbar_content"><a href="/" class="navbar_content_brand w-nav-brand"><img src="images/logo-ck-arquitetura_dark.svg" width="175" alt=""></a>
-      <nav role="navigation" class="navbar_menu w-nav-menu">
-        <div data-hover="1" data-delay="0" class="w-dropdown">
-          <div class="navbar_menu_link dark dropdown w-dropdown-toggle">
-            <div>Empreendimentos</div><img src="images/dropdown-arrow-grey.svg" width="10" alt="" class="navbar_menu_link_dropdown_icon"></div>
-          <nav class="navbar_menu_link_dropdown_list w-dropdown-list">
-            <div class="navbar_menu_link_dropdown_list_left">
-              <div class="navbar_menu_link_dropdown_list_left_title">Empreendimentos</div>
-              <div class="navbar_menu_link_dropdown_list_menu"><a href="/pagina-empreendimento" class="navbar_menu_link_dropdown_list_menu_item w-dropdown-link">Casa Serena</a><a href="/pagina-empreendimento" class="navbar_menu_link_dropdown_list_menu_item w-dropdown-link">CASA DOCE VIDA</a><a href="/pagina-empreendimento" class="navbar_menu_link_dropdown_list_menu_item w-dropdown-link">CASA PUNTA</a></div><a href="/projetos" class="navbar_menu_link_dropdown_list_link">Projetos Personalizados</a></div>
-            <div class="navbar_menu_link_dropdown_photo"></div>
-          </nav>
-        </div><a href="/institucional" class="navbar_menu_link dark w-nav-link">A CK Arquitetura</a><a href="/corretor" class="navbar_menu_link dark w-nav-link">corretores</a><a href="/contato" class="navbar_menu_link dark last w-nav-link">Contato</a></nav><a data-w-id="2019f350-289a-4b98-373c-12243623a2cd" href="#" class="navbar_menu_btn w-inline-block"><img src="images/hamburger-icon_grey.svg" width="38" alt=""></a></div>
-  </div>
+
+  <%= partial "partials/navbar", locals: { white: true } %>
+
   <div id="housesSection" class="broker-page_houses-section">
     <div class="container">
       <div class="broker-page_houses-section_list">

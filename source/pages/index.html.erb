@@ -70,20 +70,8 @@
   <div data-w-id="0756c26a-9dce-1788-6b7e-9ef35fd564ec" class="intro-box"><img src="images/ck-simbolo.svg" width="125" data-w-id="bf8c8bb9-9b79-b637-57bf-ad6e346175b4" alt="" class="intro-box_logo"></div>
   <div data-w-id="3f4fd706-80ff-1556-716c-cb74667440c9" class="site-content">
     <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="videos/bg-ck_1-poster-00001.jpg" data-video-urls="<%= data.pages.home.hero.video %>" class="hero-section_bg-video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/bg-ck_1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="<%= data.pages.home.hero.video %>" data-wf-ignore="true"></video>
-      <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
-        <div class="navbar_content"><a href="/" class="navbar_content_brand w-nav-brand w--current"><img src="images/logo-ck-arquitetura.svg" width="175" alt=""></a>
-          <nav role="navigation" class="navbar_menu w-nav-menu">
-            <div data-hover="1" data-delay="0" class="w-dropdown">
-              <div class="navbar_menu_link dropdown w-dropdown-toggle">
-                <div>Empreendimentos</div><img src="images/dropdown-arrow.svg" width="10" alt="" class="navbar_menu_link_dropdown_icon"></div>
-              <nav class="navbar_menu_link_dropdown_list w-dropdown-list">
-                <div class="navbar_menu_link_dropdown_list_left">
-                  <div class="navbar_menu_link_dropdown_list_left_title">Empreendimentos</div>
-                  <div class="navbar_menu_link_dropdown_list_menu"><a href="/pagina-empreendimento" class="navbar_menu_link_dropdown_list_menu_item w-dropdown-link">Casa Serena</a><a href="/pagina-empreendimento" class="navbar_menu_link_dropdown_list_menu_item w-dropdown-link">CASA DOCE VIDA</a><a href="/pagina-empreendimento" class="navbar_menu_link_dropdown_list_menu_item w-dropdown-link">CASA PUNTA</a></div><a href="/projetos" class="navbar_menu_link_dropdown_list_link">Projetos Personalizados</a></div>
-                <div class="navbar_menu_link_dropdown_photo"></div>
-              </nav>
-            </div><a href="/institucional" class="navbar_menu_link w-nav-link">A CK Arquitetura</a><a href="/corretor" class="navbar_menu_link w-nav-link">corretores</a><a href="/contato" class="navbar_menu_link last w-nav-link">Contato</a></nav><a data-w-id="dfb2ea1d-9c1a-9dcf-5e2c-87a2a5b47e06" href="#" class="navbar_menu_btn w-inline-block"><img src="images/hamburger-icon.svg" width="38" alt=""></a></div>
-      </div>
+      <%= partial "partials/navbar" %>
+
       <div class="hero-section_content">
         <div class="container variable">
           <div class="hero-section_content_title-box">
