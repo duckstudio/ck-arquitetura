@@ -54,10 +54,10 @@ image_sections:
     images:
       - image: >-
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865586/Casa%20Punta/CKA_interiores_3_twvbkq.jpg
-  - title: SALA DE REUNIÕES DA FAMÍLIA
+  - title: SALA DA FAMÍLIA
     images:
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_interiores_9_oupnrh.jpg
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_4_demenu.jpg
       - image: >-
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_4_demenu.jpg
   - title: DIVERSÂO EM FAMÍLIA
@@ -79,3 +79,18 @@ plants:
   - title: PAVIMENTO SUPERIOR
     image: >-
       https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/1Pavimento_tmtfhm.png
+more_details:
+  - title: 'Diferenciação nas portas internas com 2,5m de altura;'
+  - title: >-
+      O prazer de caminhar em pisos aquecidos em toda casa e o silêncio da
+      aspiração central instalada.
+  - title: >-
+      Durabilidade, conforto acústico e térmico com esquadrias de Pvc, com
+      amplos vidros de 3m;
+  - title: 'Espaço Previsto para elevador em todos andares. '
+  - title: Abrigos para dois carros
+  - title: 'Todas madeiras aparentes em grápia, ou ecológica importada'
+  - title: Entregue com exclusiva escultura artística do casal-proprietário
+  - title: Corrimãos internos e externos em vidro temperado
+  - title: 'Casa totalmente projetada e preparada para instalar automação completa '
+  - title: Gramado com deck e iluminação externa
