@@ -374,6 +374,15 @@ collections:
           - {label: Whatsapp, name: whatsapp, widget: string}
           - {label: Telefone, name: phone, widget: string}
           - {label: Endereço, name: address, widget: markdown}
+          - label: Social
+            name: social
+            widget: object
+            fields:
+              - {label: Facebook, name: facebook, widget: string}
+              - {label: Instagram, name: instagram, widget: string}
+              - {label: Linkedin, name: linkedin, widget: string}
+              - {label: Pinterest, name: pinterest, widget: string}
+              - {label: Youtube, name: youtube, widget: string}
 
       - file: data/settings/reasons.yml
         label: 8 Razões para comprar uma casa
