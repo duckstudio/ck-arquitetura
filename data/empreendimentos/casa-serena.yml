@@ -1,6 +1,8 @@
 title: Casa Serena
 subtitle: 'Mais que um lar, um legado de amor!'
 city: Gramado
+image_list: >-
+  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_500,q_auto,w_1900/v1581647806/casa-bg_zx8cvg.png
 image: >-
   https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_500,q_auto,w_1900/v1581647806/casa-bg_zx8cvg.png
 highlight_images:

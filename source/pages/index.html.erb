@@ -137,7 +137,7 @@
           <% data.empreendimentos.each do |_filename, empreendimento| %>
             <% condominio = data.condominios.find {|_filename, condominio| empreendimento.condominio == condominio.title} %>
             <a href="/empreendimento/<%= empreendimento.title.parameterize %>" class="houses-section_content_block_item w-inline-block">
-              <div class="houses-section_content_block_item_image" style="background-image: url('<%= empreendimento.image %>')"></div>
+              <div class="houses-section_content_block_item_image" style="background-image: url('<%= empreendimento.image_list %>')"></div>
               <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
               <% if condominio %>
                 <div class="houses-section_content_block_item_address"><%= condominio[1].title %></div>
