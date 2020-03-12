@@ -29,6 +29,39 @@ background_video: >-
 youtube_video: KGhE2yUoaNw
 file: >-
   https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584041007/Doce%20Vida/Casa_Doce_Vida_-_Aspen_Mountain_Gramado-_cn6lvi.pdf
+image_sections:
+  - title: EXTERNAS
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039504/Doce%20Vida/Doce_Vida_02_njpqrh.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039504/Doce%20Vida/Doce_Vida_01_y800js.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039505/Doce%20Vida/Doce_Vida_05_hvfzuc.jpg
+  - title: SALA DOS AMIGOS
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039505/Doce%20Vida/interna1_xrxtih.jpg
+  - title: PARRILLA DO CHEF
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039506/Doce%20Vida/interna6_rqzhhh.jpg
+  - title: SALA DA PIPOCA
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039505/Doce%20Vida/interna3_wumji8.jpg
+  - title: MIRANTE PÔR DO SOL
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039506/Doce%20Vida/interna4_ztq4hn.jpg
+  - title: SUÍTE DOCE AMOR
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039505/Doce%20Vida/interna2_rmzd9j.jpg
+  - title: 'ESPAÇO DIVERSÃO '
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039506/Doce%20Vida/interna5_lmkz84.jpg
 plants:
   - title: TÉRREO
     image: >-
