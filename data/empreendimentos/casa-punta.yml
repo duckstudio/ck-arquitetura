@@ -72,3 +72,10 @@ image_sections:
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865589/Casa%20Punta/CKA_interiores_7_enscbb.jpg
       - image: >-
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865591/Casa%20Punta/CKA_interiores_11_sfbh9b.jpg
+plants:
+  - title: TÉRREO
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/Terreo_pmxaij.png
+  - title: PAVIMENTO SUPERIOR
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/1Pavimento_tmtfhm.png
