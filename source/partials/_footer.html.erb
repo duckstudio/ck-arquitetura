@@ -2,7 +2,37 @@
   <div class="container">
     <div class="footer_content">
       <div class="footer_content_left"><img src="images/logo-ck-arquitetura.svg" width="215" alt="" class="footer_content_logo">
-        <div class="footer_content_socials"><a href="#" class="footer_content_socials_item w-inline-block"><img src="images/facebook.svg" alt=""></a><a href="#" class="footer_content_socials_item w-inline-block"><img src="images/insta.svg" alt=""></a><a href="#" class="footer_content_socials_item w-inline-block"><img src="images/linkedin.svg" alt=""></a><a href="#" class="footer_content_socials_item w-inline-block"><img src="images/pinterest.svg" alt=""></a><a href="#" class="footer_content_socials_item w-inline-block"><img src="images/youtube.svg" alt=""></a></div>
+        <div class="footer_content_socials">
+          <% if data.settings.infos.social.facebook %>
+            <a href="<%= data.settings.infos.social.facebook %>" class="footer_content_socials_item w-inline-block">
+              <img src="images/facebook.svg" alt="">
+            </a>
+          <% end %>
+
+          <% if data.settings.infos.social.instagram %>
+            <a href="<%= data.settings.infos.social.instagram %>" class="footer_content_socials_item w-inline-block">
+              <img src="images/insta.svg" alt="">
+            </a>
+          <% end %>
+
+          <% if data.settings.infos.social.linkedin %>
+            <a href="<%= data.settings.infos.social.linkedin %>" class="footer_content_socials_item w-inline-block">
+              <img src="images/linkedin.svg" alt="">
+            </a>
+          <% end %>
+
+          <% if data.settings.infos.social.pinterest %>
+            <a href="<%= data.settings.infos.social.pinterest %>" class="footer_content_socials_item w-inline-block">
+              <img src="images/pinterest.svg" alt="">
+            </a>
+          <% end %>
+
+          <% if data.settings.infos.social.youtube %>
+            <a href="<%= data.settings.infos.social.youtube %>" class="footer_content_socials_item w-inline-block">
+              <img src="images/youtube.svg" alt="">
+            </a>
+          <% end %>
+        </div>
         <div class="footer_content_copyright"><%= data.settings.infos.rights %></div><a href="/politicas-de-privacidade-e-termos-de-uso" class="footer_content_copyright">Termos de Privacidade e Uso</a></div>
       <div class="footer_content_right">
         <div class="footer_links"><a href="/empreendimentos" class="footer_links_item">Empreendimentos</a><a href="/institucional" class="footer_links_item">A CK Arquitetura</a><a href="/corretor" class="footer_links_item">Corretores</a><a href="/contato" class="footer_links_item">Contato</a><a href="/" class="footer_links_item w--current">O melhor de Gramado</a><a href="/projetos" class="footer_links_item">Projetos personalizados</a></div>
