@@ -33,3 +33,42 @@ background_video: >-
 youtube_video: I5PoSh4aFQM
 file: >-
   https://res.cloudinary.com/duckck/image/upload/v1583866327/Casa%20Punta/CASA_PUNTA_-_ASPEN_MOUNTAIN_GRAMADO_v8abb9.pdf
+image_sections:
+  - title: CASA PUNTA
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_01_ndflnh.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865589/Casa%20Punta/CKA_CSA12_02b_skr41s.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_032-Pessoas_e6a1kp.jpg
+  - title: HALL DE BOAS VINDAS
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_1_rog4bv.jpg
+  - title: JANTAR EM FAMÍLIA
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865587/Casa%20Punta/CKA_interiores_2_e7ctc8.jpg
+  - title: COZINHA GOURMET
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865586/Casa%20Punta/CKA_interiores_3_twvbkq.jpg
+  - title: SALA DE REUNIÕES DA FAMÍLIA
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_4_demenu.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_interiores_9_oupnrh.jpg
+  - title: DIVERSÂO EM FAMÍLIA
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_5_wmo3n8.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865591/Casa%20Punta/CKA_interiores_8_hf6yv5.jpg
+  - title: SUÍTE
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865589/Casa%20Punta/CKA_interiores_7_enscbb.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865591/Casa%20Punta/CKA_interiores_11_sfbh9b.jpg
