@@ -15,7 +15,7 @@ highlight_images:
 highlight_text: |-
   Casa contemporânea de serra\
   inspirada nos inveno dos **melhores destinos do mundo!**
-status: Projeto
+status: PROJETO
 show_reasons: true
 text: 'Espetacular projeto, dentro do Condomínio Aspen Mountain'
 condominio: Condomínio Aspen Mountain
@@ -57,15 +57,15 @@ image_sections:
   - title: SALA DE REUNIÕES DA FAMÍLIA
     images:
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_4_demenu.jpg
-      - image: >-
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_interiores_9_oupnrh.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_4_demenu.jpg
   - title: DIVERSÂO EM FAMÍLIA
     images:
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_5_wmo3n8.jpg
-      - image: >-
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865591/Casa%20Punta/CKA_interiores_8_hf6yv5.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_5_wmo3n8.jpg
   - title: SUÍTE
     images:
       - image: >-
