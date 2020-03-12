@@ -848,6 +848,12 @@ a {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/galeria-sustentabilidade1.png');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.sustainability_section_gallery_item_block:hover {
+  filter: grayscale(0%);
 }
 
 .sustainability_section_gallery_item_modal {
