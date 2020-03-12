@@ -59,14 +59,20 @@
       </div>
       <h2 class="download-modal_h2">baixe o material completo deste empreendimento</h2>
       <div class="form-block w-form">
-        <form id="email-form" name="email-form" data-name="Email Form" class="form-block_form">
-          <div class="form-block_form_item"><label for="name-3" class="form-block_form_item_label">Nome completo</label><input type="text" class="form-block_form_item_input w-input" maxlength="256" name="name" data-name="name" placeholder="Digite aqui seu nome" id="name-3" required=""></div>
-          <div class="form-block_form_item"><label for="email" class="form-block_form_item_label">E-mail profissional</label><input type="email" class="form-block_form_item_input w-input" maxlength="256" name="email" data-name="email" placeholder="Digite aqui o seu e-mail" id="email" required=""></div>
+        <form id="email-form" name="email-form" data-name="Email Form" class="form-block_form" netlify>
+          <div class="form-block_form_item">
+            <label for="name-3" class="form-block_form_item_label">Nome completo</label>
+            <input type="text" class="form-block_form_item_input w-input" maxlength="256" name="name" data-name="name" placeholder="Digite aqui seu nome" id="name-3" required="">
+          </div>
+          <div class="form-block_form_item">
+            <label for="email" class="form-block_form_item_label">E-mail profissional</label>
+            <input type="email" class="form-block_form_item_input w-input" maxlength="256" name="email" data-name="email" placeholder="Digite aqui o seu e-mail" id="email" required="">
+          </div>
           <div class="form-block_row">
             <div class="form-block_form_item"><label for="creci" class="form-block_form_item_label">creci</label><input type="text" class="form-block_form_item_input w-input" maxlength="256" name="creci" data-name="creci" placeholder="Digite o seu CRECI" id="creci" required=""></div>
             <div class="form-block_form_item"><label for="phone" class="form-block_form_item_label">Telefone</label><input type="tel" class="form-block_form_item_input w-input" maxlength="256" name="phone" data-name="phone" placeholder="Digite o seu telefone" id="phone" required=""></div>
           </div>
-          <div class="download-button_align"><a href="#" class="button pink w-button">Baixar</a></div>
+          <div class="download-button_align"><a href="#" target="_blank" class="button pink w-button" id="download-button-2">Baixar</a></div>
         </form>
         <div class="w-form-done">
           <div>Thank you! Your submission has been received!</div>
@@ -139,12 +145,22 @@
     <div class="container">
       <div class="broker-page_houses-section_list">
         <% data.empreendimentos.each do |_filename, empreendimento| %>
-          <div class="houses-section_content_block_item broker-page">
-            <div class="houses-section_content_block_item_image" style="background-image: url('<%= empreendimento.image %>')"></div>
-            <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
-            <div class="houses-section_content_block_item_address broker-page_house-subtitle"><%= empreendimento.subtitle %></div>
-            <a data-w-id="6a0f4f2d-897d-206f-d18d-ac0e1b7e6f4b" href="#" class="button w-button">Baixar material</a>
-          </div>
+          <% if empreendimento.file %>
+            <div class="houses-section_content_block_item broker-page">
+              <div class="houses-section_content_block_item_image" style="background-image: url('<%= empreendimento.image %>')"></div>
+              <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
+              <div class="houses-section_content_block_item_address broker-page_house-subtitle"><%= empreendimento.subtitle %></div>
+              <a
+                data-w-id="6a0f4f2d-897d-206f-d18d-ac0e1b7e6f4b"
+                href="#"
+                class="button w-button"
+                id="download-button"
+                data-empreendimento="<%= empreendimento.title.parameterize %>"
+              >
+                Baixar material
+              </a>
+            </div>
+          <% end %>
         <% end %>
       </div>
     </div>
@@ -169,6 +185,29 @@
   <%= partial "partials/menu-mobile" %>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/ck-arquitetura.js" type="text/javascript"></script>
+
+  <script>
+    const emp_files = {
+      <% data.empreendimentos.each do |_filename, empreendimento| %>
+        <%= "'#{empreendimento.title.parameterize}': '#{empreendimento.file}'" if empreendimento.file %>
+      <% end %>
+    };
+
+    const button = document.getElementById("download-button");
+    const button2 = document.getElementById("download-button-2");
+    const form = document.getElementById("email-form");
+
+    button.addEventListener('click', function (event) {
+      const empreendimento = event.target.dataset.empreendimento;
+
+      button2.href = emp_files[empreendimento];
+    });
+
+    button2.addEventListener('click', function (event) {
+      form.submit();
+    });
+  </script>
+
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
