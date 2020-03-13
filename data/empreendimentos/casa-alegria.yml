@@ -20,6 +20,12 @@ text: >-
   sentimento de paz, segurança e bem estar para você e aqueles que você mais
   ama.
 condominio: Alphaville Gramado
+details:
+  - title: 'Casa com área costruída de 611,49m² em terreno de 1.000m²'
+  - title: Suntuoso hall de entrada com paredes em pedras de basalto aparente
+  - title: '4 suítes completas, sendo a master com banheira dupla'
+  - title: Ampla sala de estar com lareira
+  - title: sala de jantar para até 12 pessoas
 background_video: >-
   https://res.cloudinary.com/duckck/video/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
 youtube_video: 7nkfV3os0l4
@@ -46,3 +52,20 @@ image_sections:
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria--10_h0xbju.jpg
       - image: >-
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---9_dfzyos.jpg
+plants:
+  - title: 'Terreo '
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584120587/Casa%20ALegria/Terreo_c9k31r.png
+  - title: 1º Pavimento
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584120586/Casa%20ALegria/1Pavimento_sy0wk4.png
+more_details:
+  - title: Espaço Goumet e Sala de Jogos
+  - title: 'Amplos decks e mirantes externos com vista para o vale '
+  - title: Chapelaria e sala da pipoca
+  - title: >-
+      Economia e praticidade com calefação e pisos aquecidos nos banheiros e
+      cozinha
+  - title: Conforte termoacustico com esquadrias de vidro duplo
+  - title: Garagem em pergola para 2 caros
+  - title: Projetada para Automação por tabler ou smartphone
