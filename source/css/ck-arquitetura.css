@@ -519,9 +519,9 @@ a {
 .houses-section_content_block_item {
   margin-right: 45px;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 370px;
-  -ms-flex: 0 370px;
-  flex: 0 370px;
+  -webkit-flex: 0 480px;
+  -ms-flex: 0 480px;
+  flex: 0 480px;
   color: #221f20;
   text-decoration: none;
 }
@@ -533,9 +533,10 @@ a {
 .houses-section_content_block_item.broker-page {
   margin-right: 0px;
   margin-bottom: 70px;
-  -webkit-flex-basis: 47%;
-  -ms-flex-preferred-size: 47%;
-  flex-basis: 47%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 100%;
+  -ms-flex: 0 100%;
+  flex: 0 100%;
 }
 
 .houses-section_content_block_item.broker-page:hover {
@@ -543,9 +544,15 @@ a {
 }
 
 .houses-section_content_block_item_image {
-  height: 400px;
+  height: 360px;
   background-image: url('../images/img2.png');
   background-position: 0px 0px;
+  background-size: cover;
+}
+
+.houses-section_content_block_item_image.list {
+  height: 590px;
+  background-position: 50% 50%;
   background-size: cover;
 }
 
@@ -569,6 +576,7 @@ a {
 .houses-section_content_block_item_city {
   opacity: 0.4;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .houses-section_scroll {
