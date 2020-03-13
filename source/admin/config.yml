@@ -218,18 +218,18 @@ collections:
       - {label: Título, name: title, widget: string}
       - {label: Subtítulo, name: subtitle, widget: string}
       - {label: Cidade, name: city, widget: string}
-      - label: Imagem na Listagem
-        name: image_list
-        widget: image
-        hint: Tamanho ideal 370x400
-        media_library:
-          config:
-            default_transformations:
-              - - fetch_format: auto
-                  width: 370
-                  height: 400
-                  quality: auto
-                  crop: crop
+      # - label: Imagem na Listagem
+      #   name: image_list
+      #   widget: image
+      #   hint: Tamanho ideal 370x400
+      #   media_library:
+      #     config:
+      #       default_transformations:
+      #         - - fetch_format: auto
+      #             width: 370
+      #             height: 400
+      #             quality: auto
+      #             crop: crop
       - label: Imagem de Capa
         name: image
         widget: image
@@ -238,8 +238,8 @@ collections:
           config:
             default_transformations:
               - - fetch_format: auto
-                  width: 1900
-                  height: 750
+                  width: 1920
+                  height: 1080
                   quality: auto
                   crop: crop
       - label: Imagens quando destaque
