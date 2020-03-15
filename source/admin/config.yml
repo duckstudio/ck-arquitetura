@@ -210,6 +210,83 @@ collections:
                           quality: auto
                           crop: limit
 
+      - file: "data/pages/pagina-projetos.yml"
+        label: Página Projetos
+        name: Página Projetos
+        fields:
+          - { label: Título, name: title, widget: markdown }
+          - { label: Subtítulo, name: subtitle, widget: string }
+          - { label: Texto, name: text, widget: markdown }
+          - { label: Título Depoimentos, name: title_testimonials, widget: string }
+          - label: Itens Depoimentos
+            name: items
+            widget: list
+            fields:
+              - {label: Nome da pessoa, name: title, widget: string}
+              - {label: Texto do Depoimento, name: text, widget: text}
+              - label: Foto da pessoa
+                name: image
+                widget: image
+                hint: Tamanho ideal 60px60
+                media_library:
+                  config:
+                    default_transformations:
+                      - - fetch_format: auto
+                          height: 60
+                          width: 60
+                          quality: auto
+                          crop: crop
+
+  - name: projetos
+    label: Projetos
+    folder: "data/projetos"
+    create: true
+    extension: "yml"
+    fields:
+      - { label: Título, name: title, widget: string }
+      - { label: Cidade, name: city, widget: string }
+      - label: Imagem de Capa
+        name: image
+        widget: image
+        hint: Tamanho ideal 1920x1080
+        media_library:
+          config:
+            default_transformations:
+              - - fetch_format: auto
+                  width: 1920
+                  height: 1080
+                  quality: auto
+                  crop: crop
+      - { label: Pré Titulo, name: pretitle, widget: string }
+      - { label: Título Descrição, name: description_title, widget: markdown }
+      - { label: Descrição, name: description, widget: text }
+      - label: Responsáveis
+        name: people
+        widget: list
+        fields:
+          - {label: Título, name: title, widget: string}
+          - {label: Nome da pessoa, name: name, widget: string}
+      - label: Seções de Fotos
+        name: image_sections
+        widget: list
+        fields:
+          - {label: Título, name: title, widget: string}
+          - label: Imagens
+            name: images
+            widget: list
+            fields:
+              - label: Imagem
+                name: image
+                widget: image
+                hint: Largura ideal 1900px
+                media_library:
+                  config:
+                    default_transformations:
+                      - - fetch_format: auto
+                          width: 1900
+                          quality: auto
+                          crop: limit
+
   - name: empreendimentos
     label: Empreendimentos
     folder: "data/empreendimentos"
@@ -219,18 +296,6 @@ collections:
       - {label: Título, name: title, widget: string}
       - {label: Subtítulo, name: subtitle, widget: string}
       - {label: Cidade, name: city, widget: string}
-      # - label: Imagem na Listagem
-      #   name: image_list
-      #   widget: image
-      #   hint: Tamanho ideal 370x400
-      #   media_library:
-      #     config:
-      #       default_transformations:
-      #         - - fetch_format: auto
-      #             width: 370
-      #             height: 400
-      #             quality: auto
-      #             crop: crop
       - label: Imagem de Capa
         name: image
         widget: image
