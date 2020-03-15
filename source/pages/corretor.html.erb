@@ -72,7 +72,9 @@
             <div class="form-block_form_item"><label for="creci" class="form-block_form_item_label">creci</label><input type="text" class="form-block_form_item_input w-input" maxlength="256" name="creci" data-name="creci" placeholder="Digite o seu CRECI" id="creci" required=""></div>
             <div class="form-block_form_item"><label for="phone" class="form-block_form_item_label">Telefone</label><input type="tel" class="form-block_form_item_input w-input" maxlength="256" name="phone" data-name="phone" placeholder="Digite o seu telefone" id="phone" required=""></div>
           </div>
-          <div class="download-button_align"><a href="#" target="_blank" class="button pink w-button" id="download-button-2">Baixar</a></div>
+          <div class="download-button_align">
+            <button class="button pink w-button" id="download-button-2">Baixar</button>
+          </div>
         </form>
         <div class="w-form-done">
           <div>Thank you! Your submission has been received!</div>
@@ -125,7 +127,7 @@
       </div>
       <div class="slider-section_content">
         <h2 class="slider-section_content_h2"><%= markdown data.pages.corretor.call %></h2>
-        <a href="#housesSection" class="button outline w-button"><%= data.pages.corretor.button2 %></a>
+        <a href="<%= data.pages.corretor.button2_link %>" target="_blank" class="button outline w-button"><%= data.pages.corretor.button2 %></a>
       </div>
       <img src="<%= data.pages.corretor.image_bonus2 %>" width="386" alt="" class="broker-page_bonus-section2_image">
     </div>
@@ -172,13 +174,13 @@
   </div>
   <%= partial "partials/footer" %>
   <%= partial "partials/menu-mobile" %>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="/js/ck-arquitetura.js" type="text/javascript"></script>
+
+  <%= partial "partials/scripts" %>
 
   <script>
     const emp_files = {
       <% data.empreendimentos.each do |_filename, empreendimento| %>
-        <%= "'#{empreendimento.title.parameterize}': '#{empreendimento.file}'" if empreendimento.file %>
+        <%= "'#{empreendimento.title.parameterize}': '#{empreendimento.download}'" if empreendimento.download %>
       <% end %>
     };
 
@@ -190,16 +192,14 @@
       const empreendimento = event.target.dataset.empreendimento;
 
       button2.href = emp_files[empreendimento];
+
+      button2.addEventListener('click', function (event) {
+        event.preventDefault();
+        window.open(emp_files[empreendimento]);
+        form.submit();
+      });
     });
 
-    button2.addEventListener('click', function (event) {
-      form.submit();
-    });
   </script>
-
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7289857.js"></script>
-  <!-- End of HubSpot Embed Code -->
 </body>
 </html>

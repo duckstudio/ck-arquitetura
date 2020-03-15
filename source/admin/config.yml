@@ -190,6 +190,7 @@ collections:
                       crop: limit
           - { label: Chamada, name: call, widget: markdown }
           - { label: Botão 2, name: button2, widget: string }
+          - { label: Link Botão 2, name: button2_link, widget: string }
           - { label: Título Razões, name: title_reasons, widget: markdown }
           - label: Itens Razões
             name: items
@@ -233,7 +234,7 @@ collections:
       - label: Imagem de Capa
         name: image
         widget: image
-        hint: Tamanho ideal 1900x750
+        hint: Tamanho ideal 1920x1080
         media_library:
           config:
             default_transformations:
@@ -275,7 +276,7 @@ collections:
           - {label: Detalhe, name: title, widget: string}
       - {label: "Vídeo de fundo", name: background_video, widget: file }
       - {label: "Código do Vídeo do Youtube", name: youtube_video, widget: string }
-      - {label: "Arquivo para Download (corretor)", name: file, widget: file }
+      - {label: "Link Drive para Download (corretor)", name: download, widget: string }
       - label: Seções de Fotos
         name: image_sections
         widget: list

@@ -1776,6 +1776,13 @@ a {
   justify-content: space-between;
 }
 
+.fancy-a {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 50%;
+  -ms-flex: 0 50%;
+  flex: 0 50%;
+}
+
 .house-page_gallery-section_row_photo {
   height: 350px;
   -webkit-box-flex: 0;

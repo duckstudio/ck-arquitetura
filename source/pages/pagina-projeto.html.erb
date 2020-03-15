@@ -32,21 +32,21 @@
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <style>
-      .w-slider-dot {
-        margin: 0 3px 1.5em !important;
-        background-color: transparent !important;
-        border: solid 1px #a07987 !important;
-      }
-      .w-slider-nav-invert>div.w-active {
-        background-color: #a07987 !important;
-      }
-      #houses-section::-webkit-scrollbar {
-        display: none;
-      }
-      .houses-section {
-        overflow-y: hidden !important;
-      }
-    </style>
+    .w-slider-dot {
+      margin: 0 3px 1.5em !important;
+      background-color: transparent !important;
+      border: solid 1px #a07987 !important;
+    }
+    .w-slider-nav-invert>div.w-active {
+      background-color: #a07987 !important;
+    }
+    #houses-section::-webkit-scrollbar {
+      display: none;
+    }
+    .houses-section {
+      overflow-y: hidden !important;
+    }
+  </style>
 </head>
 <body class="body">
   <div class="project-page_hero">
@@ -113,11 +113,6 @@
   <%= partial "partials/footer" %>
   <%= partial "partials/menu-mobile" %>
 
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="/js/ck-arquitetura.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7289857.js"></script>
-  <!-- End of HubSpot Embed Code -->
+  <%= partial "partials/scripts" %>
 </body>
 </html>
