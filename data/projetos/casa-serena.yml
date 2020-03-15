@@ -1,0 +1,26 @@
+title: Casa Serena
+city: Gramado
+image: >-
+  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1584256932/DSC_7514_fsapff.png
+pretitle: Projeto Arquitetônico
+description_title: |-
+  Tecnologia a
+
+  **Serviço de um lar**
+description: 'Mais que um lar, um legado de amor!'
+people:
+  - name: Charlene Koetz
+    title: Arquiteta responsável
+  - title: Arquiteta responsável
+    name: Charlene Koetz
+  - title: Arquiteta responsável
+    name: Charlene Koetz
+image_sections:
+  - title: Suíte Master
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648038/DSC_7514_pteemr.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648076/DSC_7518_oijqq8.png
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648101/DSC_7533_zw4inm.png
