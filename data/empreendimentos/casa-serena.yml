@@ -1,8 +1,8 @@
+image_list: >-
+  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584030879/Casa%20Serena/ImagemListagemSiteSerena_lwds6b.jpg
 title: Casa Serena
 subtitle: 'Mais que um lar, um legado de amor!'
 city: Gramado
-image_list: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584030879/Casa%20Serena/ImagemListagemSiteSerena_lwds6b.jpg
 image: >-
   https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_500,q_auto,w_1900/v1581647806/casa-bg_zx8cvg.png
 highlight_images:
@@ -32,8 +32,7 @@ details:
 background_video: >-
   https://res.cloudinary.com/duckck/video/upload/v1584030555/Casa%20Serena/TrechoSerenaSite_c7v3cf.mp4
 youtube_video: szt5vSH7Zs8
-file: >-
-  https://res.cloudinary.com/duckck/image/upload/v1583866019/Casa%20Serena/Casa_Serena_lhbgut.pdf
+download: 'https://drive.google.com/open?id=0B9p9wzX9jilPcW5RbFJpQnFOQ3M'
 image_sections:
   - images:
       - image: >-
@@ -115,3 +114,5 @@ more_details:
   - title: Moderno elevador Schindler em todos os andares
   - title: Cozinha com solarium para café da manhã
   - title: Espelhos d’água em seu entorno
+file: >-
+  https://res.cloudinary.com/duckck/image/upload/v1583866019/Casa%20Serena/Casa_Serena_lhbgut.pdf

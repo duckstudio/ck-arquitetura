@@ -1,8 +1,8 @@
+image_list: >-
+  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584117639/Casa%20ALegria/Alegria---3_hivle7.jpg
 title: Casa Alegria
 subtitle: Pra Sua Família Viver Momentos Felizes
 city: Gramado
-image_list: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584117639/Casa%20ALegria/Alegria---3_hivle7.jpg
 image: >-
   https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_750,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---3_hivle7.jpg
 highlight_images:
@@ -29,8 +29,7 @@ details:
 background_video: >-
   https://res.cloudinary.com/duckck/video/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
 youtube_video: 7nkfV3os0l4
-file: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584117499/Casa%20ALegria/Casa_Alegria_-_Alphaville._u2b2uy.pdf
+download: 'https://drive.google.com/open?id=1DEb8Mk0YnQeD6bCzmkCMoxwVSwWAs4Ro'
 image_sections:
   - title: Externas
     images:
@@ -69,3 +68,5 @@ more_details:
   - title: Conforte termoacustico com esquadrias de vidro duplo
   - title: Garagem em pergola para 2 caros
   - title: Projetada para Automação por tabler ou smartphone
+file: >-
+  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584117499/Casa%20ALegria/Casa_Alegria_-_Alphaville._u2b2uy.pdf

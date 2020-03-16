@@ -1,8 +1,8 @@
+image_list: >-
+  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584108253/Casa%20Para%C3%ADso/Para%C3%ADso_04_2_qbby47.jpg
 title: Casa Paraíso
 subtitle: O Pôr do Sol de Gramado em Seu Coração
 city: Gramado
-image_list: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584108253/Casa%20Para%C3%ADso/Para%C3%ADso_04_2_qbby47.jpg
 image: >-
   https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_750,q_auto,w_1900/v1584108252/Casa%20Para%C3%ADso/Para%C3%ADso_04_dphhi0.jpg
 highlight_images:
@@ -47,8 +47,7 @@ details:
 background_video: >-
   https://res.cloudinary.com/duckck/video/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
 youtube_video: vvJICUivHRM
-file: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584108600/Casa%20Para%C3%ADso/Casa_Paraiso_-_Alphaville_Gramado._ljdquy.pdf
+download: 'https://drive.google.com/open?id=1BoSOvUhmFqbwkRlnOzFY-fH7CtmIACBg'
 image_sections:
   - title: EXTERNAS
     images:
@@ -73,7 +72,7 @@ image_sections:
 plants:
   - title: TÉRREO
     image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584108646/Casa%20Para%C3%ADso/SubSolo_lezzz1.png
+      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584108644/Casa%20Para%C3%ADso/Terreo_hwzzj6.png
   - title: 1º PAVIMENTO
     image: >-
       https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584108647/Casa%20Para%C3%ADso/1_Pavimento_qug1y0.png
@@ -92,3 +91,5 @@ more_details:
   - title: >-
       Entregue com exclusiva escultura artística do casal-proprietário no
       mirante  do sol
+file: >-
+  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584108600/Casa%20Para%C3%ADso/Casa_Paraiso_-_Alphaville_Gramado._ljdquy.pdf

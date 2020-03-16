@@ -1,8 +1,8 @@
+image_list: >-
+  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_750,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_01_ndflnh.jpg
 title: Casa Punta
 subtitle: Arquitetura moderna e minimalista
 city: 'Gramado '
-image_list: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_750,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_01_ndflnh.jpg
 image: >-
   https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_750,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_01_ndflnh.jpg
 highlight_images:
@@ -31,8 +31,7 @@ details:
 background_video: >-
   https://res.cloudinary.com/duckck/image/upload/v1583866327/Casa%20Punta/CASA_PUNTA_-_ASPEN_MOUNTAIN_GRAMADO_v8abb9.pdf
 youtube_video: I5PoSh4aFQM
-file: >-
-  https://res.cloudinary.com/duckck/image/upload/v1583866327/Casa%20Punta/CASA_PUNTA_-_ASPEN_MOUNTAIN_GRAMADO_v8abb9.pdf
+download: 'https://drive.google.com/open?id=1kWxs7YKUwrownsmbrVqmxYwVve_Lvght'
 image_sections:
   - title: CASA PUNTA
     images:
@@ -94,3 +93,5 @@ more_details:
   - title: Corrimãos internos e externos em vidro temperado
   - title: 'Casa totalmente projetada e preparada para instalar automação completa '
   - title: Gramado com deck e iluminação externa
+file: >-
+  https://res.cloudinary.com/duckck/image/upload/v1583866327/Casa%20Punta/CASA_PUNTA_-_ASPEN_MOUNTAIN_GRAMADO_v8abb9.pdf
