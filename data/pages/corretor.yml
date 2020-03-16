@@ -8,8 +8,8 @@ text: >-
   a realização de nossos sonhos.
 button: Quero baixar os materiais das casas
 background_video: >-
-  https://res.cloudinary.com/duckck/video/upload/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
-youtube_video: n_sYgJtcwLU
+  https://res.cloudinary.com/duckck/video/upload/v1584387977/Corretores/Cancun15Segundos_c0jav6.mp4
+youtube_video: jOis-J2NbW8
 title_bonus1: 'Bônus Corretor I: **Viagem a Cancún**'
 text_bonus1: >-
   Vendendo uma propriedade da CK Arquitetura, além da comissão, premiamos o
@@ -26,6 +26,7 @@ call: |-
 
   Produtos **a venda**
 button2: Baixar todos os materiais de todas as casas
+button2_link: '#housesSection'
 title_reasons: |-
   **8 razões** para vender uma casa
 
