@@ -48,6 +48,12 @@ after_configuration do
     locals: {empreendimento: empreendimento, condominio: condominio ? condominio[1] : nil},
     ignore: true
   end
+
+  @app.data.projetos.each do |_filename, projeto|
+    proxy "/projeto/#{projeto[:title].parameterize}.html", "/pages/pagina-projeto.html",
+    locals: {projeto: projeto},
+    ignore: true
+  end
 end
 
 # Helpers

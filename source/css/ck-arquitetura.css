@@ -2129,6 +2129,20 @@ a {
   text-transform: uppercase;
 }
 
+.project-page_details-section_h2 p {
+  margin-bottom: 0px;
+  color: #646464;
+  font-size: 52px;
+  line-height: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.project-page_details-section_h2 strong {
+  color: #a07987;
+  font-weight: 400;
+}
+
 .project-page_details-section_subtitle {
   color: hsla(0, 0%, 39.2%, 0.6);
   font-size: 18px;

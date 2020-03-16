@@ -29,8 +29,8 @@
         n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
       }(window, document);
     </script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="/images/webclip.png" rel="apple-touch-icon">
   <style>
     .w-slider-dot {
       margin: 0 3px 1.5em !important;
@@ -47,6 +47,8 @@
       overflow-y: hidden !important;
     }
   </style>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 <body class="body">
   <div class="project-page_hero">
@@ -56,52 +58,54 @@
       <div class="container">
         <div class="project-page_hero_content">
           <div class="project-page_hero_content_text">
-            <div class="project-page_hero_content_text_subtitle">projeto arquitetônico</div>
-            <h1 class="project-page_hero_content_text_title">Casa Serena</h1>
+            <div class="project-page_hero_content_text_subtitle"><%= projeto.pretitle %></div>
+            <h1 class="project-page_hero_content_text_title"><%= projeto.title %></h1>
           </div><a href="#" class="button pink fill w-button">Enviar mensagem pelo WhatsApp</a></div>
       </div>
     </div>
   </div>
   <div class="project-page_details-section">
     <div class="container">
-      <h2 class="project-page_details-section_h2">tecnologia a<br><strong class="bold-pink">serviço de um lar</strong></h2>
-      <div class="project-page_details-section_subtitle">Mais que um lar, um legado de amor!</div>
+      <h2 class="project-page_details-section_h2"><%= markdown projeto.description_title %></h2>
+      <div class="project-page_details-section_subtitle"><%= projeto.description %></div>
       <div class="project-page_details-section_list">
-        <div class="project-page_details-section_list_item">
-          <div class="project-page_details-section_list_item_subtitle">Arquiteta responsável</div>
-          <div class="project-page_details-section_list_item_title">Charlene Koetz</div>
-        </div>
-        <div class="project-page_details-section_list_item">
-          <div class="project-page_details-section_list_item_subtitle">Arquiteta responsável</div>
-          <div class="project-page_details-section_list_item_title">Charlene Koetz</div>
-        </div>
-        <div class="project-page_details-section_list_item">
-          <div class="project-page_details-section_list_item_subtitle">Arquiteta responsável</div>
-          <div class="project-page_details-section_list_item_title">Charlene Koetz</div>
-        </div>
+        <% projeto.people.each do |person| %>
+          <div class="project-page_details-section_list_item">
+            <div class="project-page_details-section_list_item_subtitle"><%= person.title %></div>
+            <div class="project-page_details-section_list_item_title"><%= person.name %></div>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>
-  <div class="house-page_gallery-section">
-    <div class="container">
-      <h2 class="house-page_gallery-section_title">Suíte master</h2>
-    </div>
-    <div class="house-page_gallery-section_main-photo"></div>
-    <div class="house-page_gallery-section_row">
-      <div class="house-page_gallery-section_row_photo"></div>
-      <div class="house-page_gallery-section_row_photo _2"></div>
-    </div>
-  </div>
-  <div class="house-page_gallery-section">
-    <div class="container">
-      <h2 class="house-page_gallery-section_title">Suíte master</h2>
-    </div>
-    <div class="house-page_gallery-section_main-photo"></div>
-    <div class="house-page_gallery-section_row">
-      <div class="house-page_gallery-section_row_photo"></div>
-      <div class="house-page_gallery-section_row_photo _2"></div>
-    </div>
-  </div>
+
+  <% if projeto.image_sections %>
+    <% projeto.image_sections.each do |image_section| %>
+      <div class="house-page_gallery-section">
+        <div class="container">
+          <h2 class="house-page_gallery-section_title"><%= image_section.title %></h2>
+        </div>
+        <% image_section.images.each_slice(3) do |image_slice| %>
+          <a data-fancybox="gallery" class="fancy-a" href="<%= image_slice[0].image %>">
+            <div class="house-page_gallery-section_main-photo" style="background-image: url('<%= image_slice[0].image %>')"></div>
+          </a>
+          <% if image_slice[1] %>
+            <div class="house-page_gallery-section_row">
+              <a data-fancybox="gallery" class="fancy-a" href="<%= image_slice[1].image %>">
+                <div class="house-page_gallery-section_row_photo" style="background-image: url('<%= image_slice[1].image %>')"></div>
+              </a>
+              <% if image_slice[2] %>
+                <a data-fancybox="gallery" class="fancy-a" href="<%= image_slice[2].image %>">
+                  <div class="house-page_gallery-section_row_photo _2" style="background-image: url('<%= image_slice[2].image %>')"></div>
+                </a>
+              <% end %>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
+    <% end %>
+  <% end %>
+
   <div class="house-page_contact-section project-page">
     <div class="container">
       <h2 class="house-page_contact-section_h2">Vamos <strong class="semi-bold">conversar?</strong></h2>
@@ -114,5 +118,7 @@
   <%= partial "partials/menu-mobile" %>
 
   <%= partial "partials/scripts" %>
+
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 </html>

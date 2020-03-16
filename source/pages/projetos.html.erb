@@ -29,8 +29,8 @@
         n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
       }(window, document);
     </script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="/images/webclip.png" rel="apple-touch-icon">
   <style>
       .w-slider-dot {
         margin: 0 3px 1.5em !important;
@@ -55,130 +55,106 @@
     <div class="container">
       <div class="broker-page_intro-section_content">
         <div>
-          <h1 class="about-page_intro-section_h1"><strong>nós amamos<br>construir seus sonhos</strong></h1>
-          <div class="about-page_intro-section_subtitle">Studio CK Arquitetura</div>
+          <h1 class="about-page_intro-section_h1"><strong><%= markdown data.pages["pagina-projetos"].title %></strong></h1>
+          <div class="about-page_intro-section_subtitle"><%= data.pages["pagina-projetos"].subtitle %></div>
         </div>
         <div class="broker-page_intro-section_content_block">
-          <p class="broker-page_intro-section_content_block_p projects-page">Se você já tem seu terreno e sonha com uma linda Casa que além de modernidade, alie diferenciação e valorização ,  O Studio Ck Arquitetura, com o mesmo amor e energia que dedica a seus próprios projetos, realiza projetos arquitetônicos e de design de interiores personalizados.</p>
+          <p class="broker-page_intro-section_content_block_p projects-page"><%= data.pages["pagina-projetos"].text %></p>
         </div>
       </div>
     </div>
   </div>
   <div class="projects-page_list">
-    <a href="#" class="projects-page_list_item w-inline-block">
-      <div class="projects-page_list_item_txt">
-        <div class="projects-page_list_item_txt_name">Casa serena</div>
-        <div class="projects-page_list_item_txt_divisor"></div>
-        <div class="projects-page_list_item_txt_city">Gramado</div>
-      </div>
-    </a>
-    <div class="projects-page_list_row">
-      <a href="#" class="projects-page_list_item w-inline-block">
+    <% data.projetos.each_slice(6) do |project_slice| %>
+      <a href="/projeto/<%= project_slice[0][1].title.parameterize %>" class="projects-page_list_item w-inline-block" style="background-image: url('<%= project_slice[0][1].image %>')">
         <div class="projects-page_list_item_txt">
-          <div class="projects-page_list_item_txt_name">Casa serena</div>
+          <div class="projects-page_list_item_txt_name"><%= project_slice[0][1].title %></div>
           <div class="projects-page_list_item_txt_divisor"></div>
-          <div class="projects-page_list_item_txt_city">Gramado</div>
+          <div class="projects-page_list_item_txt_city"><%= project_slice[0][1].city %></div>
         </div>
       </a>
-      <a href="#" class="projects-page_list_item w-inline-block">
-        <div class="projects-page_list_item_txt">
-          <div class="projects-page_list_item_txt_name">Casa serena</div>
-          <div class="projects-page_list_item_txt_divisor"></div>
-          <div class="projects-page_list_item_txt_city">Gramado</div>
+      <% if project_slice[1] %>
+        <div class="projects-page_list_row">
+          <a href="/projeto/<%= project_slice[1][1].title.parameterize %>" class="projects-page_list_item w-inline-block">
+            <div class="projects-page_list_item_txt">
+              <div class="projects-page_list_item_txt_name"><%= project_slice[1][1].title %></div>
+              <div class="projects-page_list_item_txt_divisor"></div>
+              <div class="projects-page_list_item_txt_city"><%= project_slice[1][1].city %></div>
+            </div>
+          </a>
+          <% if project_slice[2] %>
+            <a href="/projeto/<%= project_slice[2][1].title.parameterize %>" class="projects-page_list_item w-inline-block">
+              <div class="projects-page_list_item_txt">
+                <div class="projects-page_list_item_txt_name"><%= project_slice[2][1].title %></div>
+                <div class="projects-page_list_item_txt_divisor"></div>
+                <div class="projects-page_list_item_txt_city"><%= project_slice[2][1].city %></div>
+              </div>
+            </a>
+          <% end %>
         </div>
-      </a>
-    </div>
-    <div class="projects-page_list_row">
-      <div class="projects-page_list_row_vertical">
-        <a href="#" class="projects-page_list_item w-inline-block">
-          <div class="projects-page_list_item_txt">
-            <div class="projects-page_list_item_txt_name">Casa serena</div>
-            <div class="projects-page_list_item_txt_divisor"></div>
-            <div class="projects-page_list_item_txt_city">Gramado</div>
+        <% if project_slice[3] %>
+          <div class="projects-page_list_row">
+            <div class="projects-page_list_row_vertical">
+              <a href="/projeto/<%= project_slice[3][1].title.parameterize %>" class="projects-page_list_item w-inline-block">
+                <div class="projects-page_list_item_txt">
+                  <div class="projects-page_list_item_txt_name"><%= project_slice[3][1].title %></div>
+                  <div class="projects-page_list_item_txt_divisor"></div>
+                  <div class="projects-page_list_item_txt_city"><%= project_slice[3][1].city %></div>
+                </div>
+              </a>
+              <% if project_slice[4] %>
+                <a href="/projeto/<%= project_slice[4][1].title.parameterize %>" class="projects-page_list_item w-inline-block">
+                  <div class="projects-page_list_item_txt">
+                    <div class="projects-page_list_item_txt_name"><%= project_slice[4][1].title %></div>
+                    <div class="projects-page_list_item_txt_divisor"></div>
+                    <div class="projects-page_list_item_txt_city"><%= project_slice[4][1].city %></div>
+                  </div>
+                </a>
+              <% end %>
+            </div>
+            <% if project_slice[5] %>
+              <a href="/projeto/<%= project_slice[5][1].title.parameterize %>" class="projects-page_list_item w-inline-block">
+                <div class="projects-page_list_item_txt">
+                  <div class="projects-page_list_item_txt_name"><%= project_slice[5][1].title %></div>
+                  <div class="projects-page_list_item_txt_divisor"></div>
+                  <div class="projects-page_list_item_txt_city"><%= project_slice[5][1].city %></div>
+                </div>
+              </a>
+            <% end %>
           </div>
-        </a>
-        <a href="#" class="projects-page_list_item w-inline-block">
-          <div class="projects-page_list_item_txt">
-            <div class="projects-page_list_item_txt_name">Casa serena</div>
-            <div class="projects-page_list_item_txt_divisor"></div>
-            <div class="projects-page_list_item_txt_city">Gramado</div>
-          </div>
-        </a>
-      </div>
-      <a href="#" class="projects-page_list_item w-inline-block">
-        <div class="projects-page_list_item_txt">
-          <div class="projects-page_list_item_txt_name">Casa serena</div>
-          <div class="projects-page_list_item_txt_divisor"></div>
-          <div class="projects-page_list_item_txt_city">Gramado</div>
-        </div>
-      </a>
-    </div>
+        <% end %>
+      <% end %>
+    <% end %>
   </div>
   <div class="projects-page_testimonial-section">
     <div class="container">
-      <h2 class="projects-page_testimonial-section_h2">DEPOIMentos</h2>
+      <h2 class="projects-page_testimonial-section_h2"><%= data.pages["pagina-projetos"].title_testimonials %></h2>
       <div data-animation="slide" data-duration="500" data-infinite="1" class="projects-page_testimonial-section_slider w-slider">
         <div class="projects-page_testimonial-section_slider_mask w-slider-mask">
-          <div class="projects-page_testimonial-section_slider_item w-slide">
-            <div class="projects-page_testimonial-section_content">
-              <div class="projects-page_testimonial-section_content_item">
-                <p class="projects-page_testimonial-section_content_item_p">Me lembro como se fosse hoje, ainda na primeira série, um <br>dos temas que a professora deu foi desenhar o que eu <br>queria ser quando crescesse. E eu já me via desenhando <br>sobre a mesa de desenho.</p>
-                <div class="projects-page_testimonial-section_content_item_line"></div>
-                <div class="projects-page_testimonial-section_content_item_details">
-                  <div class="projects-page_testimonial-section_content_item_details_photo"></div>
-                  <div class="projects-page_testimonial-section_content_item_details_name">Cristina Mongao</div>
+          <% data.pages["pagina-projetos"].items.each_slice(2) do |item_slice| %>
+            <div class="projects-page_testimonial-section_slider_item w-slide">
+              <div class="projects-page_testimonial-section_content">
+                <div class="projects-page_testimonial-section_content_item">
+                  <p class="projects-page_testimonial-section_content_item_p"><%= item_slice[0].text %></p>
+                  <div class="projects-page_testimonial-section_content_item_line"></div>
+                  <div class="projects-page_testimonial-section_content_item_details">
+                    <div class="projects-page_testimonial-section_content_item_details_photo" style="background-image: url('<%= item_slice[0].image %>')"></div>
+                    <div class="projects-page_testimonial-section_content_item_details_name"><%= item_slice[0].title %></div>
+                  </div>
                 </div>
-              </div>
-              <div class="projects-page_testimonial-section_content_item">
-                <p class="projects-page_testimonial-section_content_item_p">Me lembro como se fosse hoje, ainda na primeira série, um <br>dos temas que a professora deu foi desenhar o que eu <br>queria ser quando crescesse. E eu já me via desenhando <br>sobre a mesa de desenho.</p>
-                <div class="projects-page_testimonial-section_content_item_line"></div>
-                <div class="projects-page_testimonial-section_content_item_details">
-                  <div class="projects-page_testimonial-section_content_item_details_photo"></div>
-                  <div class="projects-page_testimonial-section_content_item_details_name">Cristina Mongao</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="projects-page_testimonial-section_slider_item w-slide">
-            <div class="projects-page_testimonial-section_content">
-              <div class="projects-page_testimonial-section_content_item">
-                <p class="projects-page_testimonial-section_content_item_p">Me lembro como se fosse hoje, ainda na primeira série, um dos temas que a professora deu foi desenhar o que eu <br>queria ser quando crescesse. E eu já me via desenhando sobre a mesa de desenho.</p>
-                <div class="projects-page_testimonial-section_content_item_line"></div>
-                <div class="projects-page_testimonial-section_content_item_details">
-                  <div class="projects-page_testimonial-section_content_item_details_photo"></div>
-                  <div class="projects-page_testimonial-section_content_item_details_name">Cristina Mongao</div>
-                </div>
-              </div>
-              <div class="projects-page_testimonial-section_content_item">
-                <p class="projects-page_testimonial-section_content_item_p">Me lembro como se fosse hoje, ainda na primeira série, um dos temas que a professora deu foi desenhar o que eu <br>queria ser quando crescesse. E eu já me via desenhando sobre a mesa de desenho.</p>
-                <div class="projects-page_testimonial-section_content_item_line"></div>
-                <div class="projects-page_testimonial-section_content_item_details">
-                  <div class="projects-page_testimonial-section_content_item_details_photo"></div>
-                  <div class="projects-page_testimonial-section_content_item_details_name">Cristina Mongao</div>
-                </div>
+                <% if item_slice[1] %>
+                  <div class="projects-page_testimonial-section_content_item">
+                    <p class="projects-page_testimonial-section_content_item_p"><%= item_slice[1].text %></p>
+                    <div class="projects-page_testimonial-section_content_item_line"></div>
+                    <div class="projects-page_testimonial-section_content_item_details">
+                      <div class="projects-page_testimonial-section_content_item_details_photo" style="background-image: url('<%= item_slice[1].image %>')"></div>
+                      <div class="projects-page_testimonial-section_content_item_details_name"><%= item_slice[1].title %></div>
+                    </div>
+                  </div>
+                <% end %>
               </div>
             </div>
-          </div>
-          <div class="projects-page_testimonial-section_slider_item w-slide">
-            <div class="projects-page_testimonial-section_content">
-              <div class="projects-page_testimonial-section_content_item">
-                <p class="projects-page_testimonial-section_content_item_p">Me lembro como se fosse hoje, ainda na primeira série, um <br>dos temas que a professora deu foi desenhar o que eu <br>queria ser quando crescesse. E eu já me via desenhando <br>sobre a mesa de desenho.</p>
-                <div class="projects-page_testimonial-section_content_item_line"></div>
-                <div class="projects-page_testimonial-section_content_item_details">
-                  <div class="projects-page_testimonial-section_content_item_details_photo"></div>
-                  <div class="projects-page_testimonial-section_content_item_details_name">Cristina Mongao</div>
-                </div>
-              </div>
-              <div class="projects-page_testimonial-section_content_item">
-                <p class="projects-page_testimonial-section_content_item_p">Me lembro como se fosse hoje, ainda na primeira série, um <br>dos temas que a professora deu foi desenhar o que eu <br>queria ser quando crescesse. E eu já me via desenhando <br>sobre a mesa de desenho.</p>
-                <div class="projects-page_testimonial-section_content_item_line"></div>
-                <div class="projects-page_testimonial-section_content_item_details">
-                  <div class="projects-page_testimonial-section_content_item_details_photo"></div>
-                  <div class="projects-page_testimonial-section_content_item_details_name">Cristina Mongao</div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <% end %>
         </div>
         <div class="projects-page_testimonial-section_slider_arrow w-slider-arrow-left">
           <div class="w-icon-slider-left"></div>
