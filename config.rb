@@ -34,7 +34,6 @@ after_configuration do
   proxy "/corretor.html", "/pages/corretor.html", ignore: true
   proxy "/empreendimentos.html", "/pages/empreendimentos.html", ignore: true
   proxy "/institucional.html", "/pages/institucional.html", ignore: true
-  proxy "/pagina-projeto.html", "/pages/pagina-projeto.html", ignore: true
   proxy "/politicas-de-privacidade-e-termos-de-uso.html", "/pages/politicas-de-privacidade-e-termos-de-uso.html", ignore: true
   proxy "/projetos.html", "/pages/projetos.html", ignore: true
 
