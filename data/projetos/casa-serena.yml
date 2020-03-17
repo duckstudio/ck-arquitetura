@@ -1,22 +1,50 @@
-title: Casa Serena
+title: Casa Romance
 city: Gramado
 image: >-
   https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1584256932/DSC_7514_fsapff.png
 pretitle: Projeto Arquitetônico
 description_title: |-
-  Tecnologia a
+  Um lar perfeito para reunir
 
-  **Serviço de um lar**
-description: 'Mais que um lar, um legado de amor!'
+  **QUEM VOCÊ AMA!**
+description: Para quem ama sua família e seus amigos!
 people:
   - title: Arquiteta responsável
     name: Charlene Koetz
 image_sections:
-  - title: Suíte Master
+  - title: Externas
     images:
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648038/DSC_7514_pteemr.png
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9577_vuwydt.jpg
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648076/DSC_7518_oijqq8.png
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9496_uqbnqb.jpg
       - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1581648101/DSC_7533_zw4inm.png
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9579_nktoax.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446026/Casa%20ROmance/IMG_9587_bev2yg.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446024/Casa%20ROmance/IMG_9581_eu3fuk.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445988/Casa%20ROmance/IMG_9966_gvgdky.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445989/Casa%20ROmance/IMG_9981_co3bzg.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9518_psqqy0.jpg
+  - title: Internas
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445983/Casa%20ROmance/_55A8978_djswdg.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445983/Casa%20ROmance/_55A8975_lh56bn.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445983/Casa%20ROmance/_55A9007_bl4btq.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445985/Casa%20ROmance/_55A8992_tcajdq.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445986/Casa%20ROmance/IMG_0048_eahlem.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445987/Casa%20ROmance/IMG_0063_nvsyie.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445987/Casa%20ROmance/IMG_9850_bkcpho.jpg
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445984/Casa%20ROmance/IMG_0001_jkfqdd.jpg
