@@ -77,6 +77,14 @@ helpers do
   def markdown(content)
      Tilt['markdown'].new { content }.render
   end
+
+  def telefonize(tel)
+    "tel:0" + tel.parameterize.gsub('-', '')
+  end
+
+  def whatsappize(whats)
+    "55" + whats.parameterize.gsub('-', '')
+  end
 end
 
 # Build-specific configuration
