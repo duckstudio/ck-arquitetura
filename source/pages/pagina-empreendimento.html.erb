@@ -89,7 +89,15 @@
           <% end %>
         </div>
         <div class="house-page_about-section_block_photo video">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/<%= empreendimento.youtube_video %>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div data-poster-url="/videos/bg-ck_1-poster-00001.jpg" data-video-urls="<%= empreendimento.background_video %>" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="house-page_about-section_block_video w-background-video w-background-video-atom">
+            <video autoplay="" loop="" style="background-image:url('/videos/bg-ck_1-poster-00001.jpg')" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+              <source src="<%= empreendimento.background_video %>" data-wf-ignore="true">
+            </video>
+            <a data-w-id="f0fae00a-98cb-7df7-070b-c40283f7d484" href="#" class="broker-page_video-section_video_link w-inline-block">
+              <img src="/images/play.svg" width="85" alt="">
+              <div class="broker-page_video-section_video_link_text">Ver o vídeo completo</div>
+            </a>
+          </div>
         </div>
       </div>
     </div>

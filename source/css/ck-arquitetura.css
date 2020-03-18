@@ -43,8 +43,8 @@ a {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.72)), to(rgba(0, 0, 0, 0.72)));
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
 }
 
 .navbar {
@@ -1758,7 +1758,7 @@ a {
 }
 
 .house-page_gallery-section_main-photo {
-  height: 450px;
+  height: 580px;
   margin-bottom: 1px;
   background-image: url('../images/DSC_7514.png');
   background-position: 50% 50%;
@@ -1784,7 +1784,7 @@ a {
 }
 
 .house-page_gallery-section_row_photo {
-  height: 350px;
+  height: 550px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 50%;
   -ms-flex: 0 50%;
@@ -2864,6 +2864,39 @@ a {
   width: 70%;
 }
 
+.houses-section_h2 {
+  margin-top: 0px;
+  margin-bottom: 35px;
+  font-family: 'Noyh Geometric Slim', sans-serif;
+  color: #a07987;
+  font-size: 46px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.sustainability_section_gallery_item_modal_logo {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 110px;
+}
+
+.back-link {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 html.w-mod-js *[data-ix="scrollfadein"] {
   opacity: 0;
 }
@@ -3308,8 +3341,8 @@ html.w-mod-js *[data-ix="scrollfadein"] {
 @media (max-width: 479px) {
   .hero-section_bg-video {
     height: auto;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45)));
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35)));
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
   }
   .navbar_content_brand {
     padding-left: 0px;

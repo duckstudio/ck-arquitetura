@@ -121,6 +121,7 @@
 
     <div id="houses-section" class="houses-section" data-ix="scrollfadein">
       <div class="container">
+        <h2 class="houses-section_h2"><strong>Nossa seleção de</strong> casas de luxo</h2>
         <div class="houses-section_content">
           <% data.empreendimentos.each do |_filename, empreendimento| %>
             <% condominio = data.condominios.find {|_filename, condominio| empreendimento.condominio == condominio.title} %>
@@ -171,6 +172,7 @@
                   <h3 class="sustainability_section_gallery_item_modal_box_h3"><%= item.complete_title %></h3>
                   <p><%= item.text %></p>
                 </div>
+                <img src="/images/logo-ck-arquitetura_dark.svg" width="159" alt="" class="sustainability_section_gallery_item_modal_logo">
               </div>
             </a>
           <% end %>
