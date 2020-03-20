@@ -46,6 +46,7 @@ history_text: >-
   feito há mais de 60 anos e que hoje enfeita a recepção de nosso escritório.
 history_image: >-
   https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_650,q_auto,w_400/v1582935242/historia_sqkt18.png
+history_legend: '- Casa construída por meu bisavô em 1921 na cidade de Igrejinha'
 history_text2: >-
   Me lembro como se fosse hoje, ainda na primeira série, um dos temas que a
   professora deu foi desenhar o que eu queria ser quando crescesse. E eu já me
@@ -63,8 +64,6 @@ history_text2: >-
 history_image2: >-
   https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_500/v1582935294/historia2_i2eoet.png
 history_legend2: '- Avião construído por meu avô Guido Koetz'
-history_legend: '- '
-history_legend3: '- '
 history_text3: >-
   Ao entrar na faculdade, só então meu pai vibrando comigo confessou que ele já
   tivera uma mesa de desenho quando jovem, pois adorava desenhar.
@@ -83,6 +82,7 @@ history_text3: >-
   graduação em arquitetura e abrindo meu escritório próprio com apenas 22 anos.
 history_image3: >-
   https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_500/v1582935358/perfil-charlene_uvfajb.png
+history_legend3: '- Arquiteta Charlene Koetz'
 history_text4: >-
   E desde lá, meu amor pela arquitetura tem sido recompensado por clientes que
   me permitem voar alto, por colegas de trabalho que ao longo deste tempo tem
