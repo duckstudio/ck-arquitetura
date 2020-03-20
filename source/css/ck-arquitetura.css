@@ -501,6 +501,11 @@ a {
   align-items: center;
 }
 
+.houses-section .container {
+  width: 100%;
+  padding-left: calc((100% - 1050px)/2);
+}
+
 .houses-section_blank {
   -webkit-box-flex: 0;
   -webkit-flex: 0 20%;
@@ -513,15 +518,40 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 5000px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 30px;
 }
+
+	/*change the thinkness of the scrollbar here*/
+div.houses-section_content::-webkit-scrollbar {
+    width: 10px;
+    height: 4px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    transform: translateX(40px);
+}
+ /*add a shadow to the scrollbar here*/
+ div.houses-section_content::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(34, 31, 32, 0.2);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 140px;
+}
+/*this is the little scrolly dealio in the bar*/
+div.houses-section_content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #221f20;
+  height: 3px;
+}
+div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0px; width: 0px; }
 
 .houses-section_content_block_item {
   margin-right: 45px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 480px;
-  -ms-flex: 0 480px;
-  flex: 0 480px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 480px;
   color: #221f20;
   text-decoration: none;
 }
@@ -601,6 +631,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-top: -77px;
 }
 
 .houses-section_scroll_arrows_item {

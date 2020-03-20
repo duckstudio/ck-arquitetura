@@ -35,7 +35,11 @@
         </div>
         <div class="footer_content_copyright"><%= data.settings.infos.rights %></div><a href="/politicas-de-privacidade-e-termos-de-uso" class="footer_content_copyright">Termos de Privacidade e Uso</a></div>
       <div class="footer_content_right">
-        <div class="footer_links"><a href="/empreendimentos" class="footer_links_item">Empreendimentos</a><a href="/institucional" class="footer_links_item">A CK Arquitetura</a><a href="/corretor" class="footer_links_item">Corretores</a><a href="/contato" class="footer_links_item">Contato</a><a href="/" class="footer_links_item w--current">O melhor de Gramado</a><a href="/projetos" class="footer_links_item">Projetos personalizados</a></div>
+        <div class="footer_links">
+          <% data.settings.navfooter.items.each do |item| %>
+            <a href="<%= item.path %>" class="footer_links_item"><%= item.label %></a>
+          <% end %>
+        </div>
         <div class="footer_contact">
           <a href="mailto:<%= data.settings.infos.email %>?subject=Contato%20Site" class="footer_contact_item w-inline-block">
             <div class="footer_contact_item_title">E-mail</div>
