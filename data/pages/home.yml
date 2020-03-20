@@ -119,6 +119,10 @@ midia:
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844622/Midia/gentequefaz_xh278n.jpg
       link: 'https://pt.calameo.com/read/000607875782054f53210'
       title: Revista Gente que Faz - Ano 10 nº 44
+    - link: 'https://www.instagram.com/p/B6a0YsHFJAC/'
+      image: >-
+        https://res.cloudinary.com/duckck/image/upload/c_scale,w_250/c_crop,f_auto,h_250,q_auto,w_270/v1584702482/Midia/83469764_821728814919904_7101291874870099968_o.jpg_s5aram.jpg
+      title: Reconhecimento Internacional - Amazing.Architecture
     - title: Glass Gold Edition- 12/2019
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584703916/Midia/71538380_187803695597120_2263105420265240435_n_gv5n3e.jpg
@@ -140,10 +144,6 @@ midia:
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844472/Midia/WhatsApp-Image-2018-06-07-at-08.44.27_mfhsgy.jpg
       link: '#'
       title: 'Guia Glass Edição Select - 10/2017 '
-    - link: 'https://www.instagram.com/p/B6a0YsHFJAC/'
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_250/c_crop,f_auto,h_250,q_auto,w_270/v1584702482/Midia/83469764_821728814919904_7101291874870099968_o.jpg_s5aram.jpg
-      title: Reconhecimento Internacional - Amazing.Architecture
     - link: 'https://www.facebook.com/AAmazingAArchitecture/posts/2494450194015568'
       title: Reconhecimento Internacional - Amazing Architecture
       image: >-
