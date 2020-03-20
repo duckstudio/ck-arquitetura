@@ -96,7 +96,10 @@
           <h2 class="about-page_history-section_content_left_h2"><%= markdown data.pages.institucional.history_title %></h2>
           <div class="about-page_history-section_content_left_p"><%= markdown data.pages.institucional.history_text %></div>
         </div>
-        <div class="about-page_history-section_content_photo" style="background-image: url('<%= data.pages.institucional.history_image %>')"></div>
+        <div class="new-box">
+          <div class="about-page_history-section_content_photo" style="background-image: url('<%= data.pages.institucional.history_image %>')"></div>
+          <span class="light-subtitle"><%= data.pages.institucional.history_legend %></span>
+        </div>
       </div>
     </div>
   </div>
@@ -115,7 +118,10 @@
     <div class="container">
       <div class="about-page_profile-section_block" data-ix="scrollfadein">
         <div class="about-page_profile-section_block_p"><%= markdown data.pages.institucional.history_text3 %></div>
-        <div class="about-page_profile-section_block_photo" style="background-image: url('<%= data.pages.institucional.history_image3 %>')"></div>
+        <div class="about-box">
+          <div class="about-page_profile-section_block_photo" style="background-image: url('<%= data.pages.institucional.history_image3 %>')"></div>
+          <span class="light-subtitle"><%= data.pages.institucional.history_legend3 %></span>
+        </div>
       </div>
       <div class="about-page_profile-section_block_p no-photo" data-ix="scrollfadein"><%= markdown data.pages.institucional.history_text4 %></div>
       <div class="about-page_profile-section_signature" data-ix="scrollfadein"><%= data.pages.institucional.conclusion %></div>
@@ -126,5 +132,21 @@
   <%= partial "partials/menu-mobile" %>
 
   <%= partial "partials/scripts" %>
+
+  <script>
+    const link = document.querySelector('.broker-page_video-section_video_link');
+    const video = document.querySelector('.embedly-embed');
+    const close = document.querySelector('.youtube-modal_close');
+
+    const originalSrc = video.src;
+
+    link.addEventListener('click', function (event) {
+      video.src = `${originalSrc}&autoplay=true`;
+    });
+
+    close.addEventListener('click', function (event) {
+      video.src = originalSrc;
+    });
+  </script>
 </body>
 </html>

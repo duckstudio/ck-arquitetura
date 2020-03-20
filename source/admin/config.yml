@@ -135,6 +135,7 @@ collections:
                       height: 656
                       quality: auto
                       crop: crop
+          - { label: Legenda História, name: history_legend, widget: string }
           - { label: Texto História 2, name: history_text2, widget: markdown }
           - label: Imagem História 2
             name: history_image2
@@ -162,6 +163,7 @@ collections:
                       height: 570
                       quality: auto
                       crop: crop
+          - { label: Legenda História 3, name: history_legend3, widget: string }
           - { label: Texto História 4, name: history_text4, widget: markdown }
           - { label: Conclusão, name: conclusion, widget: string }
 
@@ -437,7 +439,9 @@ collections:
         fields:
           - {label: Direitos Reservados, name: rights, widget: string}
           - {label: Email, name: email, widget: string}
-          - {label: Whatsapp, name: whatsapp, widget: string}
+          - {label: Whatsapp Geral, name: whatsapp, widget: string}
+          - {label: Whatsapp Projetos, name: whatsapp_projetos, widget: string}
+          - {label: Whatsapp Empreendimentos, name: whatsapp_empreendimentos, widget: string}
           - {label: Telefone, name: phone, widget: string}
           - {label: Endereço, name: address, widget: markdown}
           - label: Social
@@ -473,13 +477,13 @@ collections:
                           quality: auto
                           crop: limit
 
-      # - file: data/settings/navigation.yml
-      #   label: Navigation
-      #   name: navigation
-      #   fields:
-      #     - label: Navigation
-      #       name: nav_items
-      #       widget: list
-      #       fields:
-      #         - {label: Label, name: label, widget: string}
-      #         - {label: Path, name: path, widget: string}
+      - file: data/settings/navfooter.yml
+        label: Menu Rodapé
+        name: navfooter
+        fields:
+          - label: Items
+            name: items
+            widget: list
+            fields:
+              - {label: Título, name: label, widget: string}
+              - {label: Caminho, name: path, widget: string}

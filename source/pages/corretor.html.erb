@@ -50,7 +50,9 @@
 </head>
 <body class="body">
   <div class="youtube-modal"><a data-w-id="4a27a4b3-9dbd-c70b-ced1-d5b152b897da" href="#" class="youtube-modal_close w-inline-block"><img src="/images/close-icon.svg" width="24" alt=""></a>
-    <div style="padding-top:56.17021276595745%" id="w-node-d5b152b897dc-52b897d9" class="youtube-modal_video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F<%= data.pages.corretor.youtube_video %>&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D<%= data.pages.corretor.youtube_video %>&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2F<%= data.pages.corretor.youtube_video %>%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
+    <div style="padding-top:56.17021276595745%" id="w-node-d5b152b897dc-52b897d9" class="youtube-modal_video w-video w-embed">
+      <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F<%= data.pages.corretor.youtube_video %>&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D<%= data.pages.corretor.youtube_video %>&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2F<%= data.pages.corretor.youtube_video %>%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+    </div>
   </div>
   <div style="display:none;opacity:0" class="download-modal">
     <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="download-modal_box">
@@ -127,7 +129,6 @@
       </div>
       <div class="slider-section_content">
         <h2 class="slider-section_content_h2"><%= markdown data.pages.corretor.call %></h2>
-        <a href="<%= data.pages.corretor.button2_link %>" target="_blank" class="button outline w-button"><%= data.pages.corretor.button2 %></a>
       </div>
       <img src="<%= data.pages.corretor.image_bonus2 %>" width="386" alt="" class="broker-page_bonus-section2_image">
     </div>
@@ -138,9 +139,10 @@
         <% data.empreendimentos.each do |_filename, empreendimento| %>
           <% if empreendimento.file %>
             <div class="houses-section_content_block_item broker-page">
-              <div class="houses-section_content_block_item_image" style="background-image: url('<%= empreendimento.image %>')"></div>
+              <div class="houses-section_content_block_item_image list" style="background-image: url('<%= empreendimento.image %>')"></div>
               <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
-              <div class="houses-section_content_block_item_address broker-page_house-subtitle"><%= empreendimento.subtitle %></div>
+              <% condominio = @app.data.condominios.find { |_filename, condominio| empreendimento.condominio == condominio.title } %>
+              <div class="houses-section_content_block_item_address broker-page_house-subtitle"><%= condominio[1].title %></div>
               <a
                 data-w-id="6a0f4f2d-897d-206f-d18d-ac0e1b7e6f4b"
                 href="#"
@@ -200,6 +202,22 @@
       });
     });
 
+  </script>
+
+  <script>
+    const link = document.querySelector('.broker-page_video-section_video_link');
+    const video = document.querySelector('.embedly-embed');
+    const close = document.querySelector('.youtube-modal_close');
+
+    const originalSrc = video.src;
+
+    link.addEventListener('click', function (event) {
+      video.src = `${originalSrc}&autoplay=true`;
+    });
+
+    close.addEventListener('click', function (event) {
+      video.src = originalSrc;
+    });
   </script>
 </body>
 </html>

@@ -158,7 +158,7 @@
 
   <% if condominio %>
     <div class="house-page_-condominium-section">
-      <div class="house-page_-condominium-section_intro" style="linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('<%= condominio.image %>')">
+      <div class="house-page_-condominium-section_intro" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('<%= condominio.image %>')">
         <div class="container">
           <div class="house-page_-condominium-section_intro_content">
             <div class="house-page_-condominium-section_intro_content_left">
@@ -219,7 +219,7 @@
     <div class="container">
       <h2 class="house-page_contact-section_h2">Vamos <strong class="semi-bold">conversar?</strong></h2>
       <div class="house-page_contact-section_subtitle">Fale diretamente com nossos consultores, a qualquer momento.</div>
-      <div class="house-page_contact-section_buttons-box"><a href="https://api.whatsapp.com/send?phone=<%= whatsappize(data.settings.infos.whatsapp) %>&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="button pink w-button">Enviar mensagem pelo WhatsApp</a><a href="mailto:comercial@ckarquitetura.com?subject=Contato%20Site" class="button pink fill margin-left w-button">Entrar em contato pelo e-mail</a></div>
+      <div class="house-page_contact-section_buttons-box"><a href="https://api.whatsapp.com/send?phone=<%= whatsappize(data.settings.infos.whatsapp_empreendimentos) %>&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="button pink w-button">Enviar mensagem pelo WhatsApp</a><a href="mailto:comercial@ckarquitetura.com?subject=Contato%20Site" class="button pink fill margin-left w-button">Entrar em contato pelo e-mail</a></div>
     </div>
   </div>
 
@@ -229,5 +229,21 @@
   <%= partial "partials/scripts" %>
 
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <script>
+    const link = document.querySelector('.broker-page_video-section_video_link');
+    const video = document.querySelector('.embedly-embed');
+    const close = document.querySelector('.youtube-modal_close');
+
+    const originalSrc = video.src;
+
+    link.addEventListener('click', function (event) {
+      video.src = `${originalSrc}&autoplay=true`;
+    });
+
+    close.addEventListener('click', function (event) {
+      video.src = originalSrc;
+    });
+  </script>
 </body>
 </html>

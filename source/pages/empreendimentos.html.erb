@@ -84,7 +84,8 @@
           <div class="houses-section_content_block_item broker-page">
             <div class="houses-section_content_block_item_image list" style="background-image: url('<%= empreendimento.image %>')"></div>
             <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
-            <div class="houses-section_content_block_item_address">Aspen Mountain</div>
+            <% condominio = @app.data.condominios.find { |_filename, condominio| empreendimento.condominio == condominio.title } %>
+            <div class="houses-section_content_block_item_address"><%= condominio[1].title %></div>
             <div class="houses-section_content_block_item_city"><%= empreendimento.city %></div>
             <a data-w-id="6a0f4f2d-897d-206f-d18d-ac0e1b7e6f4b" href="/empreendimento/<%= empreendimento.title.parameterize %>" class="button w-button">Ver mais detalhes</a>
           </div>
