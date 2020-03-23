@@ -1008,10 +1008,9 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
 
 .news-section_list_item {
   margin-right: 45px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 270px;
-  -ms-flex: 0 270px;
-  flex: 0 270px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 270px;
   color: #221f20;
   text-decoration: none;
 }

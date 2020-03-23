@@ -37,7 +37,7 @@
       <div class="footer_content_right">
         <div class="footer_links">
           <% data.settings.navfooter.items.each do |item| %>
-            <a href="<%= item.path %>" class="footer_links_item"><%= item.label %></a>
+            <a href="<%= item.path %>" class="footer_links_item" target="<%= '_blank' if item.tab %>"><%= item.label %></a>
           <% end %>
         </div>
         <div class="footer_contact">

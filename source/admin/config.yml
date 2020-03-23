@@ -487,3 +487,4 @@ collections:
             fields:
               - {label: Título, name: label, widget: string}
               - {label: Caminho, name: path, widget: string}
+              - {label: Nova aba?, name: tab, widget: boolean}
