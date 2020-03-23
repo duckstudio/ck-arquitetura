@@ -3464,7 +3464,8 @@ html.w-mod-js *[data-ix="scrollfadein"] {
     flex-basis: 280px;
   }
   .houses-section_content_block_item_image {
-    height: 300px;
+    height: auto;
+    padding-top: 56.25%;
   }
   .houses-section_content_block_item_h3 {
     margin-top: 10px;
