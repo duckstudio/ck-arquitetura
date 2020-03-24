@@ -9,4 +9,33 @@ text: >-
   e energia que dedica a seus próprios projetos, realiza projetos arquitetônicos
   e de design de interiores personalizados.
 title_testimonials: DEPOIMENTOS
-items: []
+items:
+  - title: Marcelo Leal
+    text: >-
+      A Arq. Charlene sempre foi muito responsável, dedicada, profissional
+      exemplar e sempre me auxiliou em minhas duvidas. Hoje somam sete projetos
+      que já realizei com ela. Tudo que combinamos sempre foi além do que eu
+      esperava.
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/v1581750368/icone5_nmmgph.svg
+  - title: Michele Schneider
+    text: >+
+      A Arq, Charlene desenvolveu nosso projeto com excelência, atendendo todas
+      nossas necessidades e criando o projeto perfeito.  Somos muito gratos à
+      Charlene, pois fez parte da realização de nosso maior sonho, que foi a
+      construção de nossa casa.  Além de ter cumprido com suas obrigações,
+      enquanto arquiteta contratada,  sempre foi muito humana, preocupada com
+      nosso bem estar, atenciosa e presente durante todo o processo de
+      desenvolvimento do projeto, execução da obra e mesmo depois de tudo
+      pronto. 
+
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_60,q_auto,w_60/v1581750368/icone5_nmmgph.svg
+  - title: ' Beibi Daiana Lamb'
+    text: >
+      Pelo fato de conhecer seus projetos e sua excelente qualidade, contratamos
+      a Arq. Charlene para um segundo projeto.  Sempre foi muito disposta, nos
+      atendeu de forma excepcional e de um profissionalismo impar, o que condiz
+      com a qualidade de seu trabalho. 
+    image: >-
+      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_60,q_auto,w_60/v1581750368/icone5_nmmgph.svg
