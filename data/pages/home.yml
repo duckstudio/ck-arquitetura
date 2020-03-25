@@ -17,7 +17,7 @@ sustentabilidade:
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/iluminacaonatural_eaeqap.jpg
       internal_icon: >-
         https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/iluminacaoonatual-verde_kbnrfk.png
-      text: >-
+      text: >
         As casas são projetadas para obter o máximo de 
 
         iluminação natural, gerando significativa redução de consumo de energia,
@@ -112,18 +112,18 @@ sustentabilidade:
 midia:
   items:
     - link: 'https://www.archdaily.com.br/br/930443/casa-serena-studio-ck-arquitetura'
-      title: A CK na plataforma internacional Arch Daily
+      title: Arch Daily
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701416/Midia/83653877_820193241740128_4319796927139938304_o.jpg_aanzah.jpg
     - image: >-
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844622/Midia/gentequefaz_xh278n.jpg
       link: 'https://pt.calameo.com/read/000607875782054f53210'
-      title: Revista Gente que Faz - Ano 10 nº 44
+      title: Revista Gente que Faz
     - link: 'https://www.instagram.com/p/B6a0YsHFJAC/'
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_250/c_crop,f_auto,h_250,q_auto,w_270/v1584702482/Midia/83469764_821728814919904_7101291874870099968_o.jpg_s5aram.jpg
-      title: Reconhecimento Internacional - Amazing.Architecture
-    - title: Glass Gold Edition- 12/2019
+      title: Amazing.Architecture
+    - title: Guia Glass Gold Edition
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584703916/Midia/71538380_187803695597120_2263105420265240435_n_gv5n3e.jpg
       link: '#'
@@ -132,7 +132,7 @@ midia:
       link: 'https://www.instagram.com/p/BxaQrJGnMNZ/'
       title: Livro Gramado de Leonid Streliaev
     - link: 'https://www.facebook.com/ArchiDesiign/posts/2084106181744626'
-      title: Reconhecimento Internacional Archi Desiign
+      title: Architecture & Design
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701268/Midia/83929776_824158608010258_1720518698541776896_o.jpg_l22jsw.jpg
     - image: >-
@@ -143,8 +143,8 @@ midia:
     - image: >-
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844472/Midia/WhatsApp-Image-2018-06-07-at-08.44.27_mfhsgy.jpg
       link: '#'
-      title: 'Guia Glass Edição Select - 10/2017 '
+      title: Guia Glass Edição Select
     - link: 'https://www.facebook.com/AAmazingAArchitecture/posts/2494450194015568'
-      title: Reconhecimento Internacional - Amazing Architecture
+      title: Amazing Architecture
       image: >-
         https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701634/Midia/86369755_829439460815506_2248211969804861440_o.jpg_gbmp2x.jpg
