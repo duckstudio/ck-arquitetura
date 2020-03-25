@@ -61,7 +61,7 @@
       </div>
       <h2 class="download-modal_h2">baixe o material completo deste empreendimento</h2>
       <div class="form-block w-form">
-        <form name="corretor" class="form-block_form" netlify>
+        <form name="corretor" class="form-block_form" data-netlify="true">
           <div class="form-block_form_item">
             <label for="name-3" class="form-block_form_item_label">Nome completo</label>
             <input type="text" class="form-block_form_item_input w-input" maxlength="256" name="name" data-name="name" placeholder="Digite aqui seu nome" id="name-3" required="">
@@ -140,7 +140,7 @@
               <a
                 data-w-id="6a0f4f2d-897d-206f-d18d-ac0e1b7e6f4b"
                 href="#"
-                class="button w-button"
+                class="button w-button download-button"
                 id="download-button"
                 data-empreendimento="<%= empreendimento.title.parameterize %>"
               >
@@ -176,23 +176,22 @@
   <script>
     const emp_files = {
       <% data.empreendimentos.each do |_filename, empreendimento| %>
-        <%= "'#{empreendimento.title.parameterize}': '#{empreendimento.download}'" if empreendimento.download %>
+        <%= "'#{empreendimento.title.parameterize}': '#{empreendimento.download}'," if empreendimento.download %>
       <% end %>
     };
 
-    const button = document.getElementById("download-button");
-    const button2 = document.getElementById("download-button-2");
-    const form = document.getElementById("email-form");
-
-    button.addEventListener('click', function (event) {
+    $('.download-button').click(function(event) {
       const empreendimento = event.target.dataset.empreendimento;
 
-      button2.href = emp_files[empreendimento];
-
-      button2.addEventListener('click', function (event) {
-        event.preventDefault();
+      $('#download-button-2').click(function(e) {
+        e.preventDefault();
         window.open(emp_files[empreendimento]);
-        form.submit();
+
+        var $form = $('#email-form');
+
+        $.post($form.attr("action"), $form.serialize()).then(function() {
+          console.log("Enviado");
+        });
       });
     });
 
