@@ -1426,7 +1426,7 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 85%;
+  height: 55vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1434,9 +1434,8 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   flex-direction: column;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/casa-bg.png');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/casa-bg.png');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-attachment: scroll, fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .house-page_hero_main {
