@@ -92,6 +92,10 @@ image_sections:
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7509_cfwizc.jpg
       - image: >-
           https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7502_fwduja.jpg
+  - title: VISTAS EXTERNAS
+    images:
+      - image: >-
+          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584364176/Casa%20Serena/Sereana_novo_e-mail_xlfmoe.jpg
 plants:
   - title: Planta Térreo
     image: >-
