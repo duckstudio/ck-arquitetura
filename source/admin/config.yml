@@ -488,3 +488,15 @@ collections:
               - {label: Título, name: label, widget: string}
               - {label: Caminho, name: path, widget: string}
               - {label: Nova aba?, name: tab, widget: boolean}
+
+      - file: data/settings/navheader.yml
+        label: Menu Cabeçalho
+        name: navheader
+        fields:
+          - label: Items
+            name: items
+            widget: list
+            fields:
+              - {label: Título, name: label, widget: string}
+              - {label: Caminho, name: path, widget: string}
+              - {label: Nova aba?, name: tab, widget: boolean}
