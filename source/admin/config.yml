@@ -487,7 +487,7 @@ collections:
             fields:
               - {label: Título, name: label, widget: string}
               - {label: Caminho, name: path, widget: string}
-              - {label: Nova aba?, name: tab, widget: boolean}
+              - {label: Nova aba?, name: tab, widget: boolean, required: false}
 
       - file: data/settings/navheader.yml
         label: Menu Cabeçalho
@@ -499,4 +499,4 @@ collections:
             fields:
               - {label: Título, name: label, widget: string}
               - {label: Caminho, name: path, widget: string}
-              - {label: Nova aba?, name: tab, widget: boolean}
+              - {label: Nova aba?, name: tab, widget: boolean, required: false}
