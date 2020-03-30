@@ -2915,6 +2915,14 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   text-transform: uppercase;
 }
 
+.houses-section_h2 p {
+  font-family: 'Noyh Geometric Slim', sans-serif;
+  color: #a07987;
+  font-size: 46px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 .sustainability_section_gallery_item_modal_logo {
   position: absolute;
   left: auto;

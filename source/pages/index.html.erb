@@ -121,7 +121,7 @@
 
     <div id="houses-section" class="houses-section" data-ix="scrollfadein">
       <div class="container">
-        <h2 class="houses-section_h2"><strong>Nossa seleção de</strong> casas de luxo</h2>
+        <h2 class="houses-section_h2"><%= markdown(data.pages.home.title_empreendimentos) %></h2>
         <div class="houses-section_content">
           <% data.empreendimentos.each do |_filename, empreendimento| %>
             <% condominio = data.condominios.find {|_filename, condominio| empreendimento.condominio == condominio.title} %>
