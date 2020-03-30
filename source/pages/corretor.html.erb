@@ -61,7 +61,7 @@
       </div>
       <h2 class="download-modal_h2">baixe o material completo deste empreendimento</h2>
       <div class="form-block w-form">
-        <form name="corretor" method="POST" class="form-block_form" data-netlify="true">
+        <form name="corretor" action="" method="POST" class="form-block_form" data-netlify="true">
           <div class="form-block_form_item">
             <label for="name-3" class="form-block_form_item_label">Nome completo</label>
             <input type="text" class="form-block_form_item_input w-input" maxlength="256" name="name" data-name="name" placeholder="Digite aqui seu nome" id="name-3" required="">
@@ -185,9 +185,10 @@
 
       $('#download-button-2').click(function(e) {
         e.preventDefault();
-        window.open(emp_files[empreendimento]);
 
         var $form = $('#email-form');
+
+        $form.attr('action', emp_files[empreendimento]);
 
         $.post($form.attr("action"), $form.serialize()).then(function() {
           console.log("Enviado");
