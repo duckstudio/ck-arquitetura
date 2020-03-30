@@ -184,6 +184,10 @@
 
     $('.download-button').click(function(event) {
       empreendimento = event.target.dataset.empreendimento;
+
+      if (localStorage.getItem('formcorretor') === 'true') {
+        window.open(emp_files[empreendimento]);
+      }
     });
 
     $("#corretor").submit(function(e) {
@@ -191,6 +195,7 @@
 
       var $form = $(this);
       $.post($form.attr("action"), $form.serialize()).then(function() {
+        localStorage.setItem('formcorretor', 'true');
         window.open(emp_files[empreendimento]);
       });
     });
