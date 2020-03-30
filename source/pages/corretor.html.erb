@@ -61,7 +61,7 @@
       </div>
       <h2 class="download-modal_h2">baixe o material completo deste empreendimento</h2>
       <div class="form-block w-form">
-        <form name="corretor" action="" method="POST" class="form-block_form" data-netlify="true">
+        <form id="corretor" name="corretor" method="POST" class="form-block_form" data-netlify="true">
           <div class="form-block_form_item">
             <label for="name-3" class="form-block_form_item_label">Nome completo</label>
             <input type="text" class="form-block_form_item_input w-input" maxlength="256" name="name" data-name="name" placeholder="Digite aqui seu nome" id="name-3" required="">
@@ -75,7 +75,7 @@
             <div class="form-block_form_item"><label for="phone" class="form-block_form_item_label">Telefone</label><input type="tel" class="form-block_form_item_input w-input" maxlength="256" name="phone" data-name="phone" placeholder="Digite o seu telefone" id="phone" required=""></div>
           </div>
           <div class="download-button_align">
-            <button class="button pink w-button" id="download-button-2">Baixar</button>
+            <button type="submit" class="button pink w-button" id="download-button-2">Baixar</button>
           </div>
         </form>
       </div>
@@ -183,17 +183,7 @@
     $('.download-button').click(function(event) {
       const empreendimento = event.target.dataset.empreendimento;
 
-      $('#download-button-2').click(function(e) {
-        e.preventDefault();
-
-        var $form = $('#email-form');
-
-        $form.attr('action', emp_files[empreendimento]);
-
-        $.post($form.attr("action"), $form.serialize()).then(function() {
-          console.log("Enviado");
-        });
-      });
+      $('#corretor').attr('action', emp_files[empreendimento]);
     });
 
   </script>
