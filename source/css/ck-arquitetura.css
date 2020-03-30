@@ -581,9 +581,10 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
 }
 
 .houses-section_content_block_item_image.list {
-  height: 590px;
   background-position: 50% 50%;
   background-size: cover;
+  height: auto;
+  padding-top: 56.25%;
 }
 
 .houses-section_content_block_item_h3 {
