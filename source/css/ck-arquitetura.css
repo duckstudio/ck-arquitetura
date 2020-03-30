@@ -2951,6 +2951,10 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   display: block;
 }
 
+.hero-section_content_title-box_main, .hero-section_content_title-box_main p {
+  color: white;
+}
+
 html.w-mod-js *[data-ix="scrollfadein"] {
   opacity: 0;
 }
