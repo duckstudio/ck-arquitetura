@@ -7,6 +7,7 @@ hero:
   video: >-
     https://res.cloudinary.com/duckck/video/upload/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
 empreendimento: Casa Serena
+title_empreendimentos: '**Nossa Coleção de** Casas de Luxo'
 sustentabilidade:
   items:
     - bottom: false
