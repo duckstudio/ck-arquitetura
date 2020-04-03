@@ -12,8 +12,12 @@
         <img src="/images/dropdown-arrow.svg" width="18" alt="" class="navbar_menu-mobile_links_dropdown_trigger_icon">
       </div>
       <div class="navbar_menu-mobile_links_dropdown_menu">
-        <% data.empreendimentos.each do |_filename, empreendimento| %>
-          <a href="/empreendimento/<%= empreendimento.title.parameterize %>" class="navbar_menu-mobile_links_item dropdown"><%= empreendimento.title %></a>
+        <% data.settings.navemp.items.each do |item| %>
+          <% empreendimento = data.empreendimentos.find do |_filename, empreendimento| %>
+            <% item.empreendimento.parameterize == empreendimento.title.parameterize %>
+          <% end %>
+
+          <a href="/empreendimento/<%= empreendimento[1].title.parameterize %>" class="navbar_menu-mobile_links_item dropdown"><%= empreendimento[1].title %></a>
         <% end %>
       </div>
     </div>
