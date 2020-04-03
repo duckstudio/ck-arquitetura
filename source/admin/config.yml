@@ -506,6 +506,18 @@ collections:
         label: Menu Empreendimentos
         name: navemp
         fields:
+          - label: Imagem
+            name: image
+            widget: image
+            hint: Tamanho ideal 320x500
+            media_library:
+              config:
+                default_transformations:
+                  - - fetch_format: auto
+                      width: 320
+                      height: 500
+                      quality: auto
+                      crop: crop
           - label: Items
             name: items
             widget: list
