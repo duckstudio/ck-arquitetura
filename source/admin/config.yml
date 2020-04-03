@@ -501,3 +501,18 @@ collections:
               - {label: Título, name: label, widget: string}
               - {label: Caminho, name: path, widget: string}
               - {label: Nova aba?, name: tab, widget: boolean, required: false}
+
+      - file: data/settings/navemp.yml
+        label: Menu Empreendimentos
+        name: navemp
+        fields:
+          - label: Items
+            name: items
+            widget: list
+            fields:
+              - label: Empreendimento
+                name: empreendimento
+                widget: relation
+                collection: empreendimentos
+                valueField: "title"
+                searchFields: ["title"]
