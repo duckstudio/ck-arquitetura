@@ -31,6 +31,7 @@ after_configuration do
   end
   proxy "/index.html", "/pages/index.html", locals: {empreendimento: empreendimento ? empreendimento[1] : nil}, ignore: true
   proxy "/contato.html", "/pages/contato.html", ignore: true
+  proxy "/obrigado.html", "/pages/obrigado.html", ignore: true
   proxy "/corretor.html", "/pages/corretor.html", ignore: true
   proxy "/empreendimentos.html", "/pages/empreendimentos.html", ignore: true
   proxy "/institucional.html", "/pages/institucional.html", ignore: true
