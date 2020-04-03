@@ -2,9 +2,9 @@ image: >-
   https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_500,q_auto,w_320/v1585915109/casa1.1_xviqrw.jpg
 items:
   - empreendimento: 'Casa Serena '
-  - empreendimento: Lote 003 -Alphaville
+  - empreendimento: Casa Doce Vida
   - empreendimento: Casa Punta
-  - empreendimento: Lote 004 -Alphaville
   - empreendimento: Casa Alegria
   - empreendimento: Casa Paraíso
-  - empreendimento: Casa Doce Vida
+  - empreendimento: Lote 003 -Alphaville
+  - empreendimento: Lote 004 -Alphaville
