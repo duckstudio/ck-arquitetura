@@ -246,6 +246,7 @@ a {
   line-height: 5vw;
   font-weight: 100;
   text-transform: uppercase;
+  opacity: 0;
 }
 
 .hero-section_content_scroll-box_content_arrow-box {
