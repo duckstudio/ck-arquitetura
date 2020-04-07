@@ -2999,6 +2999,10 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   display: block;
 }
 
+.houses-section_h2 p {
+  line-height: 38px;
+}
+
 .hero-section_content_title-box_main, .hero-section_content_title-box_main p {
   color: white;
 }
@@ -3529,6 +3533,8 @@ html.w-mod-js *[data-ix="scrollfadein"] {
   }
   .houses-section_content_block_item_h3 {
     margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .houses-section_scroll {
     display: none;
@@ -3980,6 +3986,23 @@ html.w-mod-js *[data-ix="scrollfadein"] {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+  }
+
+  .houses-section_content_block_item_address {
+    margin-bottom: 2px;
+    opacity: 0.4;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .houses-section_h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .houses-section_content_block_item_city {
+      padding-left: 20px;
+      padding-right: 20px;
   }
 }
 
