@@ -6,7 +6,7 @@ items:
   - label: A CK Arquitetura
     path: /institucional
   - label: Corretores
-    path: /corretor
+    path: /corretores
   - label: Contato
     path: /contato
   - label: O melhor de Gramado

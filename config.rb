@@ -32,7 +32,7 @@ after_configuration do
   proxy "/index.html", "/pages/index.html", locals: {empreendimento: empreendimento ? empreendimento[1] : nil}, ignore: true
   proxy "/contato.html", "/pages/contato.html", ignore: true
   proxy "/obrigado.html", "/pages/obrigado.html", ignore: true
-  proxy "/corretor.html", "/pages/corretor.html", ignore: true
+  proxy "/corretores.html", "/pages/corretor.html", ignore: true
   proxy "/empreendimentos.html", "/pages/empreendimentos.html", ignore: true
   proxy "/institucional.html", "/pages/institucional.html", ignore: true
   proxy "/politicas-de-privacidade-e-termos-de-uso.html", "/pages/politicas-de-privacidade-e-termos-de-uso.html", ignore: true

@@ -6,7 +6,7 @@ items:
     path: /institucional
     tab: false
   - label: Corretores
-    path: /corretor
+    path: /corretores
     tab: false
   - label: Contato
     path: /contato
