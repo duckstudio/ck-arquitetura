@@ -19,3 +19,6 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557577/Terenos%20Alphaville/Imagem3_apjslg.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557458/Terenos%20Alphaville/Lote_02_03_Alphaville_1_tmkxwo.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557458/Terenos%20Alphaville/Lote_02_03_Alphaville_2_c0rvi3.jpg
+plants:
+  - title: Planta Terreno
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1586785647/Terenos%20Alphaville/Mapalotesalphaville_remcyz.jpg
