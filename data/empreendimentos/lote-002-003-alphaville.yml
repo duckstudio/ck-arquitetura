@@ -1,25 +1,21 @@
 title: Lote 003 -Alphaville
 subtitle: Quadra L
 city: Gramado
-image: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1584559002/Terenos%20Alphaville/Imagem44_uu0q04.png
+image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1584559002/Terenos%20Alphaville/Imagem44_uu0q04.png
+highlight_images:
+  - image: https://res.cloudinary.com/duckck/image/upload/v1586785647/Terenos%20Alphaville/Mapalotesalphaville_remcyz.jpg
 highlight_text: Terreno de 1000 m²
-status: Terreno
+status: Terreno de 1000 m²
 show_reasons: false
 text: Uma das melhores vistas de Gramado...
 condominio: Alphaville Gramado
-background_video: >-
-  https://res.cloudinary.com/duckck/video/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1584558122/Terenos%20Alphaville/Terrenos_Alphaville15seg_zmzn4h.mp4
+background_video: https://res.cloudinary.com/duckck/video/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1584558122/Terenos%20Alphaville/Terrenos_Alphaville15seg_zmzn4h.mp4
 youtube_video: H46p9ExHTiE
-download: 'https://drive.google.com/open?id=1uNK2aXq65hFXPS6FfZXRZZ2lpIdPQU8p'
+download: https://drive.google.com/open?id=1uNK2aXq65hFXPS6FfZXRZZ2lpIdPQU8p
 image_sections:
   - title: Imagens
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557577/Terenos%20Alphaville/Imagem4_htjjgt.png
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557577/Terenos%20Alphaville/Imagem3_apjslg.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557458/Terenos%20Alphaville/Lote_02_03_Alphaville_1_tmkxwo.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557458/Terenos%20Alphaville/Lote_02_03_Alphaville_2_c0rvi3.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557577/Terenos%20Alphaville/Imagem4_htjjgt.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557577/Terenos%20Alphaville/Imagem3_apjslg.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557458/Terenos%20Alphaville/Lote_02_03_Alphaville_1_tmkxwo.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584557458/Terenos%20Alphaville/Lote_02_03_Alphaville_2_c0rvi3.jpg
