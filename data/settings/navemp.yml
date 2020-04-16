@@ -1,10 +1,10 @@
-image: >-
-  https://res.cloudinary.com/duckck/image/upload/c_scale,w_500/c_crop,f_auto,h_500,q_auto,w_320/v1585928958/Casa%20Serena/md2019_07_09-180821-HDR-2_oygjqg.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_500/c_crop,f_auto,h_500,q_auto,w_320/v1585928958/Casa%20Serena/md2019_07_09-180821-HDR-2_oygjqg.jpg
 items:
-  - empreendimento: 'Casa Serena '
+  - empreendimento: "Casa Serena "
   - empreendimento: Casa Doce Vida
   - empreendimento: Casa Punta
   - empreendimento: Casa Alegria
   - empreendimento: Casa Paraíso
   - empreendimento: Lote 003 -Alphaville
   - empreendimento: Lote 004 -Alphaville
+  - empreendimento: Aniverário Solidário
