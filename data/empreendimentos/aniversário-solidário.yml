@@ -5,7 +5,7 @@ image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_aut
 highlight_images: []
 highlight_text: Aniversário Solidario
 status: Casas Prontas, Projetos e Terrenos
-show_reasons: false
+show_reasons: true
 text: Aniversário Solidario
 condominio: Gramado
 details:
