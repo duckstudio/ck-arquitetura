@@ -123,7 +123,10 @@
       <div class="container">
         <h2 class="houses-section_h2"><%= markdown(data.pages.home.title_empreendimentos) %></h2>
         <div class="houses-section_content">
-          <% data.empreendimentos.each do |_filename, empreendimento| %>
+          <% data.settings.navemp.items.each do |item| %>
+            <% empreendimento = data.empreendimentos.find do |_filename, empreendimento| %>
+              <% item.empreendimento.parameterize == empreendimento.title.parameterize %>
+            <% end[1] %>
             <% condominio = data.condominios.find {|_filename, condominio| empreendimento.condominio == condominio.title} %>
             <a href="/empreendimento/<%= empreendimento.title.parameterize %>" class="houses-section_content_block_item w-inline-block">
               <div class="houses-section_content_block_item_image" style="background-image: url('<%= empreendimento.image %>')"></div>
