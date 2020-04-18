@@ -169,31 +169,33 @@
           </div>
         </div>
       </div>
-      <div class="house-page_-condominium-section_list-block">
-        <div class="container">
-          <% condominio.sections.each_with_index do |section, index| %>
-            <div class="house-page_about-section_block_item<%= index.even? ? '' : ' invert' %>">
-              <div class="house-page_about-section_block_left">
-                <h2 class="house-page_-condominium-section_list-block_h2"><%= section.title %></h2>
+      <% if condominio.sections %>
+        <div class="house-page_-condominium-section_list-block">
+          <div class="container">
+            <% condominio.sections.each_with_index do |section, index| %>
+              <div class="house-page_about-section_block_item<%= index.even? ? '' : ' invert' %>">
+                <div class="house-page_about-section_block_left">
+                  <h2 class="house-page_-condominium-section_list-block_h2"><%= section.title %></h2>
 
-                <% if section.datails %>
-                  <% section.details.each_with_index do |detail, index| %>
-                    <div class="house-page_about-section_link">
-                      <img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon">
-                      <div class="house-page_about-section_link_text"><%= detail.text %></div>
+                  <% if section.datails %>
+                    <% section.details.each_with_index do |detail, index| %>
+                      <div class="house-page_about-section_link">
+                        <img src="/images/ck-simbolo.svg" width="20" alt="" class="house-page_about-section_link_icon">
+                        <div class="house-page_about-section_link_text"><%= detail.text %></div>
 
-                      <% if index == 0 %>
-                        <div class="house-page_about-section_link_line"></div>
-                      <% end %>
-                    </div>
+                        <% if index == 0 %>
+                          <div class="house-page_about-section_link_line"></div>
+                        <% end %>
+                      </div>
+                    <% end %>
                   <% end %>
-                <% end %>
+                </div>
+                <div class="house-page_about-section_block_photo _1" style="background-image: url('<%= section.image %>')"></div>
               </div>
-              <div class="house-page_about-section_block_photo _1" style="background-image: url('<%= section.image %>')"></div>
-            </div>
-          <% end %>
+            <% end %>
+          </div>
         </div>
-      </div>
+      <% end %>
     </div>
   <% end %>
 
