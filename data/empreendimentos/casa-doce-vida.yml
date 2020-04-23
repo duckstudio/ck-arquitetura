@@ -1,114 +1,96 @@
-image_list: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584040176/Doce%20Vida/EmpreendiemntoCasaDoceVida_kvebqs.jpg
+image_list: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584040176/Doce%20Vida/EmpreendiemntoCasaDoceVida_kvebqs.jpg
 title: Casa Doce Vida
 subtitle: Pra Viver de Bem com a Vida
 city: Gramado
-image: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1584039505/Doce%20Vida/Doce_Vida_03_mh8l3i.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1587669301/Doce%20Vida/GSM_0321_gi4a0c.jpg
 highlight_images:
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584039505/Doce%20Vida/Doce_Vida_03_mh8l3i.jpg
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584039505/Doce%20Vida/Doce_Vida_04_ecnsrh.jpg
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584039504/Doce%20Vida/Doce_Vida_01_y800js.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1587669299/Doce%20Vida/GSM_0339_cagnyi.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1587669301/Doce%20Vida/GSM_0344_iust9o.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1587669301/Doce%20Vida/GSM_0418_micrzw.jpg
 highlight_text: |-
   588m² de área construída\
   que refletem toda a inspiração contemporânea \
   de nossa arquitetura
 status: Pronta para Morar
 show_reasons: false
-text: >-
-  Com 4 suítes, amplo espaço privativo, a casa Doce Vida se destaca pelos
+text: Com 4 suítes, amplo espaço privativo, a casa Doce Vida se destaca pelos
   grandes espaços de convivência social, com grande cozinha e espaço gourmet
   diferenciado, a casa foi pensada para viver magníficos momentos em família e
   com amigos
 condominio: Condomínio Aspen Mountain
 details:
-  - title: >-
-      Casa de altissimo padrão, com área construída de 588m² em amplo terreno de
-      800m² com frondosas araucárias
+  - title: Casa de altissimo padrão, com área construída de 588m² em amplo terreno
+      de 800m² com frondosas araucárias
   - title: Hall de entrada integrado a ampla e aconchegante sala de estar com lareira
-  - title: '4 Suites, incluindo banheira de hidromassagem dupla na suíte master'
+  - title: 4 Suites, incluindo banheira de hidromassagem dupla na suíte master
   - title: Ampla sala de estar com lareira externa e interna
   - title: Suaves espelhos d'agua na fachada frontal
   - title: Moderno elevador Shcindler em todos os andares
-background_video: >-
-  https://res.cloudinary.com/duckck/video/upload/v1584451405/Doce%20Vida/Doce_Vida15seg_sf8lvb.mp4
+background_video: https://res.cloudinary.com/duckck/video/upload/v1584451405/Doce%20Vida/Doce_Vida15seg_sf8lvb.mp4
 youtube_video: KGhE2yUoaNw
-download: 'https://drive.google.com/open?id=1Lz2feLoAZgtX5VloXgRWDF63uFr9lgd_'
+download: https://drive.google.com/open?id=1Lz2feLoAZgtX5VloXgRWDF63uFr9lgd_
 image_sections:
   - title: EXTERNAS
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039504/Doce%20Vida/Doce_Vida_02_njpqrh.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039504/Doce%20Vida/Doce_Vida_01_y800js.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039505/Doce%20Vida/Doce_Vida_05_hvfzuc.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669299/Doce%20Vida/GSM_0339_cagnyi.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669297/Doce%20Vida/GSM_0281_ltukxd.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669301/Doce%20Vida/GSM_0344_iust9o.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669311/Doce%20Vida/GSM_0511_flszzw.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669312/Doce%20Vida/GSM_0515_n7oxr2.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669313/Doce%20Vida/GSM_0556_yjlheb.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669285/Doce%20Vida/GSM_0201_logqtl.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669286/Doce%20Vida/GSM_0220_sdvrfa.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669304/Doce%20Vida/GSM_0443_faegle.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669318/Doce%20Vida/GSM_0593_ocbndl.jpg
   - title: SALA DOS AMIGOS
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039505/Doce%20Vida/interna1_xrxtih.jpg
-  - title: PARRILLA DO CHEF
-    images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039506/Doce%20Vida/interna6_rqzhhh.jpg
-  - title: SALA DA PIPOCA
-    images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039505/Doce%20Vida/interna3_wumji8.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669310/Doce%20Vida/GSM_0498_qil2ui.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669309/Doce%20Vida/GSM_0449_oiha0t.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669306/Doce%20Vida/GSM_0476_q19ld3.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669305/Doce%20Vida/GSM_0472_jwiuxl.jpg
   - title: MIRANTE PÔR DO SOL
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039506/Doce%20Vida/interna4_ztq4hn.jpg
-  - title: SUÍTE DOCE AMOR
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669312/Doce%20Vida/GSM_0531_zc4bps.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669316/Doce%20Vida/GSM_0550_j4qhnv.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669309/Doce%20Vida/GSM_0493_ml0hk5.jpg
+  - title: Espaço Relax
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039505/Doce%20Vida/interna2_rmzd9j.jpg
-  - title: ESPAÇO DIVERSÃO GARANTIDA
-    images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584039506/Doce%20Vida/interna5_lmkz84.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669308/Doce%20Vida/GSM_0483_rrhjaq.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669308/Doce%20Vida/GSM_0485_xbsxpa.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669307/Doce%20Vida/GSM_0480_rzrv7e.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669316/Doce%20Vida/GSM_0581_jjhyxw.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669316/Doce%20Vida/GSM_0584_dbijnn.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669315/Doce%20Vida/GSM_0574_h2tytk.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669318/Doce%20Vida/GSM_0587_paxfyr.jpg
 plants:
   - title: TÉRREO
-    image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584040769/Doce%20Vida/terreo_zzzpu0.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584040769/Doce%20Vida/terreo_zzzpu0.png
   - title: 1º PAVIMENTO
-    image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584040926/Doce%20Vida/1-pavimento_jljki3.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584040926/Doce%20Vida/1-pavimento_jljki3.png
   - title: SUBSOLO
-    image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584040825/Doce%20Vida/Subsolo_h3dyic.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584040825/Doce%20Vida/Subsolo_h3dyic.png
 more_details:
   - title: Elegante espaço gourmet com churrasqueira e bar
-  - title: >-
-      Cozinha integrada com espaço relax, com SPA e deck integrados a sala de
+  - title: Cozinha integrada com espaço relax, com SPA e deck integrados a sala de
       reiniões da família
   - title: Espaçosos decks externos
   - title: Adega goumert com parrilleiro
   - title: Ampla garagem para 2 carros
-  - title: >-
-      Extensa área de preservação ambiental de mata nativa integrada a
+  - title: Extensa área de preservação ambiental de mata nativa integrada a
       propriedade
-  - title: >-
-      Diferenciação nas portas internas com 2,5m de altura e exclusivas brises
+  - title: Diferenciação nas portas internas com 2,5m de altura e exclusivas brises
       em alumínio no piso superior
-  - title: 'Pisos aquecidos em todas a casa, e aspiração central instalada'
-  - title: >-
-      Durabilidade e conforto acústico e térmico com esquadrias de pvc e vidros
+  - title: Pisos aquecidos em todas a casa, e aspiração central instalada
+  - title: Durabilidade e conforto acústico e térmico com esquadrias de pvc e vidros
       duplos
-  - title: 'Chapelaria, adega e sala dos amigos'
-  - title: 'Totalmente projetada para automação via internet '
-  - title: >-
-      Entregue com exclusiva escultura artística do casa proprietário no mirante
-      do sol
-  - title: 'Corrimãos internos e externos em vidro temperado '
+  - title: Chapelaria, adega e sala dos amigos
+  - title: "Totalmente projetada para automação via internet "
+  - title: Entregue com exclusiva escultura artística do casa proprietário no
+      mirante do sol
+  - title: "Corrimãos internos e externos em vidro temperado "
   - title: Sustentabilidade plena com uso de energia 100% limpa
   - title: Compensação do carbono gerado na obra
   - title: coleta e reaproveitamento de água da chuva
-  - title: >-
-      Economia de energia elétrica, pelo design único que utiliza aso máximo a
+  - title: Economia de energia elétrica, pelo design único que utiliza aso máximo a
       ilumunação natural
-file: >-
-  https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584041007/Doce%20Vida/Casa_Doce_Vida_-_Aspen_Mountain_Gramado-_cn6lvi.pdf
+file: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584041007/Doce%20Vida/Casa_Doce_Vida_-_Aspen_Mountain_Gramado-_cn6lvi.pdf
