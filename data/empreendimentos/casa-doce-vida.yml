@@ -42,6 +42,9 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669286/Doce%20Vida/GSM_0220_sdvrfa.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669304/Doce%20Vida/GSM_0443_faegle.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669318/Doce%20Vida/GSM_0593_ocbndl.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669304/Doce%20Vida/GSM_0443_faegle.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669297/Doce%20Vida/GSM_0273_yjs0yi.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669314/Doce%20Vida/GSM_0560_y3tdyq.jpg
   - title: SALA DOS AMIGOS
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669310/Doce%20Vida/GSM_0498_qil2ui.jpg
