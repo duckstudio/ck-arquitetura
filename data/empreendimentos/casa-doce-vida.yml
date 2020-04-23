@@ -45,9 +45,14 @@ image_sections:
   - title: SALA DOS AMIGOS
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669310/Doce%20Vida/GSM_0498_qil2ui.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669309/Doce%20Vida/GSM_0449_oiha0t.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669285/Doce%20Vida/GSM_0387_dqywpg.jpg
+  - title: Sala da Pipoca
+    images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669306/Doce%20Vida/GSM_0476_q19ld3.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669305/Doce%20Vida/GSM_0465_epan4f.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669306/Doce%20Vida/GSM_0475_ok7wt5.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669305/Doce%20Vida/GSM_0472_jwiuxl.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669309/Doce%20Vida/GSM_0449_oiha0t.jpg
   - title: MIRANTE PÔR DO SOL
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1587669312/Doce%20Vida/GSM_0531_zc4bps.jpg
