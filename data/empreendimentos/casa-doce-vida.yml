@@ -2,7 +2,7 @@ image_list: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q
 title: Casa Doce Vida
 subtitle: Pra Viver de Bem com a Vida
 city: Gramado
-image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1587669301/Doce%20Vida/GSM_0321_gi4a0c.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1587669301/Doce%20Vida/GSM_0321_gi4a0c.jpg
 highlight_images:
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1587669299/Doce%20Vida/GSM_0339_cagnyi.jpg
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1587669301/Doce%20Vida/GSM_0344_iust9o.jpg
