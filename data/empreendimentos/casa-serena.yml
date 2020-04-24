@@ -1,148 +1,98 @@
-image_list: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584030879/Casa%20Serena/ImagemListagemSiteSerena_lwds6b.jpg
-title: 'Casa Serena '
-subtitle: 'Mais que um lar, um legado de amor!'
+image_list: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584030879/Casa%20Serena/ImagemListagemSiteSerena_lwds6b.jpg
+title: "Casa Serena "
+subtitle: Mais que um lar, um legado de amor!
 city: Gramado
-image: >-
-  https://res.cloudinary.com/duckck/image/upload/c_thumb,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1584364176/Casa%20Serena/Sereana_novo_e-mail_xlfmoe.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_thumb,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1584364176/Casa%20Serena/Sereana_novo_e-mail_xlfmoe.jpg
 highlight_images:
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581744947/casa1.1_ntuunb.jpg
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581744974/casa2_y2pisi.jpg
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581745002/casa3_ortz2t.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581744947/casa1.1_ntuunb.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581744974/casa2_y2pisi.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1581745002/casa3_ortz2t.jpg
 highlight_text: |-
   Serenidade e Perfeição
 
   Em **Gramado**
 status: Pronta para morar
 show_reasons: false
-text: >-
-  Uma residência perfeita, em um lugar único, para quem deseja investir na sua
-  serenidade e na qualidade de vida de toda a sua família e amigos.
+text: Uma residência perfeita, em um lugar único, para quem deseja investir na
+  sua serenidade e na qualidade de vida de toda a sua família e amigos.
 condominio: Condomínio Aspen Mountain
 details:
   - title: Imóvel com área construída de 531 m²
-  - title: Ampla garagem para até 2 carros
+  - title: Ampla garagem para até 4 carros
   - title: Sala de jantar para até 12 pessoas
-  - title: '4 suítes, incluindo uma banheira de hidromassagem na suíte master'
+  - title: 4 suítes, incluindo uma banheira de hidromassagem na suíte master
   - title: Totalmente projetada para automação por tablet ou smartphone
-  - title: 'Economia e praticidade com calefação em toda casa, incluindo piso aquecido'
-background_video: >-
-  https://res.cloudinary.com/duckck/video/upload/v1584451394/Casa%20Serena/Casa_Serena15segs_tbfe02.mp4
+  - title: Economia e praticidade com calefação em toda casa, incluindo piso aquecido
+background_video: https://res.cloudinary.com/duckck/video/upload/v1584451394/Casa%20Serena/Casa_Serena15segs_tbfe02.mp4
 youtube_video: szt5vSH7Zs8
-download: 'https://drive.google.com/open?id=0B9p9wzX9jilPcW5RbFJpQnFOQ3M'
+download: https://drive.google.com/open?id=0B9p9wzX9jilPcW5RbFJpQnFOQ3M
 image_sections:
   - title: VISTAS EXTERNAS
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584364176/Casa%20Serena/Sereana_novo_e-mail_xlfmoe.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592228/Casa%20Serena/md2019_07_09-182448-HDR_xnmixz.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592233/Casa%20Serena/md2019_07_09-182641-HDR_ffc8xw.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592226/Casa%20Serena/md2019_07_09-182232-HDR_ix0tnc.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592224/Casa%20Serena/md2019_07_09-182007-HDR_vlkusa.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592223/Casa%20Serena/md2019_07_09-181342-HDR_g5m44e.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592222/Casa%20Serena/md2019_07_09-181246-HDR_ad9fe5.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592219/Casa%20Serena/md2019_07_09-142103-HDR_xmgxml.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592220/Casa%20Serena/md2019_07_09-173004-HDR_j31kjm.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592219/Casa%20Serena/md2019_07_09-151411_oiuraa.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592217/Casa%20Serena/md2019_07_09-150905_csejah.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592216/Casa%20Serena/md2019_07_09-150901_wbzt6f.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592215/Casa%20Serena/md2019_07_09-150859_wv1tmb.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592215/Casa%20Serena/md2019_07_09-144103_nsziqi.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592216/Casa%20Serena/md2019_07_09-145056_jpfkcy.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592212/Casa%20Serena/md2019_07_09-142558_gqok7a.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592213/Casa%20Serena/md2019_07_09-141519_c5fw2q.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592219/Casa%20Serena/md2019_07_09-172411_1_-HDR_fnzkcf.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584364176/Casa%20Serena/Sereana_novo_e-mail_xlfmoe.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592228/Casa%20Serena/md2019_07_09-182448-HDR_xnmixz.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592233/Casa%20Serena/md2019_07_09-182641-HDR_ffc8xw.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592226/Casa%20Serena/md2019_07_09-182232-HDR_ix0tnc.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592224/Casa%20Serena/md2019_07_09-182007-HDR_vlkusa.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592223/Casa%20Serena/md2019_07_09-181342-HDR_g5m44e.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592222/Casa%20Serena/md2019_07_09-181246-HDR_ad9fe5.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592219/Casa%20Serena/md2019_07_09-142103-HDR_xmgxml.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592220/Casa%20Serena/md2019_07_09-173004-HDR_j31kjm.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592219/Casa%20Serena/md2019_07_09-151411_oiuraa.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592217/Casa%20Serena/md2019_07_09-150905_csejah.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592216/Casa%20Serena/md2019_07_09-150901_wbzt6f.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592215/Casa%20Serena/md2019_07_09-150859_wv1tmb.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592215/Casa%20Serena/md2019_07_09-144103_nsziqi.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592216/Casa%20Serena/md2019_07_09-145056_jpfkcy.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592212/Casa%20Serena/md2019_07_09-142558_gqok7a.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592213/Casa%20Serena/md2019_07_09-141519_c5fw2q.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1585592219/Casa%20Serena/md2019_07_09-172411_1_-HDR_fnzkcf.jpg
   - images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858700/Casa%20Serena/md2019_05_14-143825_hvxy0k.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858714/Casa%20Serena/md2019_05_14-144237_1_np32qs.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858729/Casa%20Serena/md2019_05_14-144114_1_eqsohy.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583862336/Casa%20Serena/IMG_0358_ttf8sh.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858700/Casa%20Serena/md2019_05_14-143825_hvxy0k.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858714/Casa%20Serena/md2019_05_14-144237_1_np32qs.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858729/Casa%20Serena/md2019_05_14-144114_1_eqsohy.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583862336/Casa%20Serena/IMG_0358_ttf8sh.jpg
     title: SALA DA FAMÍLIA
   - images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858841/Casa%20Serena/md2019_05_14-161522_x9vmxt.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858847/Casa%20Serena/md2019_05_14-161858_k9oewc.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858853/Casa%20Serena/md2019_05_14-161922_orplml.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858841/Casa%20Serena/md2019_05_14-161522_x9vmxt.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858847/Casa%20Serena/md2019_05_14-161858_k9oewc.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583858853/Casa%20Serena/md2019_05_14-161922_orplml.jpg
     title: ESPAÇO RELAX
   - images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859417/Casa%20Serena/md2019_05_14-151012_1_w3jz3k.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859447/Casa%20Serena/md2019_05_14-151111_kcijb5.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859584/Casa%20Serena/DSC_7561_p6h0lz.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859417/Casa%20Serena/md2019_05_14-151012_1_w3jz3k.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859447/Casa%20Serena/md2019_05_14-151111_kcijb5.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859584/Casa%20Serena/DSC_7561_p6h0lz.jpg
     title: SUÍTE MASTER
   - images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859689/Casa%20Serena/md2019_05_14-153702_wbyz2o.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859798/Casa%20Serena/DSC_7567_sceq81.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859712/Casa%20Serena/md2019_05_14-153749_fh4uva.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859689/Casa%20Serena/md2019_05_14-153702_wbyz2o.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859798/Casa%20Serena/DSC_7567_sceq81.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859712/Casa%20Serena/md2019_05_14-153749_fh4uva.jpg
     title: RELAX DO CASAL
   - images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859962/Casa%20Serena/DSC_7445_bczzxc.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859901/Casa%20Serena/md2019_05_14-142006_zjdrpi.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583862592/Casa%20Serena/DSC_7641_vmgd1w.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859962/Casa%20Serena/DSC_7445_bczzxc.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583859901/Casa%20Serena/md2019_05_14-142006_zjdrpi.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583862592/Casa%20Serena/DSC_7641_vmgd1w.jpg
     title: CAFÉ DA MANHÂ
   - title: COZINHA
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860117/Casa%20Serena/md2019_05_14-142245_kw6dwa.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860128/Casa%20Serena/md2019_05_14-142337_lk76us.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860140/Casa%20Serena/md2019_05_14-142307_utcblf.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860117/Casa%20Serena/md2019_05_14-142245_kw6dwa.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860128/Casa%20Serena/md2019_05_14-142337_lk76us.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860140/Casa%20Serena/md2019_05_14-142307_utcblf.jpg
   - title: SALA DA PIPOCA
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7503_xosjoq.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7509_cfwizc.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7502_fwduja.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7503_xosjoq.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7509_cfwizc.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583860728/Casa%20Serena/DSC_7502_fwduja.jpg
 plants:
   - title: Planta Térreo
-    image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583860842/Casa%20Serena/Planta_T%C3%A9rreo2_fe8oc3.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583860842/Casa%20Serena/Planta_T%C3%A9rreo2_fe8oc3.png
   - title: Planta Superior
-    image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583860795/Casa%20Serena/Planta_Superior2_og9hrv.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583860795/Casa%20Serena/Planta_Superior2_og9hrv.png
   - title: Planta Sub Solo
-    image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583860799/Casa%20Serena/planta_Subsolo_xhkuml.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583860799/Casa%20Serena/planta_Subsolo_xhkuml.png
 more_details:
   - title: Suntuoso hall de entrada com pé direito duplo e iluminação natural
-  - title: 'Economia e praticidade com calefação em toda casa, incluindo piso aquecido'
+  - title: Economia e praticidade com calefação em toda casa, incluindo piso aquecido
   - title: Amplos decks externos
   - title: Conforto termo acústico com esquadrias em PVC de vidro duplo
   - title: Espaço gourmet com churrasqueira e forno a lenha
@@ -152,5 +102,4 @@ more_details:
   - title: Moderno elevador Schindler em todos os andares
   - title: Cozinha com solarium para café da manhã
   - title: Espelhos d’água em seu entorno
-file: >-
-  https://res.cloudinary.com/duckck/image/upload/v1583866019/Casa%20Serena/Casa_Serena_lhbgut.pdf
+file: https://res.cloudinary.com/duckck/image/upload/v1583866019/Casa%20Serena/Casa_Serena_lhbgut.pdf
