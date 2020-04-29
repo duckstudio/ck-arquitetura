@@ -218,6 +218,8 @@ a {
 
 .hero-section_content_title-box_rand {
   position: relative;
+  overflow: hidden;
+  height: 5vw;
   margin-top: 14px;
   margin-bottom: 15px;
 }
@@ -236,17 +238,12 @@ a {
 }
 
 .hero-section_content_title-box_rand_item2 {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: auto;
-  bottom: auto;
+  opacity: 0;
   font-family: 'Noyh Geometric Slim', sans-serif;
   font-size: 5.8vw;
   line-height: 5vw;
   font-weight: 100;
   text-transform: uppercase;
-  opacity: 0;
 }
 
 .hero-section_content_scroll-box_content_arrow-box {
