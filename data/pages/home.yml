@@ -1,42 +1,30 @@
 hero:
-  cta_link: '#houses-section'
-  cta_text: CONHEÇA NOSSA COLEÇÃO DE CASAS DE LUXO
+  cta_link: "#houses-section"
+  cta_text: CONHEÇA NOSSA COLEÇÃO DE CASAS EXTRAORDINÁRIAS
   subtitle: Arquitetura
   subtitle2: Construir sonhos
   title: Nós **amamos**
-  video: >-
-    https://res.cloudinary.com/duckck/video/upload/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
-empreendimento: 'Casa Serena '
-title_empreendimentos: '**Nossa Coleção de** Casas de Luxo'
+  video: https://res.cloudinary.com/duckck/video/upload/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
+empreendimento: "Casa Serena "
+title_empreendimentos: "**Nossa Coleção de** Casas Extraordinárias"
 sustentabilidade:
   items:
     - bottom: false
       complete_title: ALMA VERDE NA ILUMINAÇÃO NATURAL
-      external_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842921/Alma%20Verde/iluminacaonatual-branco_tnljpr.png
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/iluminacaonatural_eaeqap.jpg
-      internal_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/iluminacaoonatual-verde_kbnrfk.png
+      external_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842921/Alma%20Verde/iluminacaonatual-branco_tnljpr.png
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/iluminacaonatural_eaeqap.jpg
+      internal_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/iluminacaoonatual-verde_kbnrfk.png
       text: >
         As casas são projetadas para obter o máximo de
 
-        iluminação natural, gerando significativa redução de consumo de energia,
-        ao mesmo tempo que integra seus moradores com vistas espetaculares da
-        natureza no entorno da propriedade, com amplos panos de vidros que
-        expressam a transparência de uma verdadeira propriedade de serra do
-        século XXI.
+        iluminação natural, gerando significativa redução de consumo de energia, ao mesmo tempo que integra seus moradores com vistas espetaculares da natureza no entorno da propriedade, com amplos panos de vidros que expressam a transparência de uma verdadeira propriedade de serra do século XXI.
       title: Iluminação Natural
     - bottom: true
       complete_title: ALMA VERDE NA ENERGIA 100% LIMPA
-      external_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842921/Alma%20Verde/energialimpa-branco_yd7iyg.png
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/Eneregialimpa_ppcgqw.jpg
-      internal_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842921/Alma%20Verde/energialimpaverde_oxlaly.png
-      text: >-
-        A energia elétrica utilizada pelos proprietários ao longo de toda vida
+      external_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842921/Alma%20Verde/energialimpa-branco_yd7iyg.png
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/Eneregialimpa_ppcgqw.jpg
+      internal_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842921/Alma%20Verde/energialimpaverde_oxlaly.png
+      text: A energia elétrica utilizada pelos proprietários ao longo de toda vida
         útil da casa, é gerada em um condomínio de energia fotovoltaica, que
         atende, além da iluminação e equipamentos elétricos da casa, o conforto
         da climatização, da água quente e também o abastecimento de energia dos
@@ -45,41 +33,30 @@ sustentabilidade:
       title: Energia 100% Limpa
     - bottom: false
       complete_title: ALMA VERDE NA EMISSÃO DE CARBONO COMPENSADA
-      external_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/carbono-ranco_jmrk0p.png
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/carbono_lg8bv2.jpg
-      internal_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842921/Alma%20Verde/carbono-verde_dyjaav.png
+      external_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/carbono-ranco_jmrk0p.png
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/carbono_lg8bv2.jpg
+      internal_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842921/Alma%20Verde/carbono-verde_dyjaav.png
       text: >-
         O gás carbônico emitido na construção das casas é inventariado e
         totalmente compensado.
 
 
-        Este inventário assegura a completa compensação do gás carbônico emitido
-        na atmosfera, em área preservada e certificada.
+        Este inventário assegura a completa compensação do gás carbônico emitido na atmosfera, em área preservada e certificada.
       title: Emissão de Carbono Compensada
     - bottom: false
       complete_title: ALMA VERDE NA CAPTAÇÃO DA ÁGUA DA CHUVA
-      external_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/camptacaoagua_-_branco_cyiygm.png
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/aguadachuva_iceswj.jpg
-      internal_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/camptacaoagua-verde_u8ytds.png
-      text: >-
-        As casas são construídas com estrutura de captação de água da chuva para
+      external_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/camptacaoagua_-_branco_cyiygm.png
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/aguadachuva_iceswj.jpg
+      internal_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/camptacaoagua-verde_u8ytds.png
+      text: As casas são construídas com estrutura de captação de água da chuva para
         uso no jardim, na irrigação de paredes vivas e espelhos d’agua quando
         presentes nas casas.
       title: Captação da Água da Chuva
     - bottom: true
       complete_title: ALMA VERDE NAS LAREIRAS ECOLÓGICAS
-      external_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/lareiras-branco_vegazy.png
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/lareiraecologica_lx4gk8.jpg
-      internal_icon: >-
-        https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/lareiras-verde_h5uysj.png
+      external_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/lareiras-branco_vegazy.png
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/lareiraecologica_lx4gk8.jpg
+      internal_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/lareiras-verde_h5uysj.png
       text: >-
         As lareiras de tijolos contam com tecnologia de dupla combustão, que
         além de triplicar a irradiação de calor no ambiente, reduz em mais de
@@ -89,9 +66,7 @@ sustentabilidade:
         crescimento.
 
 
-        Além disso, essa quantidade de CO2 é igual à que seria provocada com a
-        decomposição natural do mesmo pedaço de madeira se não fosse usado como
-        combustível.
+        Além disso, essa quantidade de CO2 é igual à que seria provocada com a decomposição natural do mesmo pedaço de madeira se não fosse usado como combustível.
       title: Lareiras Ecológicas
   text: >-
     A CK Arquitetura de Gramado, sabe que um investimento imobiliário na
@@ -100,52 +75,39 @@ sustentabilidade:
 
 
 
-    Por isso dedica todo cuidado e especial atenção em **elevar o nível de
-    sustentabilidade e reduzir os impactos ambientais** que uma casa de alto
-    padrão possa vir a causar, tornando isto parte do legado da propriedade.
+    Por isso dedica todo cuidado e especial atenção em **elevar o nível de sustentabilidade e reduzir os impactos ambientais** que uma casa de alto padrão possa vir a causar, tornando isto parte do legado da propriedade.
 
 
 
 
-    Afirmando ainda mais o seu compromisso com essa visão, a CK Arquitetura
-    criou um novo conceito imobiliário que denomina **ALMA VERDE.**
+    Afirmando ainda mais o seu compromisso com essa visão, a CK Arquitetura criou um novo conceito imobiliário que denomina **ALMA VERDE.**
   title: Um legado de **sustentabilidade** para sua família e o planeta.
 midia:
   items:
-    - link: 'https://www.archdaily.com.br/br/930443/casa-serena-studio-ck-arquitetura'
+    - link: https://www.archdaily.com.br/br/930443/casa-serena-studio-ck-arquitetura
       title: Arch Daily
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701416/Midia/83653877_820193241740128_4319796927139938304_o.jpg_aanzah.jpg
-    - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844622/Midia/gentequefaz_xh278n.jpg
-      link: 'https://pt.calameo.com/read/000607875782054f53210'
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701416/Midia/83653877_820193241740128_4319796927139938304_o.jpg_aanzah.jpg
+    - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844622/Midia/gentequefaz_xh278n.jpg
+      link: https://pt.calameo.com/read/000607875782054f53210
       title: Revista Gente que Faz
-    - link: 'https://www.instagram.com/p/B6a0YsHFJAC/'
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_250/c_crop,f_auto,h_250,q_auto,w_270/v1584702482/Midia/83469764_821728814919904_7101291874870099968_o.jpg_s5aram.jpg
+    - link: https://www.instagram.com/p/B6a0YsHFJAC/
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_250/c_crop,f_auto,h_250,q_auto,w_270/v1584702482/Midia/83469764_821728814919904_7101291874870099968_o.jpg_s5aram.jpg
       title: Amazing.Architecture
     - title: Guia Glass Gold Edition
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584703916/Midia/71538380_187803695597120_2263105420265240435_n_gv5n3e.jpg
-      link: '#'
-    - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583843310/Midia/livrogramado_f7xemn.jpg
-      link: 'https://www.instagram.com/p/BxaQrJGnMNZ/'
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584703916/Midia/71538380_187803695597120_2263105420265240435_n_gv5n3e.jpg
+      link: "#"
+    - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583843310/Midia/livrogramado_f7xemn.jpg
+      link: https://www.instagram.com/p/BxaQrJGnMNZ/
       title: Livro Gramado de Leonid Streliaev
-    - link: 'https://www.facebook.com/ArchiDesiign/posts/2084106181744626'
+    - link: https://www.facebook.com/ArchiDesiign/posts/2084106181744626
       title: Architecture & Design
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701268/Midia/83929776_824158608010258_1720518698541776896_o.jpg_l22jsw.jpg
-    - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583843836/Midia/GauchaZH_ufydud.png
-      link: >-
-        https://gauchazh.clicrbs.com.br/colunistas/marta-sfredo/noticia/2018/05/conheca-a-casa-que-vai-custar-r-11-milhoes-em-gramado-cjgy3vv4p06mn01qok4q3mk1g.html
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701268/Midia/83929776_824158608010258_1720518698541776896_o.jpg_l22jsw.jpg
+    - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583843836/Midia/GauchaZH_ufydud.png
+      link: https://gauchazh.clicrbs.com.br/colunistas/marta-sfredo/noticia/2018/05/conheca-a-casa-que-vai-custar-r-11-milhoes-em-gramado-cjgy3vv4p06mn01qok4q3mk1g.html
       title: Gaúcha ZH - Conheça a casa que vai custar R$ 11 mihões em Gramado
-    - image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844472/Midia/WhatsApp-Image-2018-06-07-at-08.44.27_mfhsgy.jpg
-      link: '#'
+    - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844472/Midia/WhatsApp-Image-2018-06-07-at-08.44.27_mfhsgy.jpg
+      link: "#"
       title: Guia Glass Edição Select
-    - link: 'https://www.facebook.com/AAmazingAArchitecture/posts/2494450194015568'
+    - link: https://www.facebook.com/AAmazingAArchitecture/posts/2494450194015568
       title: Amazing Architecture
-      image: >-
-        https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701634/Midia/86369755_829439460815506_2248211969804861440_o.jpg_gbmp2x.jpg
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701634/Midia/86369755_829439460815506_2248211969804861440_o.jpg_gbmp2x.jpg

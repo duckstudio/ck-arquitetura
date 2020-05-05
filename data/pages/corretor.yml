@@ -2,78 +2,58 @@ title: |-
   Bem-vindo
 
   Acelerador de Sonhos
-text: >-
-  Tratamos você corretor como Acelerador de Sonhos, pois consideramos que é uma
-  das profissões que, em mais pessoas impacta com uma única venda! Você acelera
-  a realização de nossos sonhos.
+text: Tratamos você corretor como Acelerador de Sonhos, pois consideramos que é
+  uma das profissões que, em mais pessoas impacta com uma única venda! Você
+  acelera a realização de nossos sonhos.
 button: Quero baixar os materiais das casas
-background_video: >-
-  https://res.cloudinary.com/duckck/video/upload/v1584387977/Corretores/Cancun15Segundos_c0jav6.mp4
+background_video: https://res.cloudinary.com/duckck/video/upload/v1584387977/Corretores/Cancun15Segundos_c0jav6.mp4
 youtube_video: jOis-J2NbW8
-title_bonus1: 'Bônus Corretor I: **Viagem a Cancún**'
-text_bonus1: >-
-  Vendendo uma propriedade da CK Arquitetura, além da comissão, premiamos o
-  corretor um acompanhante com uma viagem (passagem e estadia de 7 dias) para
-  Cancún.
-title_bonus2: 'Bônus Corretor II: **iPhone 11 PRO**'
-text_bonus2: >-
-  Vendendo uma das Casas CK ainda na obra, o corretor pode escolher entre o
-  Iphone X 256GB ou um IPad Pro 10.5pol 256GB novinho!
-image_bonus2: >-
-  https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_600/v1582965538/iphone-11-pro-max-space-select-2019_e02bvj.png
-call: Acesse **Nossas Casas de Luxo** a venda
+title_bonus1: "Bônus Corretor I: **Viagem a Cancún**"
+text_bonus1: Vendendo uma propriedade da CK Arquitetura, além da comissão,
+  premiamos o corretor um acompanhante com uma viagem (passagem e estadia de 7
+  dias) para Cancún.
+title_bonus2: "Bônus Corretor II: **iPhone 11 PRO**"
+text_bonus2: Vendendo uma das Casas CK ainda na obra, o corretor pode escolher
+  entre o Iphone X 256GB ou um IPad Pro 10.5pol 256GB novinho!
+image_bonus2: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_600/v1582965538/iphone-11-pro-max-space-select-2019_e02bvj.png
+call: Acesse **Nossas Casas Extraordinárias** a venda
 button2: Quero baixar os materiais das casas
-button2_link: '#housesSection'
+button2_link: "#housesSection"
 title_reasons: |-
   **8 razões** para vender uma casa
 
   da CK em Gramado na obra!
 items:
   - title: Economia
-    text: >-
-      Adquirindo uma de nossas casas durante a obra, você tem uma economia de
+    text: Adquirindo uma de nossas casas durante a obra, você tem uma economia de
       R$1.000.00,00, simplesmente pelo fato de adquirir antes de estar pronta.
-    icon: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone1_j3mnmx.svg
+    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone1_j3mnmx.svg
   - title: Interior e Decoração
-    text: >-
-      Na compra da casa em construção, Você Ganha os Projetos de Interiores,
+    text: Na compra da casa em construção, Você Ganha os Projetos de Interiores,
       além de toda orientação de decoração totalmente GRÁTIS!
-    icon: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone2_m64m7z.svg
+    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone2_m64m7z.svg
   - title: Acompanhe de Perto
-    text: >-
-      Viaje até três vezes à Gramado durante a construção, com passagens e
+    text: Viaje até três vezes à Gramado durante a construção, com passagens e
       hospedagem para casal por dois dias por nossa conta, para que possa
       visitar a obra e participar da escolha de acabamentos se desejar.
-    icon: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone3_jdph9u.svg
+    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone3_jdph9u.svg
   - title: Aproveite o Condomínio
-    text: >-
-      A partir da compra, você e sua família já podem usufruir de toda a
+    text: A partir da compra, você e sua família já podem usufruir de toda a
       infraestrutura do condomínio, incluindo piscinas, spa, clube  e todas
       áreas de lazer.
-    icon: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone6_bkvfei.svg
+    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone6_bkvfei.svg
   - title: Monitoramento Mensal
-    text: >-
-      Acompanhe toda a evolução da obra através de fotos e cronograma em nosso
+    text: Acompanhe toda a evolução da obra através de fotos e cronograma em nosso
       site mensalmente.
-    icon: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone4_bfjkdi.svg
+    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone4_bfjkdi.svg
   - title: Uma Recordação de Amor
-    text: >-
-      Você recebe de cortesia, uma escultura exclusiva  do casal ou filhos,
+    text: Você recebe de cortesia, uma escultura exclusiva  do casal ou filhos,
       feita por um artista plástico.
-    icon: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone5_nmmgph.svg
+    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone5_nmmgph.svg
   - title: Facilidade de Pagamento
-    text: >-
-      Adquirindo seu imóvel durante a construção, você tem facilidades especiais
+    text: Adquirindo seu imóvel durante a construção, você tem facilidades especiais
       de parcelamento, incluindo financiamento imobiliário se preferir.
-    icon: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone1_j3mnmx.svg
+    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone1_j3mnmx.svg
   - title: Valorização
     text: Ao comprar a casa durante a construção você se beneficia da valorização.
-    icon: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750370/icone7_ff3jig.svg
+    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750370/icone7_ff3jig.svg

@@ -1,8 +1,7 @@
-title: Casa Romance
-city: Gramado
-image: >-
-  https://res.cloudinary.com/duckck/image/upload/c_thumb,w_1920,x_970/c_crop,f_auto,h_1080,q_auto,w_1920/v1584446025/Casa%20ROmance/IMG_9577_vuwydt.jpg
-pretitle: Projeto Arquitetônico
+title: CASA ROMANCE
+city: GRAMADO
+image: https://res.cloudinary.com/duckck/image/upload/c_thumb,w_1920,x_970/c_crop,f_auto,h_1080,q_auto,w_1920/v1584446025/Casa%20ROmance/IMG_9577_vuwydt.jpg
+pretitle: PROJETO ARQUTETÔNICO
 description_title: |-
   Um lar perfeito para reunir
 
@@ -14,37 +13,21 @@ people:
 image_sections:
   - title: Externas
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9577_vuwydt.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9496_uqbnqb.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9579_nktoax.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446026/Casa%20ROmance/IMG_9587_bev2yg.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446024/Casa%20ROmance/IMG_9581_eu3fuk.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445988/Casa%20ROmance/IMG_9966_gvgdky.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445989/Casa%20ROmance/IMG_9981_co3bzg.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9518_psqqy0.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9577_vuwydt.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9496_uqbnqb.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9579_nktoax.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446026/Casa%20ROmance/IMG_9587_bev2yg.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446024/Casa%20ROmance/IMG_9581_eu3fuk.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445988/Casa%20ROmance/IMG_9966_gvgdky.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445989/Casa%20ROmance/IMG_9981_co3bzg.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584446025/Casa%20ROmance/IMG_9518_psqqy0.jpg
   - title: Internas
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445983/Casa%20ROmance/_55A8978_djswdg.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445983/Casa%20ROmance/_55A8975_lh56bn.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445983/Casa%20ROmance/_55A9007_bl4btq.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445985/Casa%20ROmance/_55A8992_tcajdq.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445986/Casa%20ROmance/IMG_0048_eahlem.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445987/Casa%20ROmance/IMG_0063_nvsyie.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445987/Casa%20ROmance/IMG_9850_bkcpho.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445984/Casa%20ROmance/IMG_0001_jkfqdd.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445983/Casa%20ROmance/_55A8978_djswdg.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445983/Casa%20ROmance/_55A8975_lh56bn.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445983/Casa%20ROmance/_55A9007_bl4btq.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445985/Casa%20ROmance/_55A8992_tcajdq.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445986/Casa%20ROmance/IMG_0048_eahlem.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445987/Casa%20ROmance/IMG_0063_nvsyie.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445987/Casa%20ROmance/IMG_9850_bkcpho.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584445984/Casa%20ROmance/IMG_0001_jkfqdd.jpg
