@@ -3472,10 +3472,11 @@ html.w-mod-js *[data-ix="scrollfadein"] {
   .hero-section_content_title-box_rand {
     margin-top: 18px;
     margin-bottom: 60px;
+    height: auto;
   }
   .hero-section_content_title-box_rand_item1 {
     font-size: 13vw;
-    line-height: 5vw;
+    line-height: 11vw;
   }
   .hero-section_content_title-box_rand_item2 {
     font-size: 13vw;
