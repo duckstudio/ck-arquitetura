@@ -2980,6 +2980,35 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   flex: 1;
 }
 
+.mobile-letter-change {
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 115px;
+}
+
+.mobile-letter-change_1 {
+  font-family: 'Noyh Geometric Slim', sans-serif;
+  font-size: 5.8vw;
+  line-height: 5vw;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.mobile-letter-change_2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  opacity: 0;
+  font-family: 'Noyh Geometric Slim', sans-serif;
+  font-size: 5.8vw;
+  line-height: 5vw;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
 .light-subtitle {
   margin-top: 20px;
   color: #646464;
@@ -3985,6 +4014,27 @@ html.w-mod-js *[data-ix="scrollfadein"] {
   .houses-section_content_block_item_city {
       padding-left: 20px;
       padding-right: 20px;
+  }
+
+  .mobile-letter-change {
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 80px;
+  }
+  .mobile-letter-change_1 {
+    font-size: 13vw;
+    line-height: 12vw;
+  }
+  .mobile-letter-change_2 {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    right: auto;
+    bottom: auto;
+    opacity: 0;
+    font-size: 13vw;
+    line-height: 12vw;
   }
 }
 
