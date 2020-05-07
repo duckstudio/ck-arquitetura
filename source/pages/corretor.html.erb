@@ -3,10 +3,12 @@
 <html data-wf-page="5e2f887d78b207733bc1cbe0" data-wf-site="5ddbe39b578bab133d2dbad4">
 <head>
   <meta charset="utf-8">
-  <title>Corretor - CK Arquitetura</title>
-  <meta content="A CK Arquitetura é uma jovem e arrojada empresa incorporadora da Cidade de  Gramado/RS, dirigida pela paixão, integridade e amor a arquitetura e ao bem viver." name="description">
-  <meta content="Corretor - CK Arquitetura" property="og:title">
-  <meta content="A CK Arquitetura é uma jovem e arrojada empresa incorporadora da Cidade de  Gramado/RS, dirigida pela paixão, integridade e amor a arquitetura e ao bem viver." property="og:description">
+  <% base_seo_title = "CK Arquitetura - Gramado, RS" %>
+  <% base_seo_description = "A CK Arquitetura é uma jovem e arrojada empresa incorporadora da Cidade de Gramado/RS, dirigida pela paixão, integridade e amor a arquitetura e ao bem viver." %>
+  <title><%= data.pages.corretor.seo && data.pages.corretor.seo.title ? data.pages.corretor.seo.title : base_seo_title %></title>
+  <meta content="<%= data.pages.corretor.seo && data.pages.corretor.seo.description ? data.pages.corretor.seo.description : base_seo_description %>" name="description">
+  <meta content="<%= data.pages.corretor.seo && data.pages.corretor.seo.title ? data.pages.corretor.seo.title : base_seo_title %>" property="og:title">
+  <meta content="<%= data.pages.corretor.seo && data.pages.corretor.seo.description ? data.pages.corretor.seo.description : base_seo_description %>" property="og:description">
   <meta content="https://i.ibb.co/QJSwHBW/ogImage.png" property="og:image">
   <meta content="summary" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">

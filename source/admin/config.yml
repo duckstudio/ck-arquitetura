@@ -20,6 +20,12 @@ collections:
         label: Homepage
         name: home
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Título, name: title, widget: string}
+              - {label: Descrição, name: description, widget: text}
           - label: Hero
             name: hero
             widget: object
@@ -114,6 +120,12 @@ collections:
         label: Institucional
         name: institucional
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Título, name: title, widget: string}
+              - {label: Descrição, name: description, widget: text}
           - { label: Título, name: title, widget: markdown }
           - { label: Texto, name: text, widget: markdown }
           - { label: "Vídeo de fundo", name: background_video, widget: file }
@@ -172,6 +184,12 @@ collections:
         label: Corretor
         name: corretor
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Título, name: title, widget: string}
+              - {label: Descrição, name: description, widget: text}
           - { label: Título, name: title, widget: markdown }
           - { label: Texto, name: text, widget: markdown }
           - { label: Botão, name: button, widget: string }
@@ -217,6 +235,12 @@ collections:
         label: Página Projetos
         name: Página Projetos
         fields:
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - {label: Título, name: title, widget: string}
+              - {label: Descrição, name: description, widget: text}
           - { label: Título, name: title, widget: markdown }
           - { label: Subtítulo, name: subtitle, widget: string }
           - { label: Texto, name: text, widget: markdown }
@@ -246,6 +270,12 @@ collections:
     create: true
     extension: "yml"
     fields:
+      - label: SEO
+        name: seo
+        widget: object
+        fields:
+          - {label: Título, name: title, widget: string}
+          - {label: Descrição, name: description, widget: text}
       - { label: Título, name: title, widget: string }
       - { label: Cidade, name: city, widget: string }
       - label: Imagem de Capa
@@ -296,6 +326,12 @@ collections:
     create: true
     extension: "yml"
     fields:
+      - label: SEO
+        name: seo
+        widget: object
+        fields:
+          - {label: Título, name: title, widget: string}
+          - {label: Descrição, name: description, widget: text}
       - {label: Título, name: title, widget: string}
       - {label: Subtítulo, name: subtitle, widget: string}
       - {label: Cidade, name: city, widget: string}

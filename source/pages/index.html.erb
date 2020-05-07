@@ -3,10 +3,12 @@
 <html data-wf-page="5ddbe39b578bab30c22dbad5" data-wf-site="5ddbe39b578bab133d2dbad4">
 <head>
   <meta charset="utf-8">
-  <title>CK Arquitetura - Gramado, RS</title>
-  <meta content="A CK Arquitetura é uma jovem e arrojada empresa incorporadora da Cidade de  Gramado/RS, dirigida pela paixão, integridade e amor a arquitetura e ao bem viver." name="description">
-  <meta content="CK Arquitetura - Gramado, RS" property="og:title">
-  <meta content="A CK Arquitetura é uma jovem e arrojada empresa incorporadora da Cidade de  Gramado/RS, dirigida pela paixão, integridade e amor a arquitetura e ao bem viver." property="og:description">
+  <% base_seo_title = "CK Arquitetura - Gramado, RS" %>
+  <% base_seo_description = "A CK Arquitetura é uma jovem e arrojada empresa incorporadora da Cidade de Gramado/RS, dirigida pela paixão, integridade e amor a arquitetura e ao bem viver." %>
+  <title><%= data.pages.home.seo && data.pages.home.seo.title ? data.pages.home.seo.title : base_seo_title %></title>
+  <meta content="<%= data.pages.home.seo && data.pages.home.seo.description ? data.pages.home.seo.description : base_seo_description %>" name="description">
+  <meta content="<%= data.pages.home.seo && data.pages.home.seo.title ? data.pages.home.seo.title : base_seo_title %>" property="og:title">
+  <meta content="<%= data.pages.home.seo && data.pages.home.seo.description ? data.pages.home.seo.description : base_seo_description %>" property="og:description">
   <meta content="https://i.ibb.co/QJSwHBW/ogImage.png" property="og:image">
   <meta content="summary" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -213,17 +215,7 @@
     <%= partial "partials/footer" %>
   </div>
   <%= partial "partials/menu-mobile" %>
-  <script>
-    if (localStorage.getItem('intro') == 'true') {
-      var intro = document.querySelector('.intro-box');
-      intro.style.display = 'none';
-    }
-  </script>
 
   <%= partial "partials/scripts" %>
-
-  <script>
-    localStorage.setItem('intro', 'true');
-  </script>
 </body>
 </html>
