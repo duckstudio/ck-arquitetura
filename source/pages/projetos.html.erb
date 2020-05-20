@@ -79,7 +79,7 @@
   </div>
   <div class="projects-page_list">
     <% data.projetos.each_slice(6) do |project_slice| %>
-      <a href="/projeto/<%= project_slice[0][1].title.parameterize %>" class="projects-page_list_item w-inline-block" style="background-image: url('<%= project_slice[0][1].image %>')">
+      <a href="/projeto/<%= project_slice[0][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[0][1].image %>">
         <div class="projects-page_list_item_txt">
           <div class="projects-page_list_item_txt_name"><%= project_slice[0][1].title %></div>
           <div class="projects-page_list_item_txt_divisor"></div>
@@ -88,7 +88,7 @@
       </a>
       <% if project_slice[1] %>
         <div class="projects-page_list_row">
-          <a href="/projeto/<%= project_slice[1][1].title.parameterize %>" class="projects-page_list_item w-inline-block" style="background-image: url('<%= project_slice[1][1].image %>')">
+          <a href="/projeto/<%= project_slice[1][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[1][1].image %>">
             <div class="projects-page_list_item_txt">
               <div class="projects-page_list_item_txt_name"><%= project_slice[1][1].title %></div>
               <div class="projects-page_list_item_txt_divisor"></div>
@@ -96,7 +96,7 @@
             </div>
           </a>
           <% if project_slice[2] %>
-            <a href="/projeto/<%= project_slice[2][1].title.parameterize %>" class="projects-page_list_item w-inline-block" style="background-image: url('<%= project_slice[2][1].image %>')">
+            <a href="/projeto/<%= project_slice[2][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[2][1].image %>">
               <div class="projects-page_list_item_txt">
                 <div class="projects-page_list_item_txt_name"><%= project_slice[2][1].title %></div>
                 <div class="projects-page_list_item_txt_divisor"></div>
@@ -108,7 +108,7 @@
         <% if project_slice[3] %>
           <div class="projects-page_list_row">
             <div class="projects-page_list_row_vertical">
-              <a href="/projeto/<%= project_slice[3][1].title.parameterize %>" class="projects-page_list_item w-inline-block" style="background-image: url('<%= project_slice[3][1].image %>')">
+              <a href="/projeto/<%= project_slice[3][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[3][1].image %>">
                 <div class="projects-page_list_item_txt">
                   <div class="projects-page_list_item_txt_name"><%= project_slice[3][1].title %></div>
                   <div class="projects-page_list_item_txt_divisor"></div>
@@ -116,7 +116,7 @@
                 </div>
               </a>
               <% if project_slice[4] %>
-                <a href="/projeto/<%= project_slice[4][1].title.parameterize %>" class="projects-page_list_item w-inline-block" style="background-image: url('<%= project_slice[4][1].image %>')">
+                <a href="/projeto/<%= project_slice[4][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[4][1].image %>">
                   <div class="projects-page_list_item_txt">
                     <div class="projects-page_list_item_txt_name"><%= project_slice[4][1].title %></div>
                     <div class="projects-page_list_item_txt_divisor"></div>
@@ -126,7 +126,7 @@
               <% end %>
             </div>
             <% if project_slice[5] %>
-              <a href="/projeto/<%= project_slice[5][1].title.parameterize %>" class="projects-page_list_item w-inline-block" style="background-image: url('<%= project_slice[5][1].image %>')">
+              <a href="/projeto/<%= project_slice[5][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[5][1].image %>">
                 <div class="projects-page_list_item_txt">
                   <div class="projects-page_list_item_txt_name"><%= project_slice[5][1].title %></div>
                   <div class="projects-page_list_item_txt_divisor"></div>
@@ -151,7 +151,7 @@
                   <p class="projects-page_testimonial-section_content_item_p"><%= item_slice[0].text %></p>
                   <div class="projects-page_testimonial-section_content_item_line"></div>
                   <div class="projects-page_testimonial-section_content_item_details">
-                    <div class="projects-page_testimonial-section_content_item_details_photo" style="background-image: url('<%= item_slice[0].image %>')"></div>
+                    <div class="lazyload projects-page_testimonial-section_content_item_details_photo" data-bg="<%= item_slice[0].image %>"></div>
                     <div class="projects-page_testimonial-section_content_item_details_name"><%= item_slice[0].title %></div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@
                     <p class="projects-page_testimonial-section_content_item_p"><%= item_slice[1].text %></p>
                     <div class="projects-page_testimonial-section_content_item_line"></div>
                     <div class="projects-page_testimonial-section_content_item_details">
-                      <div class="projects-page_testimonial-section_content_item_details_photo" style="background-image: url('<%= item_slice[1].image %>')"></div>
+                      <div class="lazyload projects-page_testimonial-section_content_item_details_photo" data-bg="<%= item_slice[1].image %>"></div>
                       <div class="projects-page_testimonial-section_content_item_details_name"><%= item_slice[1].title %></div>
                     </div>
                   </div>

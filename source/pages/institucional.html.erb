@@ -99,7 +99,7 @@
       </div>
     </div>
     <div class="about-section_graph">
-      <img src="<%= data.pages.institucional.project_image %>" width="420" alt="" class="about-section_graph_img">
+      <img data-src="<%= data.pages.institucional.project_image %>" width="420" alt="" class="lazyload about-section_graph_img">
     </div>
   </div>
   <div class="about-page_history-section" data-ix="scrollfadein">
@@ -110,7 +110,7 @@
           <div class="about-page_history-section_content_left_p"><%= markdown data.pages.institucional.history_text %></div>
         </div>
         <div class="new-box">
-          <div class="about-page_history-section_content_photo" style="background-image: url('<%= data.pages.institucional.history_image %>')"></div>
+          <div class="lazyload about-page_history-section_content_photo" data-bg="<%= data.pages.institucional.history_image %>"></div>
           <span class="light-subtitle"><%= data.pages.institucional.history_legend %></span>
         </div>
       </div>
@@ -120,7 +120,7 @@
     <div class="container">
       <div class="about-page_dark-section_content" data-ix="scrollfadein">
         <div class="about-page_dark-section_content_box">
-          <div class="about-page_dark-section_content_box_image" style="background-image: url('<%= data.pages.institucional.history_image2 %>')"></div>
+          <div class="lazyload about-page_dark-section_content_box_image" data-bg="<%= data.pages.institucional.history_image2 %>"></div>
           <div class="about-page_dark-section_content_box_subtitle"><%= data.pages.institucional.history_legend2 %></div>
         </div>
         <div class="about-page_dark-section_p"><%= markdown data.pages.institucional.history_text2 %></div>
@@ -132,7 +132,7 @@
       <div class="about-page_profile-section_block" data-ix="scrollfadein">
         <div class="about-page_profile-section_block_p"><%= markdown data.pages.institucional.history_text3 %></div>
         <div class="about-box">
-          <div class="about-page_profile-section_block_photo" style="background-image: url('<%= data.pages.institucional.history_image3 %>')"></div>
+          <div class="lazyload about-page_profile-section_block_photo" data-bg="<%= data.pages.institucional.history_image3 %>"></div>
           <span class="light-subtitle"><%= data.pages.institucional.history_legend3 %></span>
         </div>
       </div>

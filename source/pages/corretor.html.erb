@@ -129,7 +129,7 @@
   </div>
   <div class="broker-page_bonus-section2">
     <div class="container">
-      <img src="<%= data.pages.corretor.image_bonus2 %>" width="386" alt="" class="broker-page_bonus-section2_image mobile">
+      <img data-src="<%= data.pages.corretor.image_bonus2 %>" width="386" alt="" class="lazyload broker-page_bonus-section2_image mobile">
       <div class="broker-page_bonus-section2_intro">
         <h2 class="broker-page_bonus-section1_content_h2 white"><%= markdown data.pages.corretor.title_bonus2 %></h2>
         <p class="broker-page_bonus-section1_content_p white"><%= data.pages.corretor.text_bonus2 %></p>
@@ -137,7 +137,7 @@
       <div class="slider-section_content">
         <h2 class="slider-section_content_h2"><%= markdown data.pages.corretor.call %></h2>
       </div>
-      <img src="<%= data.pages.corretor.image_bonus2 %>" width="386" alt="" class="broker-page_bonus-section2_image">
+      <img data-src="<%= data.pages.corretor.image_bonus2 %>" width="386" alt="" class="lazyload broker-page_bonus-section2_image">
     </div>
   </div>
   <div id="housesSection" class="broker-page_houses-section">
@@ -146,7 +146,7 @@
         <% data.empreendimentos.each do |_filename, empreendimento| %>
           <% if empreendimento.download %>
             <div class="houses-section_content_block_item broker-page">
-              <div class="houses-section_content_block_item_image list" style="background-image: url('<%= empreendimento.image %>')"></div>
+              <div class="lazyload houses-section_content_block_item_image list" data-bg="<%= empreendimento.image %>"></div>
               <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
               <% condominio = @app.data.condominios.find { |_filename, condominio| empreendimento.condominio == condominio.title } %>
               <div class="houses-section_content_block_item_address broker-page_house-subtitle"><%= condominio[1].title %></div>
@@ -172,7 +172,7 @@
         <% data.pages.corretor.items.each_with_index do |item, index| %>
           <div class="house-page_reasons-section_list_item">
             <div class="house-page_reasons-section_list_item_header">
-              <img src="<%= item.icon %>" width="60" alt="" class="house-page_reasons-section_list_item_header_icon">
+              <img data-src="<%= item.icon %>" width="60" alt="" class="lazyload house-page_reasons-section_list_item_header_icon">
             </div>
             <h3 class="house-page_reasons-section_list_item_h3">0<%= index + 1 %>. <strong><%= item.title %></strong></h3>
             <p class="house-page_reasons-section_list_item_p"><%= item.text %></p>

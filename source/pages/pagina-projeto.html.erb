@@ -100,16 +100,16 @@
         </div>
         <% image_section.images.each_slice(3) do |image_slice| %>
           <a data-fancybox="gallery" class="fancy-a" href="<%= image_slice[0].image %>">
-            <div class="house-page_gallery-section_main-photo" style="background-image: url('<%= image_slice[0].image %>')"></div>
+            <div class="lazyload house-page_gallery-section_main-photo" data-bg="<%= image_slice[0].image %>"></div>
           </a>
           <% if image_slice[1] %>
             <div class="house-page_gallery-section_row">
               <a data-fancybox="gallery" class="fancy-a" href="<%= image_slice[1].image %>">
-                <div class="house-page_gallery-section_row_photo" style="background-image: url('<%= image_slice[1].image %>')"></div>
+                <div class="lazyload house-page_gallery-section_row_photo" data-bg="<%= image_slice[1].image %>"></div>
               </a>
               <% if image_slice[2] %>
                 <a data-fancybox="gallery" class="fancy-a" href="<%= image_slice[2].image %>">
-                  <div class="house-page_gallery-section_row_photo _2" style="background-image: url('<%= image_slice[2].image %>')"></div>
+                  <div class="lazyload house-page_gallery-section_row_photo _2" data-bg="<%= image_slice[2].image %>"></div>
                 </a>
               <% end %>
             </div>

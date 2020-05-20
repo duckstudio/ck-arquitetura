@@ -111,7 +111,7 @@
             <div class="slider-section_slider_mask w-slider-mask">
               <% empreendimento.highlight_images.each do |highlight| %>
                 <div class="slider-section_slider_slide w-slide">
-                  <div class="slide-item" style="background-image: url('<%= highlight.image %>')"></div>
+                  <div class="lazyload slide-item" data-bg="<%= highlight.image %>"></div>
                 </div>
               <% end %>
             </div>
@@ -142,7 +142,7 @@
             <% end[1] %>
             <% condominio = data.condominios.find {|_filename, condominio| empreendimento.condominio == condominio.title} %>
             <a href="/empreendimento/<%= empreendimento.title.parameterize %>" class="houses-section_content_block_item w-inline-block">
-              <div class="houses-section_content_block_item_image" style="background-image: url('<%= empreendimento.image %>')"></div>
+              <div class="lazyload houses-section_content_block_item_image" data-bg="<%= empreendimento.image %>"></div>
               <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
               <% if condominio %>
                 <div class="houses-section_content_block_item_address"><%= condominio[1].title %></div>
@@ -171,13 +171,13 @@
           <% data.pages.home.sustentabilidade.items.each do |item| %>
             <a href="#" class="sustainability_section_gallery_item <%= item.bottom ? 'bottom ' : '' %>w-inline-block">
               <div data-w-id="98211e8d-26a5-2ec5-4d02-7a6b0ef1980b" class="sustainability_section_gallery_item_block" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('<%= item.image %>')">
-                <img src="<%= item.external_icon %>" width="65" alt="" class="sustainability_section_gallery_item_block_icon">
+                <img data-src="<%= item.external_icon %>" width="65" alt="" class="lazyload sustainability_section_gallery_item_block_icon">
               </div>
               <h3 class="sustainability_section_gallery_item_h3"><%= item.title %></h3>
               <div style="display:none;opacity:0" class="sustainability_section_gallery_item_modal">
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="sustainability_section_gallery_item_modal_box">
                   <div class="sustainability_section_gallery_item_modal_box_header">
-                    <img src="<%= item.internal_icon %>" width="40" alt="" class="sustainability_section_gallery_item_modal_box_header_icon">
+                    <img data-src="<%= item.internal_icon %>" width="40" alt="" class="lazyload sustainability_section_gallery_item_modal_box_header_icon">
                     <div data-w-id="545c32ca-a8ef-ef46-b05b-7297f883ca1d" class="sustainability_section_gallery_item_modal_box_header_close">
                       <img src="/images/modal-close_grey.svg" width="15" alt="">
                     </div>
@@ -200,7 +200,7 @@
         <div class="houses-section_content">
           <% data.pages.home.midia.items.each do |item| %>
             <a href="<%= item.link %>" target="_blank" class="news-section_list_item w-inline-block">
-              <div class="news-section_item" style="background-image: url('<%= item.image %>')"></div>
+              <div class="lazyload news-section_item" data-bg="<%= item.image %>"></div>
               <h3 class="news-section_item_h3"><%= item.title %></h3>
             </a>
           <% end %>

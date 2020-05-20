@@ -93,7 +93,7 @@
       <div class="broker-page_houses-section_list">
         <% data.empreendimentos.each do |_filename, empreendimento| %>
           <div class="houses-section_content_block_item broker-page">
-            <div class="houses-section_content_block_item_image list" style="background-image: url('<%= empreendimento.image %>')"></div>
+            <div class="lazyload houses-section_content_block_item_image list" data-bg="<%= empreendimento.image %>"></div>
             <h3 class="houses-section_content_block_item_h3"><%= empreendimento.title %></h3>
             <% condominio = @app.data.condominios.find { |_filename, condominio| empreendimento.condominio == condominio.title } %>
             <div class="houses-section_content_block_item_address"><%= condominio[1].title %></div>
