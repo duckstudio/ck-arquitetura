@@ -1685,6 +1685,8 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
 .house-page_about-section_p strong {
   font-weight: 500;
   font-size: 18px;
+  margin-bottom: 24px;
+  display: block;
 }
 
 .house-page_about-section_block {
