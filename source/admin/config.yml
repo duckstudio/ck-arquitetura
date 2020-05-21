@@ -30,7 +30,13 @@ collections:
             name: hero
             widget: object
             fields:
-              - {label: Vídeo, name: video, widget: file}
+              - label: Vídeo
+                name: video
+                widget: file
+                media_library:
+                  config:
+                    default_transformations:
+                      - - quality: auto
               - {label: Título, name: title, widget: markdown}
               - {label: Subtítulo 1, name: subtitle, widget: string}
               - {label: Subtítulo 2, name: subtitle2, widget: string}
@@ -128,7 +134,13 @@ collections:
               - {label: Descrição, name: description, widget: text}
           - { label: Título, name: title, widget: markdown }
           - { label: Texto, name: text, widget: markdown }
-          - { label: "Vídeo de fundo", name: background_video, widget: file }
+          - label: "Vídeo de fundo"
+            name: background_video
+            widget: file
+            media_library:
+              config:
+                default_transformations:
+                  - - quality: auto
           - { label: "Código do Vídeo do Youtube", name: youtube_video, widget: string }
           - { label: Texto Projetos, name: project_text, widget: markdown }
           - label: Imagem Projetos
@@ -193,7 +205,13 @@ collections:
           - { label: Título, name: title, widget: markdown }
           - { label: Texto, name: text, widget: markdown }
           - { label: Botão, name: button, widget: string }
-          - { label: "Vídeo de fundo", name: background_video, widget: file }
+          - label: "Vídeo de fundo"
+            name: background_video
+            widget: file
+            media_library:
+              config:
+                default_transformations:
+                  - - quality: auto
           - { label: "Código do Vídeo do Youtube", name: youtube_video, widget: string }
           - { label: Título Bonus 1, name: title_bonus1, widget: markdown }
           - { label: Texto Bonus 1, name: text_bonus1, widget: text }
@@ -379,7 +397,13 @@ collections:
         widget: list
         fields:
           - {label: Detalhe, name: title, widget: string}
-      - {label: "Vídeo de fundo", name: background_video, widget: file }
+      - label: "Vídeo de fundo"
+        name: background_video
+        widget: file
+        media_library:
+          config:
+            default_transformations:
+              - - quality: auto
       - {label: "Código do Vídeo do Youtube", name: youtube_video, widget: string }
       - {label: "Link Drive para Download (corretor)", name: download, widget: string }
       - label: Seções de Fotos
