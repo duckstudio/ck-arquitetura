@@ -67,6 +67,12 @@
   <div class="youtube-modal"><a data-w-id="4a27a4b3-9dbd-c70b-ced1-d5b152b897da" href="#" class="youtube-modal_close w-inline-block"><img src="/images/close-icon.svg" width="24" alt=""></a>
     <div style="padding-top:56.17021276595745%" id="w-node-d5b152b897dc-52b897d9" class="youtube-modal_video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F<%= empreendimento.youtube_video %>&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D<%= empreendimento.youtube_video %>&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2F<%= empreendimento.youtube_video %>%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
   </div>
+  <div class="fixed-bar">
+    <div class="house-page_contact-section_buttons-box fixed">
+      <h2 class="house-page_contact-section_h2 fixed">Vamos <strong class="semi-bold">conversar?<br></strong><span><strong class="semi-bold p">Envie uma mensagem</strong></span></h2>
+      <a href="https://api.whatsapp.com/send?phone=<%= whatsappize(data.settings.infos.whatsapp) %>&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="button pink whatsapp w-button">Enviar WhatsApp</a>
+      <a href="/contato" class="button pink fill margin-left mobile w-button">Enviar e-mail</a></div>
+  </div>
   <div class="project-page_hero" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('<%= empreendimento.image %>');">
     <div class="house-page_hero_main">
       <%= partial "partials/navbar" %>
@@ -76,19 +82,23 @@
         <div class="house-page_hero_subtitle"><%= empreendimento.subtitle %></div>
       </div>
     </div>
-    <div class="house-page_hero_footer">
-      <div class="container">
-        <div class="house-page_hero_footer_content">
-          <div class="house-page_hero_footer_content_txt">
-            <div class="house-page_hero_footer_content_txt_status">Andamento da obra:</div>
-            <div class="house-page_hero_footer_content_txt_status_type"><%= empreendimento.status %></div>
-          </div><a href="https://api.whatsapp.com/send?phone=<%= whatsappize(data.settings.infos.whatsapp) %>&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="button pink fill w-button">Enviar mensagem pelo Whatsapp</a></div>
+
+    <% if empreendimento.value %>
+      <div class="house-page_hero_footer">
+        <div class="container">
+          <div class="house-page_hero_footer_content">
+            <div class="house-page_hero_footer_content_txt">
+              <div class="house-page_hero_footer_content_txt_status">Valor:</div>
+              <div class="house-page_hero_footer_content_txt_status_type">R$ <%= empreendimento.value %></div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    <% end %>
   </div>
   <div class="house-page_about-section">
     <div class="container">
-      <p class="house-page_about-section_p"><%= empreendimento.text %></p>
+      <div class="house-page_about-section_p"><%= markdown(empreendimento.text) %></div>
       <div class="house-page_about-section_block">
         <div class="house-page_about-section_block_left">
           <% if empreendimento.details %>
@@ -230,6 +240,28 @@
       </div>
     </div>
   <% end %>
+
+  <% if empreendimento.value || (condominio && condominio.value) %>
+    <div class="house-page_price-section">
+      <div class="container">
+        <div class="house-page_price-section_list">
+          <% if empreendimento.value %>
+            <div class="house-page_price-section_list_item">
+              <div class="house-page_price-section_title">Valor do empreendimento</div>
+              <div class="house-page_price-section_value"><span class="price-tag">R$</span><%= empreendimento.value %></div>
+            </div>
+          <% end %>
+          <% if condominio && condominio.value %>
+            <div class="house-page_price-section_list_item">
+              <div class="house-page_price-section_title">Valor do condomínio</div>
+              <div class="house-page_price-section_value"><span class="price-tag">R$</span><%= condominio.value %></div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+
   <div class="house-page_contact-section">
     <div class="container">
       <h2 class="house-page_contact-section_h2">Vamos <strong class="semi-bold">conversar?</strong></h2>

@@ -338,6 +338,24 @@ a {
   margin-left: 12px;
 }
 
+.button.pink.whatsapp {
+  padding-left: 55px;
+  border-color: #25d366;
+  background-image: url('/images/whats-green.svg');
+  background-position: 10% 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  color: #25d366;
+}
+
+.button.pink.whatsapp:hover {
+  background-color: rgba(37, 211, 102, 0.1);
+}
+
+.button.pink.whatsapp.mobile {
+  display: none;
+}
+
 .button.margin-right {
   margin-right: 10px;
 }
@@ -965,6 +983,15 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   font-weight: 500;
 }
 
+.semi-bold.p {
+  color: #a07987;
+  font-size: 16px;
+}
+
+.semi-bold.small {
+  font-size: 18px;
+}
+
 .news-section {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1489,7 +1516,7 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
 
 .house-page_hero_footer_content_txt_status_type {
   color: #fff;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 500;
 }
 
@@ -1646,6 +1673,18 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   font-size: 20px;
   line-height: 28px;
   font-weight: 200;
+}
+
+.house-page_about-section_p p {
+  color: #a07987;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 200;
+}
+
+.house-page_about-section_p strong {
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .house-page_about-section_block {
@@ -1897,6 +1936,16 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   text-transform: uppercase;
 }
 
+.house-page_contact-section_h2.fixed {
+  margin-top: 9px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  color: #221f20;
+  font-size: 30px;
+  line-height: 21px;
+  font-weight: 300;
+}
+
 .house-page_contact-section_subtitle {
   color: #646464;
   font-size: 16px;
@@ -1905,6 +1954,18 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
 
 .house-page_contact-section_buttons-box {
   margin-top: 20px;
+}
+
+.house-page_contact-section_buttons-box.fixed {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .about-page_intro-section {
@@ -3006,6 +3067,32 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   text-transform: uppercase;
 }
 
+.fixed-bar {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  z-index: 100;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 -6px 20px 0 rgba(0, 0, 0, 0.13);
+}
+
 .light-subtitle {
   margin-top: 20px;
   color: #646464;
@@ -3054,6 +3141,9 @@ html.w-mod-js *[data-ix="scrollfadein"] {
     padding-right: 20px;
     padding-left: 20px;
     text-align: center;
+  }
+  .button.pink.whatsapp.mobile {
+    display: none;
   }
   .button.margin-right {
     margin-right: 0px;
@@ -3516,6 +3606,19 @@ html.w-mod-js *[data-ix="scrollfadein"] {
     margin-top: 12px;
     margin-left: 0px;
   }
+  .button.pink.fill.margin-left.mobile {
+    display: none;
+  }
+  .button.pink.whatsapp {
+    padding-right: 12px;
+  }
+  .button.pink.whatsapp.mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 48px;
+  }
   .slider-section {
     padding-top: 65px;
     padding-bottom: 65px;
@@ -3796,6 +3899,9 @@ html.w-mod-js *[data-ix="scrollfadein"] {
   .house-page_contact-section.project-page {
     margin-top: -80px;
   }
+  .house-page_contact-section_h2.fixed {
+    display: none;
+  }
   .about-page_intro-section {
     padding-top: 55px;
     padding-bottom: 55px;
@@ -4032,6 +4138,15 @@ html.w-mod-js *[data-ix="scrollfadein"] {
     opacity: 0;
     font-size: 13vw;
     line-height: 12vw;
+  }
+
+  .fixed-bar {
+    padding-right: 10px;
+    padding-left: 10px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 

@@ -334,6 +334,7 @@ collections:
           - {label: Descrição, name: description, widget: text}
       - {label: Título, name: title, widget: string}
       - {label: Subtítulo, name: subtitle, widget: string}
+      - {label: Valor, name: value, widget: string, hint: "Exemplo: 7.000.000,00", required: false}
       - {label: Cidade, name: city, widget: string}
       - label: Imagem de Capa
         name: image
@@ -366,7 +367,7 @@ collections:
       - {label: Texto quando destaque, name: highlight_text, widget: markdown}
       - {label: Andamento, name: status, widget: string}
       - {label: "Aparecer 8 razões para comprar uma casa?", name: show_reasons, widget: boolean, default: false}
-      - {label: "Texto de Introdução", name: text, widget: text}
+      - {label: "Texto de Introdução", name: text, widget: markdown}
       - label: Condomínio
         name: condominio
         widget: relation
@@ -430,6 +431,7 @@ collections:
     extension: "yml"
     fields:
       - {label: Nome, name: title, widget: string}
+      - {label: Valor, name: value, widget: string, hint: "Exemplo: 780,00", required: false}
       - {label: Cidade, name: city, widget: string}
       - {label: Texto, name: text, widget: markdown}
       - label: Image
