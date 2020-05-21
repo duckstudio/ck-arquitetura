@@ -1,4 +1,9 @@
 image_list: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584030879/Casa%20Serena/ImagemListagemSiteSerena_lwds6b.jpg
+seo:
+  title: Casa Serena
+  description: Uma residência perfeita, em um lugar único, para quem deseja
+    investir na sua serenidade e na qualidade de vida de toda a sua família e
+    amigos.
 title: "Casa Serena "
 subtitle: Mais que um lar, um legado de amor!
 city: Gramado
@@ -13,8 +18,11 @@ highlight_text: |-
   Em **Gramado**
 status: Pronta para morar
 show_reasons: false
-text: Uma residência perfeita, em um lugar único, para quem deseja investir na
-  sua serenidade e na qualidade de vida de toda a sua família e amigos.
+text: >-
+  **Compre com quem ama projetar, construir e realizar seu sonho de bem viver.**
+
+
+  Uma residência perfeita, em um lugar único, para quem deseja investir na sua serenidade e na qualidade de vida de toda a sua família e amigos.
 condominio: Condomínio Aspen Mountain
 details:
   - title: Imóvel com área construída de 531 m²
