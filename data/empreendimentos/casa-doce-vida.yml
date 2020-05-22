@@ -14,9 +14,16 @@ highlight_images:
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1587669299/Doce%20Vida/GSM_0339_cagnyi.jpg
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1587669301/Doce%20Vida/GSM_0344_iust9o.jpg
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1587669301/Doce%20Vida/GSM_0418_micrzw.jpg
-highlight_text: |-
+highlight_text: >-
+  **Compre com quem ama projetar, construir e realizar seu sonho de bem
+  viver.**\
+
+  \
+
   588m² de área construída\
+
   que refletem toda a inspiração contemporânea \
+
   de nossa arquitetura
 status: Pronta para Morar
 show_reasons: false
