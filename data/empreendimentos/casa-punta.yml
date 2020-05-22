@@ -1,97 +1,78 @@
-image_list: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_750,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_01_ndflnh.jpg
+image_list: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_750,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_01_ndflnh.jpg
+seo:
+  title: Casa Punta
+  description: Casa contemporânea de serra inspirada nos inverno dos melhores
+    destinos do mundo!
 title: Casa Punta
 subtitle: Arquitetura moderna e minimalista
-city: 'Gramado '
-image: >-
-  https://res.cloudinary.com/duckck/image/upload/c_thumb,h_1080,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1583865590/Casa%20Punta/CKA_CSA12_01_ndflnh.jpg
+value: De R$ 5.970.000,00 por R$ 4.485.000,00
+city: "Gramado "
+image: https://res.cloudinary.com/duckck/image/upload/c_thumb,h_1080,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1583865590/Casa%20Punta/CKA_CSA12_01_ndflnh.jpg
 highlight_images:
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1583865589/Casa%20Punta/CKA_CSA12_02b_skr41s.jpg
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1583865585/Casa%20Punta/CKA_CSA12_03_pessoas_keqlzw.jpg
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1583865590/Casa%20Punta/CKA_CSA12_032-Pessoas_e6a1kp.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1583865589/Casa%20Punta/CKA_CSA12_02b_skr41s.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1583865585/Casa%20Punta/CKA_CSA12_03_pessoas_keqlzw.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1583865590/Casa%20Punta/CKA_CSA12_032-Pessoas_e6a1kp.jpg
 highlight_text: |-
   Casa contemporânea de serra\
-  inspirada nos inveno dos **melhores destinos do mundo!**
+  inspirada nos inverno dos **melhores destinos do mundo!**
 status: Projeto Aprovado
 show_reasons: true
-text: 'Espetacular projeto, dentro do Condomínio Aspen Mountain'
+text: Espetacular projeto, dentro do Condomínio Aspen Mountain
 condominio: Condomínio Aspen Mountain
 details:
   - title: Área construída de 458m²
   - title: Suntuoso Hall de entrada com iluminação natural
-  - title: >-
-      Espaço do Chef com churrasqueira e bar, integrado ao Espaço Relax com SPA
+  - title: Espaço do Chef com churrasqueira e bar, integrado ao Espaço Relax com SPA
       e amplos decks
   - title: Ampla Sala de jantar para 12 pessoas
-  - title: '4 Suítes, incluindo banheira de hidromassagem dupla na suíte master'
+  - title: 4 Suítes, incluindo banheira de hidromassagem dupla na suíte master
   - title: Cozinha integrada com a Sala de Jantar e Sala de reuniões da família
-background_video: >-
-  https://res.cloudinary.com/duckck/video/upload/v1584451382/Casa%20Punta/Casa_Punta15segs_fnaesd.mp4
+background_video: https://res.cloudinary.com/duckck/video/upload/v1584451382/Casa%20Punta/Casa_Punta15segs_fnaesd.mp4
 youtube_video: I5PoSh4aFQM
-download: 'https://drive.google.com/open?id=1kWxs7YKUwrownsmbrVqmxYwVve_Lvght'
+download: https://drive.google.com/open?id=1kWxs7YKUwrownsmbrVqmxYwVve_Lvght
 image_sections:
   - title: CASA PUNTA
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_01_ndflnh.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865589/Casa%20Punta/CKA_CSA12_02b_skr41s.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_032-Pessoas_e6a1kp.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_01_ndflnh.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865589/Casa%20Punta/CKA_CSA12_02b_skr41s.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_032-Pessoas_e6a1kp.jpg
   - title: HALL DE BOAS VINDAS
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_1_rog4bv.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_1_rog4bv.jpg
   - title: JANTAR EM FAMÍLIA
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865587/Casa%20Punta/CKA_interiores_2_e7ctc8.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865587/Casa%20Punta/CKA_interiores_2_e7ctc8.jpg
   - title: COZINHA GOURMET
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865586/Casa%20Punta/CKA_interiores_3_twvbkq.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865586/Casa%20Punta/CKA_interiores_3_twvbkq.jpg
   - title: SALA DA FAMÍLIA
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_4_demenu.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_interiores_9_oupnrh.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_4_demenu.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_interiores_9_oupnrh.jpg
   - title: DIVERSÂO EM FAMÍLIA
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865591/Casa%20Punta/CKA_interiores_8_hf6yv5.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_5_wmo3n8.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865591/Casa%20Punta/CKA_interiores_8_hf6yv5.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865588/Casa%20Punta/CKA_interiores_5_wmo3n8.jpg
   - title: SUÍTE
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865589/Casa%20Punta/CKA_interiores_7_enscbb.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865591/Casa%20Punta/CKA_interiores_11_sfbh9b.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865589/Casa%20Punta/CKA_interiores_7_enscbb.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865591/Casa%20Punta/CKA_interiores_11_sfbh9b.jpg
 plants:
   - title: TÉRREO
-    image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/Terreo_pmxaij.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/Terreo_pmxaij.png
   - title: PAVIMENTO SUPERIOR
-    image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/1Pavimento_tmtfhm.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/1Pavimento_tmtfhm.png
 more_details:
-  - title: 'Diferenciação nas portas internas com 2,5m de altura;'
-  - title: >-
-      O prazer de caminhar em pisos aquecidos em toda casa e o silêncio da
+  - title: Diferenciação nas portas internas com 2,5m de altura;
+  - title: O prazer de caminhar em pisos aquecidos em toda casa e o silêncio da
       aspiração central instalada.
-  - title: >-
-      Durabilidade, conforto acústico e térmico com esquadrias de Pvc, com
+  - title: Durabilidade, conforto acústico e térmico com esquadrias de Pvc, com
       amplos vidros de 3m;
-  - title: 'Espaço Previsto para elevador em todos andares. '
+  - title: "Espaço Previsto para elevador em todos andares. "
   - title: Abrigos para dois carros
-  - title: 'Todas madeiras aparentes em grápia, ou ecológica importada'
+  - title: Todas madeiras aparentes em grápia, ou ecológica importada
   - title: Entregue com exclusiva escultura artística do casal-proprietário
   - title: Corrimãos internos e externos em vidro temperado
-  - title: 'Casa totalmente projetada e preparada para instalar automação completa '
+  - title: "Casa totalmente projetada e preparada para instalar automação completa "
   - title: Gramado com deck e iluminação externa
-file: >-
-  https://res.cloudinary.com/duckck/image/upload/v1583866327/Casa%20Punta/CASA_PUNTA_-_ASPEN_MOUNTAIN_GRAMADO_v8abb9.pdf
+file: https://res.cloudinary.com/duckck/image/upload/v1583866327/Casa%20Punta/CASA_PUNTA_-_ASPEN_MOUNTAIN_GRAMADO_v8abb9.pdf
