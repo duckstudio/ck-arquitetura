@@ -13,13 +13,17 @@ highlight_images:
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1583865585/Casa%20Punta/CKA_CSA12_03_pessoas_keqlzw.jpg
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1583865590/Casa%20Punta/CKA_CSA12_032-Pessoas_e6a1kp.jpg
 highlight_text: |-
-  **Compre com quem ama projetar, construir e realizar seu sonho de bem viver.**
-
   Casa contemporânea de serra\
   inspirada nos inverno dos **melhores destinos do mundo!**
 status: Projeto Aprovado
 show_reasons: true
-text: Espetacular projeto, dentro do Condomínio Aspen Mountain
+text: >-
+  **Compre com quem ama projetar, construir e realizar seu sonho de bem
+  viver.**\
+
+  \
+
+  Espetacular projeto, dentro do Condomínio Aspen Mountain
 condominio: Condomínio Aspen Mountain
 details:
   - title: Área construída de 458m²
