@@ -1,72 +1,59 @@
-image_list: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584117639/Casa%20ALegria/Alegria---3_hivle7.jpg
+image_list: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584117639/Casa%20ALegria/Alegria---3_hivle7.jpg
+seo:
+  title: Casa Alegria
+  description: A Casa Alegria além de confortável e de design elegante,
+    proporciona um sentimento de paz, segurança e bem estar para você e aqueles
+    que você mais ama.
 title: Casa Alegria
 subtitle: Pra Sua Família Viver Momentos Felizes
+value: De R$ 6.690.000,00 por R$ 4.980.000,00
 city: Gramado
-image: >-
-  https://res.cloudinary.com/duckck/image/upload/c_scale,h_1080,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1584117639/Casa%20ALegria/Alegria-_novo_email_ymhj82.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_scale,h_1080,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1584117639/Casa%20ALegria/Alegria-_novo_email_ymhj82.jpg
 highlight_images:
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584117639/Casa%20ALegria/Alegria---3_hivle7.jpg
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584117639/Casa%20ALegria/Alegria---2_sleqwo.jpg
-  - image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584117639/Casa%20ALegria/Alegria---1_swkcem.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584117639/Casa%20ALegria/Alegria---3_hivle7.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584117639/Casa%20ALegria/Alegria---2_sleqwo.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584117639/Casa%20ALegria/Alegria---1_swkcem.jpg
 highlight_text: Paz e Segurança para Você e Sua Familia
 status: Projeto Aprovado
 show_reasons: true
-text: >-
-  A Casa Alegria além de confortável e de design elegante, proporciona um
+text: A Casa Alegria além de confortável e de design elegante, proporciona um
   sentimento de paz, segurança e bem estar para você e aqueles que você mais
   ama.
 condominio: Alphaville Gramado
 details:
-  - title: 'Casa com área costruída de 611,49m² em terreno de 1.000m²'
+  - title: Casa com área costruída de 611,49m² em terreno de 1.000m²
   - title: Suntuoso hall de entrada com paredes em pedras de basalto aparente
-  - title: '4 suítes completas, sendo a master com banheira dupla'
+  - title: 4 suítes completas, sendo a master com banheira dupla
   - title: Ampla sala de estar com lareira
   - title: sala de jantar para até 12 pessoas
-background_video: >-
-  https://res.cloudinary.com/duckck/video/upload/v1584451357/Casa%20ALegria/Alegria15segs_fkrutd.mp4
+background_video: https://res.cloudinary.com/duckck/video/upload/v1584451357/Casa%20ALegria/Alegria15segs_fkrutd.mp4
 youtube_video: 7nkfV3os0l4
-download: 'https://drive.google.com/open?id=1DEb8Mk0YnQeD6bCzmkCMoxwVSwWAs4Ro'
+download: https://drive.google.com/open?id=1DEb8Mk0YnQeD6bCzmkCMoxwVSwWAs4Ro
 image_sections:
   - title: Externas
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---3_hivle7.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---4_zajnek.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---2_sleqwo.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---3_hivle7.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---4_zajnek.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---2_sleqwo.jpg
   - title: Internas
     images:
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---7_pplide.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---8_jaxxdw.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---6_pematj.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria--10_h0xbju.jpg
-      - image: >-
-          https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---9_dfzyos.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---7_pplide.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---8_jaxxdw.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---6_pematj.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria--10_h0xbju.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584117639/Casa%20ALegria/Alegria---9_dfzyos.jpg
 plants:
-  - title: 'Terreo '
-    image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584120587/Casa%20ALegria/Terreo_c9k31r.png
+  - title: "Terreo "
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584120587/Casa%20ALegria/Terreo_c9k31r.png
   - title: 1º Pavimento
-    image: >-
-      https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584120586/Casa%20ALegria/1Pavimento_sy0wk4.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1584120586/Casa%20ALegria/1Pavimento_sy0wk4.png
 more_details:
   - title: Espaço Goumet e Sala de Jogos
-  - title: 'Amplos decks e mirantes externos com vista para o vale '
+  - title: "Amplos decks e mirantes externos com vista para o vale "
   - title: Chapelaria e sala da pipoca
-  - title: >-
-      Economia e praticidade com calefação e pisos aquecidos nos banheiros e
+  - title: Economia e praticidade com calefação e pisos aquecidos nos banheiros e
       cozinha
   - title: Conforte termoacustico com esquadrias de vidro duplo
   - title: Garagem em pergola para 2 caros
   - title: Projetada para Automação por tablet ou smartphone
-file: >-
-  https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584117499/Casa%20ALegria/Casa_Alegria_-_Alphaville._u2b2uy.pdf
+file: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1584117499/Casa%20ALegria/Casa_Alegria_-_Alphaville._u2b2uy.pdf
