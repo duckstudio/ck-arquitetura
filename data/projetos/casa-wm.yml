@@ -1,0 +1,20 @@
+seo:
+  title: CASA WM
+  description: RESIDÊNCIA TÉRREA QUE PRIVILEGIA A ACESSIBILIDADE E A ILUMINAÇÃO NATURAL!
+title: CASA WM
+city: IGREJINHA
+image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1590683750/CASA%20WM%20-%20PROJETO/WM_1_a0hrml.jpg
+pretitle: PROJETO ARQUITETÔNICO
+description_title: ARQUITETURA MINIMALISTA
+description: RESIDÊNCIA TÉRREA QUE PRIVILEGIA A ACESSIBILIDADE E A ILUMINAÇÃO NATURAL!
+people:
+  - title: Arquiteta Responsável
+    name: Charlene Koetz
+image_sections:
+  - title: IMAGENS
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683750/CASA%20WM%20-%20PROJETO/WM_1_a0hrml.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683750/CASA%20WM%20-%20PROJETO/WM_2_jx2awc.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683751/CASA%20WM%20-%20PROJETO/WM_3_yubsh1.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683750/CASA%20WM%20-%20PROJETO/WM_4_rynkli.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683751/CASA%20WM%20-%20PROJETO/WM_5_jb8erh.jpg
