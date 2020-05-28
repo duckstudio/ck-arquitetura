@@ -1,13 +1,16 @@
+seo:
+  title: Aniversário Solidário
+  description: Aniversário Solidário
 title: Aniversário Solidário
 subtitle: CK Arquitetura
 city: Gramado
-image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1587061205/Anivers%C3%A1rio_Solid%C3%A1rio_rpqcpk.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1590681856/AniversarioSolidario-2_daxhb8.jpg
 highlight_images: []
 highlight_text: Em comemoração ao 7 anos da CK Arquitetura em Gramado, lançamos
   uma campanha que irá impactar você e sua família, nossos negócios e a
   comunidade onde vivemos!
 status: Casas Prontas, Projetos e Terrenos
-show_reasons: true
+show_reasons: false
 text: Em comemoração ao 7 anos da CK Arquitetura em Gramado, lançamos uma
   campanha que irá impactar você e sua família, nossos negócios e a comunidade
   onde vivemos!
@@ -20,7 +23,7 @@ details:
       luxo;"
   - title: "ACEITE DE PERMUTA: Aceite de até 30% em permuta em nossas casas a
       construir;"
-background_video: https://res.cloudinary.com/duckck/video/upload/v1587383603/Aniversario15s_crttyd.mp4
+background_video: https://res.cloudinary.com/duckck/video/upload/q_auto/v1590681601/Aniversario15s_1_xxklgj.webm
 youtube_video: npU5hDSdEvA
 download: https://drive.google.com/open?id=0B9p9wzX9jilPYWd1YUlkTmFvTWM
 more_details: []
