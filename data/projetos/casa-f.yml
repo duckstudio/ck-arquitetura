@@ -1,0 +1,20 @@
+seo:
+  title: CASA F
+  description: >
+    ARQUITETURA CONTEMPORÂNEA PROJETADA PARA O BEM ACOLHER A FAMÍLIA E OS AMIGOS!
+title: CASA F
+city: IGREJINHA
+image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1590683466/CASA%20F%20-%20PROJETO/F_1_pgwrhj.jpg
+pretitle: PROJETO ARQUITETÔNICO
+description_title: ARQUITETURA CONTEMPORÂNEA
+description: |
+  ARQUITETURA CONTEMPORÂNEA PROJETADA PARA O BEM ACOLHER A FAMÍLIA E OS AMIGOS!
+people:
+  - title: Arquiteta Responsável
+    name: Charlene Koetz
+image_sections:
+  - title: IMAGENS
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683466/CASA%20F%20-%20PROJETO/F_1_pgwrhj.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683466/CASA%20F%20-%20PROJETO/F_2_d0gpgl.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683466/CASA%20F%20-%20PROJETO/F_3_qeowel.jpg
