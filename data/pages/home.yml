@@ -1,10 +1,13 @@
+seo:
+  title: CK Arquitetura
+  description: Casas extraordinárias em Gramado
 hero:
   cta_link: "#houses-section"
   cta_text: CONHEÇA NOSSA COLEÇÃO DE CASAS EXTRAORDINÁRIAS
   subtitle: Arquitetura
   subtitle2: Construir sonhos
   title: Nós **amamos**
-  video: https://res.cloudinary.com/duckck/video/upload/v1581559079/bg-ck_1-transcode_d7zcjr.mp4
+  video: https://res.cloudinary.com/duckck/video/upload/q_auto/v1591182750/videock15segs_1_1_b95ugk.webm
 empreendimento: "Casa Serena "
 title_empreendimentos: "**Nossa Coleção de** Casas Extraordinárias"
 sustentabilidade:
