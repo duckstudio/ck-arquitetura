@@ -24,4 +24,8 @@ $(window).on("load", function() {
       e.target.style.backgroundImage = "url(" + bg + ")";
     }
   });
+
+  $('.broker-page_video-section_video_link').click(e => {
+    $('.youtube-modal').css({ display: 'flex', opacity: 1 });
+  })
 });
