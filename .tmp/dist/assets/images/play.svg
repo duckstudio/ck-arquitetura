@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124">
-  <g id="play" transform="translate(386 -173)">
-    <g id="Elipse_1" data-name="Elipse 1" transform="translate(-386 173)" fill="none" stroke="#fff" stroke-width="2.5">
-      <circle cx="62" cy="62" r="62" stroke="none"/>
-      <circle cx="62" cy="62" r="60.75" fill="none"/>
-    </g>
-    <path id="Caminho_20" data-name="Caminho 20" d="M-336.29,264.238V220.914l34.536,26.242L-336.29,271.53Z" transform="translate(2.416 -9.014)" fill="none" stroke="#fff" stroke-width="2.5"/>
-  </g>
-</svg>

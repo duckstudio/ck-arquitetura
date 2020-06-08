@@ -16,3 +16,6 @@ WORKDIR /usr/src/app
 
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
+
+COPY package.json package-lock.json ./
+RUN npm install

@@ -1,19 +1,14 @@
-#Bootstrap is used to style bits of the demo. Remove it from the config, gemfile and stylesheets to stop using bootstrap
-require "uglifier"
-
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
-end
+# Directory indexes
+activate :directory_indexes
 
 # Assets source
 set :js_dir, "assets/javascripts"
 set :css_dir, "assets/stylesheets"
 set :images_dir, "assets/images"
 
-activate :livereload
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -21,11 +16,37 @@ activate :livereload
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page "/partials/*", layout: false
-page "/admin/*", layout: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
+
+# Proxy pages
+# https://middlemanapp.com/advanced/dynamic-pages/
+
+# proxy(
+#   '/this-page-has-no-template.html',
+#   '/template-file.html',
+#   locals: {
+#     which_fake_page: 'Rendering a fake page with a local variable'
+#   },
+# )
+
+# Build-specific configuration
+# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
+
+activate :external_pipeline,
+         name: :webpack,
+         command: build? ? "npm run build" : "npm run watch",
+         source: ".tmp/dist",
+         latency: 1
+
+# Development
+configure :development do
+  set :url_root, "http://localhost:4567/"
+  activate :livereload do |reload|
+    reload.no_swf = true
+  end
+end
 
 after_configuration do
   # Proxy pages
@@ -65,9 +86,6 @@ end
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# pretty urls
-activate :directory_indexes
-
 helpers do
   #helper to set background images with asset hashes in a style attribute
   def background_image(image)
@@ -93,28 +111,10 @@ helpers do
   end
 end
 
-# Build-specific configuration
-# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
-
-activate :external_pipeline,
-         name: :webpack,
-         command: build? ? "npm run build" : "npm run watch",
-         source: ".tmp/dist",
-         latency: 1
-
-configure :build do
-  # Minify css on build
-  activate :minify_css
-
-  # Minify Javascript on build
-  activate :minify_javascript, ignore: "**/admin/**", compressor: ::Uglifier.new(mangle: true, compress: { drop_console: true }, output: {comments: :none})
-
-  # Use Gzip
-  activate :gzip
-
+# Production
+configure :production do
+  set :url_root, "https://www.bracci.com.br"
   activate :minify_html
-
-  #Use asset hashes to use for caching
   activate :asset_hash, ignore: [/\.bmp\Z/, /\.jpg\Z/, /\.png\Z/, /\.gif\Z/, /\.svg\Z/, /\.ico\Z/]
-
 end
+
