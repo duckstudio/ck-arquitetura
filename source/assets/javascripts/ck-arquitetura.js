@@ -1,3 +1,6 @@
+$ = require('jquery');
+window.jQuery = $;  window.$ = $;
+
 /*!
  * Webflow: Front-end site library
  * @license MIT

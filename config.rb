@@ -8,6 +8,11 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+# Assets source
+set :js_dir, "assets/javascripts"
+set :css_dir, "assets/stylesheets"
+set :images_dir, "assets/images"
+
 activate :livereload
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -91,6 +96,12 @@ end
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
+activate :external_pipeline,
+         name: :webpack,
+         command: build? ? "npm run build" : "npm run watch",
+         source: ".tmp/dist",
+         latency: 1
+
 configure :build do
   # Minify css on build
   activate :minify_css
@@ -101,7 +112,9 @@ configure :build do
   # Use Gzip
   activate :gzip
 
+  activate :minify_html
+
   #Use asset hashes to use for caching
-  #activate :asset_hash
+  activate :asset_hash, ignore: [/\.bmp\Z/, /\.jpg\Z/, /\.png\Z/, /\.gif\Z/, /\.svg\Z/, /\.ico\Z/]
 
 end
