@@ -1444,8 +1444,6 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('/assets/images/casa-bg.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/casa-bg.png');
   background-position: center;
   background-size: cover;
 }
@@ -1730,7 +1728,6 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
 }
 
 .house-page_about-section_block_photo._1 {
-  background-image: url('/assets/images/casa-bg.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1816,7 +1813,6 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
 .house-page_gallery-section_main-photo {
   height: 580px;
   margin-bottom: 1px;
-  background-image: url('/assets/images/DSC_7514.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1845,14 +1841,12 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   -webkit-flex: 0 50%;
   -ms-flex: 0 50%;
   flex: 0 50%;
-  background-image: url('/assets/images/DSC_7518.png');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .house-page_gallery-section_row_photo._2 {
   margin-left: 1px;
-  background-image: url('/assets/images/DSC_7533.png');
 }
 
 .house-page_map-section_h2 {
@@ -2005,7 +1999,6 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   -webkit-flex: 0 50%;
   -ms-flex: 0 50%;
   flex: 0 50%;
-  background-image: url('/assets/images/DSC_7514.png');
   background-position: 50% 50%;
   background-size: cover;
   text-decoration: none;
@@ -2680,8 +2673,6 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   margin-bottom: 65px;
   padding-top: 155px;
   padding-bottom: 100px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('/assets/images/casa-bg.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('/assets/images/casa-bg.png');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
