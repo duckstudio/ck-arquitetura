@@ -27,65 +27,14 @@
     </div>
   </div>
   <div class="projects-page_list">
-    <% data.projetos.each_slice(6) do |project_slice| %>
-      <a href="/projeto/<%= project_slice[0][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[0][1].image %>">
+    <% data.projetos.each do |_filename, project| %>
+      <a href="/projeto/<%= project.title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project.image %>">
         <div class="projects-page_list_item_txt">
-          <div class="projects-page_list_item_txt_name"><%= project_slice[0][1].title %></div>
+          <div class="projects-page_list_item_txt_name"><%= project.title %></div>
           <div class="projects-page_list_item_txt_divisor"></div>
-          <div class="projects-page_list_item_txt_city"><%= project_slice[0][1].city %></div>
+          <div class="projects-page_list_item_txt_city"><%= project.city %></div>
         </div>
       </a>
-      <% if project_slice[1] %>
-        <div class="projects-page_list_row">
-          <a href="/projeto/<%= project_slice[1][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[1][1].image %>">
-            <div class="projects-page_list_item_txt">
-              <div class="projects-page_list_item_txt_name"><%= project_slice[1][1].title %></div>
-              <div class="projects-page_list_item_txt_divisor"></div>
-              <div class="projects-page_list_item_txt_city"><%= project_slice[1][1].city %></div>
-            </div>
-          </a>
-          <% if project_slice[2] %>
-            <a href="/projeto/<%= project_slice[2][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[2][1].image %>">
-              <div class="projects-page_list_item_txt">
-                <div class="projects-page_list_item_txt_name"><%= project_slice[2][1].title %></div>
-                <div class="projects-page_list_item_txt_divisor"></div>
-                <div class="projects-page_list_item_txt_city"><%= project_slice[2][1].city %></div>
-              </div>
-            </a>
-          <% end %>
-        </div>
-        <% if project_slice[3] %>
-          <div class="projects-page_list_row">
-            <div class="projects-page_list_row_vertical">
-              <a href="/projeto/<%= project_slice[3][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[3][1].image %>">
-                <div class="projects-page_list_item_txt">
-                  <div class="projects-page_list_item_txt_name"><%= project_slice[3][1].title %></div>
-                  <div class="projects-page_list_item_txt_divisor"></div>
-                  <div class="projects-page_list_item_txt_city"><%= project_slice[3][1].city %></div>
-                </div>
-              </a>
-              <% if project_slice[4] %>
-                <a href="/projeto/<%= project_slice[4][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[4][1].image %>">
-                  <div class="projects-page_list_item_txt">
-                    <div class="projects-page_list_item_txt_name"><%= project_slice[4][1].title %></div>
-                    <div class="projects-page_list_item_txt_divisor"></div>
-                    <div class="projects-page_list_item_txt_city"><%= project_slice[4][1].city %></div>
-                  </div>
-                </a>
-              <% end %>
-            </div>
-            <% if project_slice[5] %>
-              <a href="/projeto/<%= project_slice[5][1].title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project_slice[5][1].image %>">
-                <div class="projects-page_list_item_txt">
-                  <div class="projects-page_list_item_txt_name"><%= project_slice[5][1].title %></div>
-                  <div class="projects-page_list_item_txt_divisor"></div>
-                  <div class="projects-page_list_item_txt_city"><%= project_slice[5][1].city %></div>
-                </div>
-              </a>
-            <% end %>
-          </div>
-        <% end %>
-      <% end %>
     <% end %>
   </div>
   <div class="projects-page_testimonial-section">
