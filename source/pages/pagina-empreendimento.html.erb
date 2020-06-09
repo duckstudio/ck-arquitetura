@@ -1,3 +1,5 @@
+<% content_for(:wf_page, "5e2f888f9cd39160f9540658") %>
+
 <%
   if empreendimento.seo && empreendimento.seo.title
     content_for(:page_title, empreendimento.seo.title)
@@ -216,19 +218,3 @@
   </div>
 
   <%= partial "partials/footer" %>
-
-  <script>
-    const link = document.querySelector('.broker-page_video-section_video_link');
-    const video = document.querySelector('.embedly-embed');
-    const close = document.querySelector('.youtube-modal_close');
-
-    const originalSrc = video.src;
-
-    link.addEventListener('click', function (event) {
-      video.src = `${originalSrc}&autoplay=true`;
-    });
-
-    close.addEventListener('click', function (event) {
-      video.src = originalSrc;
-    });
-  </script>

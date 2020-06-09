@@ -1,3 +1,5 @@
+<% content_for(:wf_page, "5e2f887d78b207733bc1cbe0") %>
+
 <%
   if data.pages.corretor.seo && data.pages.corretor.seo.title
     content_for(:page_title, data.pages.corretor.seo.title)
@@ -132,6 +134,7 @@
   <%= partial "partials/footer" %>
 
   <script>
+    window.onload = function(){
     const emp_files = {
       <% data.empreendimentos.each do |_filename, empreendimento| %>
         <%= "'#{empreendimento.title.parameterize}': '#{empreendimento.download}'," if empreendimento.download %>
@@ -157,20 +160,5 @@
         window.open(emp_files[empreendimento]);
       });
     });
-  </script>
-
-  <script>
-    const link = document.querySelector('.broker-page_video-section_video_link');
-    const video = document.querySelector('.embedly-embed');
-    const close = document.querySelector('.youtube-modal_close');
-
-    const originalSrc = video.src;
-
-    link.addEventListener('click', function (event) {
-      video.src = `${originalSrc}&autoplay=true`;
-    });
-
-    close.addEventListener('click', function (event) {
-      video.src = originalSrc;
-    });
+  }
   </script>

@@ -25,7 +25,21 @@ $(window).on("load", function() {
     }
   });
 
-  $('.broker-page_video-section_video_link').click(e => {
-    $('.youtube-modal').css({ display: 'flex', opacity: 1 });
-  })
+  const link = document.querySelector('.broker-page_video-section_video_link');
+  const video = document.querySelector('.embedly-embed');
+  const close = document.querySelector('.youtube-modal_close');
+
+  const originalSrc = video ? video.src : null;
+
+  if (link) {
+    link.addEventListener('click', function (event) {
+      video.src = `${originalSrc}&autoplay=true`;
+    });
+  }
+
+  if (close) {
+    close.addEventListener('click', function (event) {
+      video.src = originalSrc;
+    });
+  }
 });
