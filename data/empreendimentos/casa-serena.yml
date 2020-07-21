@@ -10,9 +10,9 @@ value: 7.680.000,00
 city: Gramado
 image: https://res.cloudinary.com/duckck/image/upload/v1591196282/Casa%20Serena/Sereana_novo_e-mail-min_ratqnp.jpg
 highlight_images:
-  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1591196288/Casa%20Serena/md2019_07_09-173004-HDR-min_yd5dsv.jpg
-  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1591196286/Casa%20Serena/md2019_07_09-142558-min_c5fmk6.jpg
-  - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1591196284/Casa%20Serena/md2019_05_14-144237_1_np32qs-min_puwnve.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_975/c_crop,f_auto,h_600,q_auto,w_945/v1591196288/Casa%20Serena/md2019_07_09-173004-HDR-min_yd5dsv.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_945/c_crop,f_auto,h_600,q_auto,w_945/v1591196286/Casa%20Serena/md2019_07_09-142558-min_c5fmk6.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_945/c_crop,f_auto,h_600,q_auto,w_945/v1591196284/Casa%20Serena/md2019_05_14-144237_1_np32qs-min_puwnve.jpg
 highlight_text: |-
   Serenidade e Perfeição
 
