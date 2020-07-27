@@ -381,7 +381,6 @@ collections:
                       width: 945
                       height: 600
                       quality: auto
-                      crop: crop
       - {label: Texto quando destaque, name: highlight_text, widget: markdown}
       - {label: Andamento, name: status, widget: string}
       - {label: "Aparecer 8 razões para comprar uma casa?", name: show_reasons, widget: boolean, default: false}
