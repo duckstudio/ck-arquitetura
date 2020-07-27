@@ -1448,6 +1448,10 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
   background-size: cover;
 }
 
+.project-page_hero.mobile {
+  display: none;
+}
+
 .house-page_hero_main {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3228,7 +3232,17 @@ div.houses-section_content::-webkit-scrollbar-corner { display: none; height: 0p
     display: block;
   }
   .project-page_hero {
+    display: none;
     height: auto;
+  }
+  .project-page_hero.mobile {
+    display: flex;
+    height: auto;
+  }
+  .project-page_hero.mobile .house-page_hero_main {
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .house-page_hero_h1 {
     margin-top: 270px;

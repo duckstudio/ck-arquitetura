@@ -20,8 +20,31 @@
       <a href="https://api.whatsapp.com/send?phone=<%= whatsappize(data.settings.infos.whatsapp) %>&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="button pink whatsapp w-button">Enviar WhatsApp</a>
       <a href="/contato" class="button pink fill margin-left mobile w-button">Enviar e-mail</a></div>
   </div>
-  <div class="project-page_hero" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('<%= empreendimento.image %>');">
+  <div class="project-page_hero" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('<%= empreendimento.image %>');">
     <div class="house-page_hero_main">
+      <%= partial "partials/navbar" %>
+
+      <div class="container">
+        <h1 class="house-page_hero_h1"><%= empreendimento.title %></h1>
+        <div class="house-page_hero_subtitle"><%= empreendimento.subtitle %></div>
+      </div>
+    </div>
+
+    <% if empreendimento.value %>
+      <div class="house-page_hero_footer">
+        <div class="container">
+          <div class="house-page_hero_footer_content">
+            <div class="house-page_hero_footer_content_txt">
+              <div class="house-page_hero_footer_content_txt_status">Valor:</div>
+              <div class="house-page_hero_footer_content_txt_status_type">R$ <%= empreendimento.value %></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="project-page_hero mobile" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('<%= empreendimento.image %>');">
+    <div class="house-page_hero_main" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('<%= empreendimento.image %>');">
       <%= partial "partials/navbar" %>
 
       <div class="container">
