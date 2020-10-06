@@ -1,9 +1,43 @@
 image_list: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_400,q_auto,w_370/v1584030879/Casa%20Serena/ImagemListagemSiteSerena_lwds6b.jpg
 seo:
   title: Casa Serena
-  description: Uma residência perfeita, em um lugar único, para quem deseja
-    investir na sua serenidade e na qualidade de vida de toda a sua família e
-    amigos.
+  description: >-
+    Uma residência perfeita, em um lugar único, para quem deseja investir na sua
+    serenidade e na qualidade de vida de toda a sua família e amigos.
+
+    <!-- Facebook Pixel Code -->
+
+    <script>
+
+    !function(f,b,e,v,n,t,s)
+
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+    n.queue=[];t=b.createElement(e);t.async=!0;
+
+    t.src=v;s=b.getElementsByTagName(e)[0];
+
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '661742614740880');
+
+    fbq('track', 'PageView');
+
+    </script>
+
+    <noscript><img height="1" width="1" style="display:none"
+
+    src="https://www.facebook.com/tr?id=661742614740880&ev=PageView&noscript=1"
+
+    /></noscript>
+
+    <!-- End Facebook Pixel Code -->
 title: "Casa Serena "
 subtitle: Mais que um lar, um legado de amor!
 value: 7.680.000,00
