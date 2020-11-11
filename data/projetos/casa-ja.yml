@@ -3,7 +3,7 @@ seo:
   description: RESIDÊNCIA TÉRREA QUE PRIVILEGIA A ACESSIBILIDADE E A ILUMINAÇÃO NATURAL!
 title: CASA J&A
 city: IGREJINHA
-image: https://res.cloudinary.com/duckck/image/upload/v1605121596/CASA%20JA/CASA_JA_02-min_pvql0z.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1605121596/CASA%20JA/CASA_JA_02-min_pvql0z.jpg
 pretitle: PROJETO ARQUITETÔNICO
 description_title: ARQUITETURA MINIMALISTA
 description: "PROJETO SE DEU A PARTIR DA LINDA VISTA DO TERRENO, PRIVILEGIANDO A
@@ -15,7 +15,7 @@ image_sections:
   - title: IMAGENS
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1605121596/CASA%20JA/CASA_JA_01-min_anawmo.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1605121596/CASA%20JA/CASA_JA_02-min_pvql0z.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_limit,f_auto,q_auto,w_1900/v1605121596/CASA%20JA/CASA_JA_02-min_pvql0z.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1605121596/CASA%20JA/CASA_JA_04-min_qenkmb.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1605121596/CASA%20JA/CASA_JA_03-min_lby9ju.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590684102/CASA%20JA/JA_1_uqqbqv.jpg
