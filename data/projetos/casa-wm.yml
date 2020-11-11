@@ -3,7 +3,7 @@ seo:
   description: RESIDÊNCIA TÉRREA QUE PRIVILEGIA A ACESSIBILIDADE E A ILUMINAÇÃO NATURAL!
 title: CASA W&M
 city: IGREJINHA
-image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1590683750/CASA%20WM%20-%20PROJETO/WM_1_a0hrml.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1605121838/CASA%20WM%20-%20PROJETO/CASA_WM_02-min_xlqjwx.jpg
 pretitle: PROJETO ARQUITETÔNICO
 description_title: ARQUITETURA MINIMALISTA
 description: RESIDÊNCIA TÉRREA QUE PRIVILEGIA A ACESSIBILIDADE E A ILUMINAÇÃO NATURAL!
@@ -13,6 +13,8 @@ people:
 image_sections:
   - title: IMAGENS
     images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_limit,f_auto,q_auto,w_1900/v1605121838/CASA%20WM%20-%20PROJETO/CASA_WM_01-min_rugypy.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_limit,f_auto,q_auto,w_1900/v1605121838/CASA%20WM%20-%20PROJETO/CASA_WM_02-min_xlqjwx.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683750/CASA%20WM%20-%20PROJETO/WM_1_a0hrml.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683750/CASA%20WM%20-%20PROJETO/WM_2_jx2awc.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683751/CASA%20WM%20-%20PROJETO/WM_3_yubsh1.jpg
