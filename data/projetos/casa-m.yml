@@ -4,7 +4,7 @@ seo:
     CONCRETO APARENTE E AMPLOS PANOS DE VIDROS!
 title: CASA M
 city: TRÊS COROAS
-image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1590683198/Casa%20M%20-%20Projeto/M_1_fysm4t.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1605121751/Casa%20M%20-%20Projeto/CASA_M_01-min_kdnvlu.jpg
 pretitle: PROJETO ARQUITETÔNICO
 description_title: ARQUITETURA MINIMALISTA
 description: ARQUITETURA MINIMALISTA COM DESIGN ARROJADO, EVIDENCIANDO O
@@ -15,6 +15,8 @@ people:
 image_sections:
   - title: IMAGENS
     images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1605121751/Casa%20M%20-%20Projeto/CASA_M_02-min_ltddlh.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1605121751/Casa%20M%20-%20Projeto/CASA_M_01-min_kdnvlu.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683198/Casa%20M%20-%20Projeto/M_1_fysm4t.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683199/Casa%20M%20-%20Projeto/M_2_mxees0.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590683198/Casa%20M%20-%20Projeto/M_3_z8qez3.jpg
