@@ -83,9 +83,9 @@ sustentabilidade:
   title: Um legado de **sustentabilidade** para sua família e o planeta.
 midia:
   items:
-    - link: https://www.archdaily.com.br/br/930443/casa-serena-studio-ck-arquitetura
-      title: Arch Daily
-      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701416/Midia/83653877_820193241740128_4319796927139938304_o.jpg_aanzah.jpg
+    - title: Arch Daily - Casa Serena
+      link: https://www.archdaily.com.br/br/952673/casa-doce-vida-studio-ck-arquitetura
+      image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_250,q_auto,w_270/v1607448685/Midia/archdailydocevida_wrs1d3.jpg
     - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583844622/Midia/gentequefaz_xh278n.jpg
       link: https://pt.calameo.com/read/000607875782054f53210
       title: Revista Gente que Faz
@@ -95,6 +95,9 @@ midia:
     - title: Guia Glass Gold Edition
       image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584703916/Midia/71538380_187803695597120_2263105420265240435_n_gv5n3e.jpg
       link: "#"
+    - link: https://www.archdaily.com.br/br/930443/casa-serena-studio-ck-arquitetura
+      title: Arch Daily - Casa Serena
+      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_270/c_crop,f_auto,h_250,q_auto,w_270/v1584701416/Midia/83653877_820193241740128_4319796927139938304_o.jpg_aanzah.jpg
     - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583843310/Midia/livrogramado_f7xemn.jpg
       link: https://www.instagram.com/p/BxaQrJGnMNZ/
       title: Livro Gramado de Leonid Streliaev
