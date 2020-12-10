@@ -1,0 +1,21 @@
+seo:
+  title: INTERIOR FH
+  description: "Nossa maior realização é criar experiências únicas para cada
+    família. Nesse projeto ousamos na mistura de materiais: pedra natural,
+    concreto aparente, vidro e madeira."
+title: INTERIOR FH
+city: IGREJINHA
+image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1607628368/Interior%20FH/INTERIORES_FH_02-min-min_vfsg9i.jpg
+pretitle: PROJETO INTERIORES
+description_title: Ousadia na mistura de materiais!
+description: "Nossa maior realização é criar experiências únicas para cada
+  família. Nesse projeto ousamos na mistura de materiais: pedra natural,
+  concreto aparente, vidro e madeira."
+people:
+  - title: Arquiteta Responsável
+    name: Charlene Koetz
+image_sections:
+  - title: Interior
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_limit,f_auto,q_auto,w_1900/v1607628368/Interior%20FH/INTERIORES_FH_02-min-min_vfsg9i.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_limit,f_auto,q_auto,w_1900/v1607628368/Interior%20FH/INTERIORES_FH_O1-min-min_gcjlup.jpg
