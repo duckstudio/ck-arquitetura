@@ -4,7 +4,7 @@ seo:
     NATUREZA DA SERRA!
 title: CASA P&R
 city: GRAMADO
-image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1590682609/Casa%20PR%20-%20Projeto/PR_1_pivmra.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1607706319/Casa%20PR%20-%20Projeto/PR_NOVA_1-min_hzvewx.jpg
 pretitle: PROJETO ARQUITETÔNICO
 description_title: ARQUITETURA CONTEMPORÂNEA
 description: COM ESTILO ACONCHEGANTE E CONTEMPORÂNEO, TOTALMENTE INTEGRADO A
@@ -15,9 +15,12 @@ people:
 image_sections:
   - title: IMAGENS
     images:
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590682609/Casa%20PR%20-%20Projeto/PR_1_pivmra.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590682609/Casa%20PR%20-%20Projeto/PR_2_lyta7l.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590682609/Casa%20PR%20-%20Projeto/PR_3_tidcmo.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590682609/Casa%20PR%20-%20Projeto/PR_4_wnefer.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590682609/Casa%20PR%20-%20Projeto/PR_5_i2bkf5.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1590682609/Casa%20PR%20-%20Projeto/PR_6_pehq9y.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_limit,f_auto,q_auto,w_1900/v1607706319/Casa%20PR%20-%20Projeto/PR_NOVA_1-min_hzvewx.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1607706318/Casa%20PR%20-%20Projeto/PR_NOVA_2-min_oukyxp.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1607706318/Casa%20PR%20-%20Projeto/PR_NOVA_3-min_batlez.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1607706319/Casa%20PR%20-%20Projeto/PR_NOVA_4-min_povwag.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1607706318/Casa%20PR%20-%20Projeto/PR_NOVA_5-min_ufvkke.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1607706319/Casa%20PR%20-%20Projeto/PR_NOVA_6-min_gco7ru.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1607706320/Casa%20PR%20-%20Projeto/PR_NOVA_7-min_utl60j.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1607706319/Casa%20PR%20-%20Projeto/PR_NOVA_8-min_mw0iy9.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1607706319/Casa%20PR%20-%20Projeto/PR_NOVA_9-min_jaefyv.jpg
