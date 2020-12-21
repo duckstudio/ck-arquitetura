@@ -589,3 +589,18 @@ collections:
                 collection: empreendimentos
                 valueField: "title"
                 searchFields: ["title"]
+
+      - file: data/settings/ordem_projetos.yml
+        label: Ordem dos Projetos
+        name: ordem_projetos
+        fields:
+          - label: Items
+            name: items
+            widget: list
+            fields:
+              - label: Projeto
+                name: projeto
+                widget: relation
+                collection: projetos
+                valueField: "title"
+                searchFields: ["title"]

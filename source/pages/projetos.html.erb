@@ -27,12 +27,14 @@
     </div>
   </div>
   <div class="projects-page_list">
-    <% data.projetos.each do |_filename, project| %>
-      <a href="/projeto/<%= project.title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= project.image %>">
+    <% data.settings.ordem_projetos.items.each do |ordem_projetos| %>
+      <% findProjeto = @app.data.projetos.find { |_filename, projeto| ordem_projetos.projeto == projeto.title } %>
+      <% projeto = findProjeto[1] %>
+      <a href="/projeto/<%= projeto.title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= projeto.image %>">
         <div class="projects-page_list_item_txt">
-          <div class="projects-page_list_item_txt_name"><%= project.title %></div>
+          <div class="projects-page_list_item_txt_name"><%= projeto.title %></div>
           <div class="projects-page_list_item_txt_divisor"></div>
-          <div class="projects-page_list_item_txt_city"><%= project.city %></div>
+          <div class="projects-page_list_item_txt_city"><%= projeto.city %></div>
         </div>
       </a>
     <% end %>
