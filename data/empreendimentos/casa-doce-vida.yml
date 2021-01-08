@@ -17,7 +17,7 @@ title: Casa Doce Vida
 subtitle: Pra Viver de Bem com a Vida
 value: 11.370.000,00
 city: Gramado
-image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1610133814/Doce%20Vida/Gramado_16__gramado-min-min_mbex2b.jpg
+image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_crop,f_auto,h_1080,q_auto,w_1920/v1610133790/Doce%20Vida/Gramado_16__gramado-min-min_l1pmsh.jp2
 highlight_images:
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1591274904/Doce%20Vida/GSM_0339_jx2ujo.jpg
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1591274905/Doce%20Vida/GSM_0344_imcrej.jpg
@@ -70,6 +70,7 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274903/Doce%20Vida/GSM_0443_zbjlbi.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274903/Doce%20Vida/GSM_0273_jkcnjd.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274907/Doce%20Vida/GSM_0560_xqsnqr.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_limit,f_auto,q_auto,w_1900/v1610133800/Doce%20Vida/Gramado_03__gramado-min-min_ws4bl6.jp2
   - title: SALA DOS AMIGOS
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274904/Doce%20Vida/GSM_0498_rlihxn.jpg
