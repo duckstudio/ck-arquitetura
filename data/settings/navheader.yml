@@ -1,16 +1,16 @@
 items:
   - label: Projetos Personalizados
     path: /projetos
-    tab: false
+    tab: true
   - label: A CK Arquitetura
     path: /institucional
-    tab: false
+    tab: true
   - label: Corretores
     path: /corretores
-    tab: false
+    tab: true
   - label: Contato
     path: /contato
-    tab: false
+    tab: true
   - label: O melhor de Gramado
-    path: 'http://gramadoexperience.com/'
+    path: http://gramadoexperience.com/
     tab: true
