@@ -10,7 +10,12 @@
     content_for(:meta_description, data.pages.institucional.seo.description)
   end
 %>
-
+  <div class="fixed-bar">
+    <div class="house-page_contact-section_buttons-box fixed">
+      <h2 class="house-page_contact-section_h2 fixed">Vamos <strong class="semi-bold">conversar?<br></strong><span><strong class="semi-bold p">Envie uma mensagem</strong></span></h2>
+      <a href="https://api.whatsapp.com/send?phone=<%= whatsappize(data.settings.infos.whatsapp) %>&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="button pink whatsapp w-button">Enviar WhatsApp</a>
+      <a href="/contato" class="button pink fill margin-left mobile w-button">Enviar e-mail</a></div>
+  </div>  
   <div class="youtube-modal"><a data-w-id="4a27a4b3-9dbd-c70b-ced1-d5b152b897da" href="#" class="youtube-modal_close w-inline-block"><img src="/assets/images/close-icon.svg" width="24" alt=""></a>
     <div style="padding-top:56.17021276595745%" id="w-node-d5b152b897dc-52b897d9" class="youtube-modal_video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F<%= data.pages.institucional.youtube_video %>&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D<%= data.pages.institucional.youtube_video %>&image=http%3A%2F%2Fi.ytimg.com%2Fvi%2F<%= data.pages.institucional.youtube_video %>%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
   </div>
