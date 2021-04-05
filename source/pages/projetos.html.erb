@@ -13,7 +13,13 @@
 
   <%= partial "partials/navbar", locals: { white: true } %>
 
-  <div class="about-page_intro-section">
+<div class="fixed-bar">
+    <div class="house-page_contact-section_buttons-box fixed">
+      <h2 class="house-page_contact-section_h2 fixed">Vamos <strong class="semi-bold">conversar?<br></strong><span><strong class="semi-bold p">Envie uma mensagem</strong></span></h2>
+      <a href="https://api.whatsapp.com/send?phone=<%= whatsappize(data.settings.infos.whatsapp) %>&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="button pink whatsapp w-button">Enviar WhatsApp</a>
+      <a href="/contato" class="button pink fill margin-left mobile w-button">Enviar e-mail</a></div>
+ </div>  
+<div class="about-page_intro-section">
     <div class="container">
       <div class="broker-page_intro-section_content">
         <div>
