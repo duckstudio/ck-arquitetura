@@ -10,7 +10,12 @@
     content_for(:meta_description, data.pages.home.seo.description)
   end
 %>
-
+  <div class="fixed-bar">
+    <div class="house-page_contact-section_buttons-box fixed">
+      <h2 class="house-page_contact-section_h2 fixed">Vamos <strong class="semi-bold">conversar?<br></strong><span><strong class="semi-bold p">Envie uma mensagem</strong></span></h2>
+      <a href="https://api.whatsapp.com/send?phone=<%= whatsappize(data.settings.infos.whatsapp) %>&amp;text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20pelo%20site!" target="_blank" class="button pink whatsapp w-button">Enviar WhatsApp</a>
+      <a href="/contato" class="button pink fill margin-left mobile w-button">Enviar e-mail</a></div>
+  </div>  
   <div data-w-id="3f4fd706-80ff-1556-716c-cb74667440c9" class="site-content">
     <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="videos/bg-ck_1-poster-00001.jpg" data-video-urls="<%= data.pages.home.hero.video %>" class="hero-section_bg-video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/bg-ck_1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="<%= data.pages.home.hero.video %>" data-wf-ignore="true"></video>
       <%= partial "partials/navbar" %>
