@@ -65,6 +65,8 @@ plants:
     image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/Terreo_pmxaij.png
   - title: PAVIMENTO SUPERIOR
     image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/1Pavimento_tmtfhm.png
+  - title: SUBSOLO
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1627391041/Casa%20Punta/humanizada_subsolo_ab3cb6.png
 more_details:
   - title: Diferenciação nas portas internas com 2,5m de altura;
   - title: O prazer de caminhar em pisos aquecidos em toda casa e o silêncio da
