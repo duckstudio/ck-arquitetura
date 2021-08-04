@@ -1,0 +1,22 @@
+seo:
+  title: CASA CM
+  description: Com estilo contemporâneo esta residência se destaca com seu caráter
+    aconchegante e na harmonia de suas linhas puras e diferentes materiais!
+title: CASA DG
+city: GRAMADO
+image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1628102238/CASA%20CM/CM_1_qty9zd.png
+pretitle: PROJETO ARQUTETÔNICO
+description_title: Arquitetura de linhas puras
+description: Com estilo contemporâneo esta residência se destaca com seu caráter
+  aconchegante e na harmonia de suas linhas puras e diferentes materiais!
+people:
+  - title: "ARQUITETA RESPONSÁVEL "
+    name: CHARLENE KOETZ
+image_sections:
+  - title: IMAGENS
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1628102238/CASA%20CM/CM_1_qty9zd.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1628102240/CASA%20CM/CM_2_kp8pks.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1628102239/CASA%20CM/CM_3_s1tivc.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1628102239/CASA%20CM/CM_4_mob37c.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1628102240/CASA%20CM/CM_5_ijoaud.png
