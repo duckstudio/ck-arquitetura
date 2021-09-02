@@ -15,7 +15,10 @@ image_sections:
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108250/Casa%20Para%C3%ADso/Para%C3%ADso_02_2_lbap08
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108251/Casa%20Para%C3%ADso/Para%C3%ADso_03_bo76fi.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108255/Casa%20Para%C3%ADso/Para%C3%ADso_033_v3snol.jp
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108248/Casa%20Para%C3%ADso/Para%C3%ADso_01_zbpm38.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108249/Casa%20Para%C3%ADso/Para%C3%ADso_02_wijd6r.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108255/Casa%20Para%C3%ADso/Para%C3%ADso_033_v3snol.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108252/Casa%20Para%C3%ADso/Para%C3%ADso_04_dphhi0.jpg
   - title: INTERNAS
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108243/Casa%20Para%C3%ADso/Interna_01_nzaqmb.jpg
