@@ -1,0 +1,25 @@
+seo:
+  title: Casa Paraiso
+  description: A Casa Paraíso transpira tranquilidade e modernidade em todos seus detalhes
+title: CASA PARAISO
+city: GRAMADO
+image: https://res.cloudinary.com/duckck/image/upload/v1584108250/Casa%20Para%C3%ADso/Para%C3%ADso_02_2_lbap08.jpg
+pretitle: PROJETO ARQUTETÔNICO
+description_title: O Pôr do Sol de Gramado em Seu Coração
+description: A Casa Paraíso transpira tranquilidade e modernidade em todos seus detalhes
+people:
+  - title: "ARQUITETA RESPONSÁVEL "
+    name: CHARLENE KOETZ
+image_sections:
+  - title: EXTERNAS
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108250/Casa%20Para%C3%ADso/Para%C3%ADso_02_2_lbap08
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108251/Casa%20Para%C3%ADso/Para%C3%ADso_03_bo76fi.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108255/Casa%20Para%C3%ADso/Para%C3%ADso_033_v3snol.jp
+  - title: INTERNAS
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108243/Casa%20Para%C3%ADso/Interna_01_nzaqmb.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108246/Casa%20Para%C3%ADso/Interna_04_aplszc.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108244/Casa%20Para%C3%ADso/Interna_02_wq09un.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108247/Casa%20Para%C3%ADso/Interna_05_lb2m9t.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1584108245/Casa%20Para%C3%ADso/Interna_03_acx9zy.jpg
