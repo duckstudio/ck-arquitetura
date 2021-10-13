@@ -7,7 +7,7 @@ title: Casa Punta
 subtitle: Arquitetura moderna e minimalista
 value: ""
 city: "Gramado "
-image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1630593671/Casa%20Punta/CKA_CSA12_01_pessoas_dpss86.jpg
+image: https://res.cloudinary.com/duckck/image/upload/v1630593671/Casa%20Punta/CKA_CSA12_01_l6knbx.jpg
 highlight_images:
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1583865589/Casa%20Punta/CKA_CSA12_02b_skr41s.jpg
   - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_600,q_auto,w_945/v1583865585/Casa%20Punta/CKA_CSA12_03_pessoas_keqlzw.jpg
@@ -23,7 +23,7 @@ text: |-
   Espetacular projeto, dentro do Condomínio Aspen Mountain
 condominio: Condomínio Aspen Mountain
 details:
-  - title: Área construída de 503m²
+  - title: Área construída de 588,33m²
   - title: Suntuoso Hall de entrada com iluminação natural
   - title: Espaço do Chef com churrasqueira e bar, integrado ao Espaço Relax com SPA
       e amplos decks
@@ -36,7 +36,7 @@ download: https://drive.google.com/open?id=1kWxs7YKUwrownsmbrVqmxYwVve_Lvght
 image_sections:
   - title: CASA PUNTA
     images:
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1630593671/Casa%20Punta/CKA_CSA12_01_pessoas_dpss86.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1630593671/Casa%20Punta/CKA_CSA12_01_l6knbx.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865589/Casa%20Punta/CKA_CSA12_02b_skr41s.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865590/Casa%20Punta/CKA_CSA12_032-Pessoas_e6a1kp.jpg
   - title: HALL DE BOAS VINDAS
@@ -62,9 +62,9 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1583865591/Casa%20Punta/CKA_interiores_11_sfbh9b.jpg
 plants:
   - title: TÉRREO
-    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/Terreo_pmxaij.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1634148851/Casa%20Punta/planta_terreo_e4dg7b.png
   - title: PAVIMENTO SUPERIOR
-    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1583865604/Casa%20Punta/1Pavimento_tmtfhm.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1634148851/Casa%20Punta/planta_alterada_punta_q6uedz.png
   - title: SUBSOLO
     image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1627391041/Casa%20Punta/humanizada_subsolo_ab3cb6.png
 more_details:
