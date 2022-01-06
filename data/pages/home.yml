@@ -18,9 +18,11 @@ sustentabilidade:
       image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/iluminacaonatural_eaeqap.jpg
       internal_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/iluminacaoonatual-verde_kbnrfk.png
       text: >
-        As casas são projetadas para obter o máximo de
-
-        iluminação natural, gerando significativa redução de consumo de energia, ao mesmo tempo que integra seus moradores com vistas espetaculares da natureza no entorno da propriedade, com amplos panos de vidros que expressam a transparência de uma verdadeira propriedade de serra do século XXI.
+        As casas são projetadas para obter o máximo de iluminação natural,
+        gerando significativa redução de consumo de energia, ao mesmo tempo que
+        integra seus moradores com vistas espetaculares da natureza no entorno
+        da propriedade, com amplos panos de vidros que expressam a transparência
+        de uma verdadeira propriedade de serra do século XXI.
       title: Iluminação Natural
     - bottom: true
       complete_title: ALMA VERDE NA ENERGIA 100% LIMPA
@@ -28,11 +30,11 @@ sustentabilidade:
       image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/Eneregialimpa_ppcgqw.jpg
       internal_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842921/Alma%20Verde/energialimpaverde_oxlaly.png
       text: A energia elétrica utilizada pelos proprietários ao longo de toda vida
-        útil da casa, é gerada em um condomínio de energia fotovoltaica, que
-        atende, além da iluminação e equipamentos elétricos da casa, o conforto
-        da climatização, da água quente e também o abastecimento de energia dos
-        carros elétricos da família, tornando a residência autossustentável em
-        energia de forma limpa e renovável.
+        útil da casa, é gerada por placas fotovoltaicas instaladas na própria
+        Casa, que atende, além da iluminação e equipamentos elétricos da casa, o
+        conforto da climatização, da água quente e também o abastecimento de
+        energia dos carros elétricos da família, tornando a residência
+        autossustentável em energia de forma limpa e renovável.
       title: Energia 100% Limpa
     - bottom: false
       complete_title: ALMA VERDE NA EMISSÃO DE CARBONO COMPENSADA
@@ -46,30 +48,15 @@ sustentabilidade:
 
         Este inventário assegura a completa compensação do gás carbônico emitido na atmosfera, em área preservada e certificada.
       title: Emissão de Carbono Compensada
-    - bottom: false
-      complete_title: ALMA VERDE NA CAPTAÇÃO DA ÁGUA DA CHUVA
-      external_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/camptacaoagua_-_branco_cyiygm.png
-      image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/aguadachuva_iceswj.jpg
-      internal_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/camptacaoagua-verde_u8ytds.png
-      text: As casas são construídas com estrutura de captação de água da chuva para
-        uso no jardim, na irrigação de paredes vivas e espelhos d’agua quando
-        presentes nas casas.
-      title: Captação da Água da Chuva
     - bottom: true
       complete_title: ALMA VERDE NAS LAREIRAS ECOLÓGICAS
       external_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_65,q_auto,w_65/v1583842920/Alma%20Verde/lareiras-branco_vegazy.png
       image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_300/c_crop,f_auto,h_300,q_auto,w_300/v1583858095/Alma%20Verde/lareiraecologica_lx4gk8.jpg
       internal_icon: https://res.cloudinary.com/duckck/image/upload/c_pad,f_auto,h_40,q_auto,w_40/v1583842920/Alma%20Verde/lareiras-verde_h5uysj.png
-      text: >-
-        As lareiras de tijolos contam com tecnologia de dupla combustão, que
-        além de triplicar a irradiação de calor no ambiente, reduz em mais de
-        50% o consumo de lenha vegetal certificada, e de quebra reduz a emissão
-        de gases, pois o processo de combustão produz exatamente a mesma
-        quantidade de CO2 que a madeira absorve durante o processo de
-        crescimento.
-
-
-        Além disso, essa quantidade de CO2 é igual à que seria provocada com a decomposição natural do mesmo pedaço de madeira se não fosse usado como combustível.
+      text: As lareiras contam com tecnologia de dupla combustão e vidros importados,
+        que além de triplicar a irradiação de calor no ambiente, reduz em mais
+        de 50% o consumo de lenha vegetal, e de quebra reduz a emissão de gases
+        de efeito estufa.
       title: Lareiras Ecológicas
   text: >-
     A CK Arquitetura de Gramado, sabe que um investimento imobiliário na
@@ -79,7 +66,10 @@ sustentabilidade:
     Por isso dedica todo cuidado e especial atenção em **elevar o nível de sustentabilidade e reduzir os impactos ambientais** que uma casa de alto padrão possa vir a causar, tornando isto parte do legado da propriedade.
 
 
-    Afirmando ainda mais o seu compromisso com essa visão, a CK Arquitetura criou um novo conceito imobiliário que denominamos **ALMA VERDE.**
+    Afirmando ainda mais o seu compromisso com essa visão, a CK Arquitetura criou um novo conceito imobiliário que denominamos **ALMA VERDE.**\
+
+
+    **ALMA VERDE** alia à arquitetura autoral minimalista da CK, inovadoras tecnologias de design, construção e sustentabilidade, deixando um legado permanente as próximas gerações.
   title: Um legado de **sustentabilidade** para sua família e o planeta.
 midia:
   items:
