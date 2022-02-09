@@ -9,6 +9,3 @@ items:
     path: /corretores
   - label: Contato
     path: /contato
-  - label: O melhor de Gramado
-    path: 'http://gramadoexperience.com/'
-    tab: true
