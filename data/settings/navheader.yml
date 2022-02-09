@@ -11,6 +11,3 @@ items:
   - label: Contato
     path: /contato
     tab: false
-  - label: O melhor de Gramado
-    path: http://gramadoexperience.com/
-    tab: true
