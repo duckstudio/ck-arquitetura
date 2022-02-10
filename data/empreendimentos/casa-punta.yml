@@ -17,10 +17,11 @@ highlight_text: |-
   inspirada nos inverno dos **melhores destinos do mundo!**
 status: Projeto Aprovado
 show_reasons: true
-text: |-
+text: >-
   **Compre com quem ama projetar, construir e realizar seu sonho de bem viver.**
 
-  Espetacular projeto, dentro do Condomínio Aspen Mountain
+
+  A leveza e originalidade da geometria arquitetônica, encanta e valoriza este belo investimento em seu maior ativo: Sua família!
 condominio: Condomínio Aspen Mountain
 details:
   - title: Área construída de 588,33m²
@@ -60,7 +61,7 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702628/Casa%20Punta/GSM_1638_copiar_sxg7df.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702636/Casa%20Punta/GSM_1625_copiar_i1ftsb.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702725/Casa%20Punta/GSM_1886_copiar_tvweia.jpg
-  - title: SUÍTE
+  - title: SUÍTE MASTER
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702750/Casa%20Punta/GSM_1801_copiar_nniglq.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702777/Casa%20Punta/GSM_1691_copiar_yokerl.jpg
