@@ -49,8 +49,19 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274903/Doce%20Vida/GSM_0443_zbjlbi.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274903/Doce%20Vida/GSM_0273_jkcnjd.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_scale,w_1920/c_limit,f_auto,q_auto,w_1900/v1610133800/Doce%20Vida/Gramado_03__gramado-min-min_ws4bl6.jp2
+  - title: SUÍTE MASTER
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947938/Doce%20Vida/ck_arquitetura_04-_CK_Arquitetura__copiar_h5b018.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947938/Doce%20Vida/ck_arquietura_02-_CK_Arquitetura__copiar_hlychx.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947938/Doce%20Vida/ck_arquitetura_05-_CK_Arquitetura__copiar_dlqgz1.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947938/Doce%20Vida/ck_arquitetura_03-_CK_Arquitetura__copiar_uooi8b.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947938/Doce%20Vida/ck_arquitetura_01-_CK_Arquitetura__copiar_bbnost.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947938/Doce%20Vida/ck_arquitetura_02-_CK_Arquitetura__copiar_dmnbry.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947938/Doce%20Vida/ck_arquitetura_06-_CK_Arquitetura__copiar_hechiy.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947939/Doce%20Vida/ck_arquitetura_07-_CK_Arquitetura__akvh8e.jpg
   - title: SALA DOS AMIGOS
     images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947939/Doce%20Vida/ck_arquitetura_33-_CK_Arquitetura__melrgj.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274904/Doce%20Vida/GSM_0498_rlihxn.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274906/Doce%20Vida/GSM_0387_w1ka4m.jpg
   - title: SALA DA PIPOCA
@@ -60,11 +71,14 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274903/Doce%20Vida/GSM_0475_ge6xm1.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274903/Doce%20Vida/GSM_0472_gswrqy.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274902/Doce%20Vida/GSM_0449_jmoqi2.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947939/Doce%20Vida/ck_arquitetura_60-_CK_Arquitetura__copiar_e6h6lu.jpg
   - title: MIRANTE PÔR DO SOL
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274906/Doce%20Vida/GSM_0531_on80rn.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274906/Doce%20Vida/GSM_0550_cddizd.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274904/Doce%20Vida/GSM_0493_u2rpp5.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947939/Doce%20Vida/ck_arquitetura_14_copiar.02-_CK_Arquitetura__k8gtep.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644947939/Doce%20Vida/ck_arquitetura_14_copiar.04-_CK_Arquitetura__bnwlkj.jpg
   - title: ESPAÇO RELAX
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274904/Doce%20Vida/GSM_0483_ojtzo4.jpg
