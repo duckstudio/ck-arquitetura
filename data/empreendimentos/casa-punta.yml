@@ -49,10 +49,16 @@ image_sections:
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119633/Casa%20Punta/GSM_1920_copiar_pz0qwz.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119633/Casa%20Punta/GSM_1864_copiar_ydskjg.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/v1645710418/Casa%20Punta/GSM_1831_copiar_wunslm.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710418/Casa%20Punta/GSM_1832_2_copiar_fsosdj.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710462/Casa%20Punta/GSM_1806_2_copiar_rtpnj6.jpg
   - title: JANTAR EM FAMÍLIA
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702384/Casa%20Punta/GSM_1826_copiar_u7dkyu.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702400/Casa%20Punta/GSM_1570_copiar_kkkssq.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710543/Casa%20Punta/GSM_1547_copiar_fzdwbn.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710543/Casa%20Punta/GSM_1577_copiar_zhsnox.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710543/Casa%20Punta/GSM_1575_copiar_ioos1m.jpg
   - title: COZINHA GOURMET
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702443/Casa%20Punta/GSM_1572_copiar_xkbfnc.jpg
@@ -74,6 +80,9 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702628/Casa%20Punta/GSM_1638_copiar_sxg7df.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702636/Casa%20Punta/GSM_1625_copiar_i1ftsb.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702725/Casa%20Punta/GSM_1886_copiar_tvweia.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710688/Casa%20Punta/GSM_1849_copiar_os0axt.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710688/Casa%20Punta/GSM_1634_copiar_xxvp9d.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710688/Casa%20Punta/GSM_1645_copiar_kuzlqo.jpg
   - title: SUÍTE MASTER
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702750/Casa%20Punta/GSM_1801_copiar_nniglq.jpg
@@ -84,6 +93,9 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702847/Casa%20Punta/GSM_1724-Editar_copiar_kd09p8.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702850/Casa%20Punta/GSM_1763_copiar_ptagie.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119927/Casa%20Punta/GSM_1804_copiar_dpfbrk.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710789/Casa%20Punta/GSM_1682_copiar_nlms8o.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710789/Casa%20Punta/GSM_1805_copiar_f1k8x6.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710789/Casa%20Punta/GSM_1804_copiar_bvyxwy.jpg
   - title: ADEGA SUBTERANEA
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645120011/Casa%20Punta/GSM_1751_do5k7d.jpg
