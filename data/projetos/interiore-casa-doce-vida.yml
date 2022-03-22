@@ -80,3 +80,24 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274907/Doce%20Vida/GSM_0574_wat54m.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591274907/Doce%20Vida/GSM_0587_vln65c.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975913/Doce%20Vida/Ck_Arq_Casa_Gramado_19-_CK_Aquitetura_-_envio_01_nwmtrp.jpg
+  - images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975917/Doce%20Vida/Ck_Arq_Casa_Gramado_17-_CK_Aquitetura_-_envio_01_zkrkqc.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975911/Doce%20Vida/Ck_Arq_Casa_Gramado_04-_CK_Aquitetura_-_envio_01_jzkjta.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975911/Doce%20Vida/Ck_Arq_Casa_Gramado_07-_CK_Aquitetura_-_envio_01_da6d7j.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975911/Doce%20Vida/Ck_Arq_Casa_Gramado_06-_CK_Aquitetura_-_envio_01_lmw9la.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975912/Doce%20Vida/Ck_Arq_Casa_Gramado_09-_CK_Aquitetura_-_envio_01_jghrni.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975913/Doce%20Vida/Ck_Arq_Casa_Gramado_15-_CK_Aquitetura_-_envio_01_cjy9bg.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975912/Doce%20Vida/Ck_Arq_Casa_Gramado_11-_CK_Aquitetura_-_envio_01_j7nfdf.jpg
+    title: REINIÃO DA FAMÍLIA
+  - title: ESPAÇO DIVERSÂO GARANTIDA
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975914/Doce%20Vida/ck_arquitetura_08-_CK_Arquitetura__pnfjyt.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975914/Doce%20Vida/ck_arquitetura_09-_CK_Arquitetura__ky40lf.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975914/Doce%20Vida/Ck_Arq_Casa_Gramado_31-_CK_Aquitetura_-_envio_01_qszbaz.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975913/Doce%20Vida/Ck_Arq_Casa_Gramado_29-_CK_Aquitetura_-_envio_01_kulthk.jpg
+  - title: HOME OFFICE
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975918/Doce%20Vida/ck_arquitetura_12-_CK_Arquitetura__urvkv3.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975917/Doce%20Vida/ck_arquitetura_10-_CK_Arquitetura__c8uz3p.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975916/Doce%20Vida/ck_arquitetura_13-_CK_Arquitetura__vrrua2.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1647975915/Doce%20Vida/ck_arquitetura_11-_CK_Arquitetura__ciy6kv.jpg
