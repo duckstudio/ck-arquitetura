@@ -10,8 +10,8 @@ city: "Gramado "
 image: https://res.cloudinary.com/duckck/image/upload/v1645119299/Casa%20Punta/GSM_1911_2_copiar_ek4nzb.jpg
 highlight_images:
   - image: https://res.cloudinary.com/duckck/image/upload/f_auto,q_auto/v1645119328/Casa%20Punta/GSM_1888_copiar_xzq6rl.jpg
-  - image: https://res.cloudinary.com/duckck/image/upload/f_auto,q_auto/v1640702074/Casa%20Punta/GSM_1075_copiar_vxgncz.jpg
-  - image: https://res.cloudinary.com/duckck/image/upload/f_auto,q_auto/v1640702116/Casa%20Punta/GSM_1101_copiar_amn8qa.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/v1649423207/Casa%20Punta/Roberta/gramado-43--CK-Arquitetura_-_oc1stz.jpg
+  - image: https://res.cloudinary.com/duckck/image/upload/f_auto,q_auto/v1649423947/Casa%20Punta/Roberta/gramado-17--CK-Arquitetura_2_fm37ai.jpg
 highlight_text: |-
   Casa contemporânea de serra \
   inspirada nos inverno dos **melhores destinos do mundo!**
@@ -41,10 +41,13 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119391/Casa%20Punta/GSM_1896_2_copiar_yuhher.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119412/Casa%20Punta/GSM_1916_copiar_v3sfkh.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119440/Casa%20Punta/GSM_1885_copiar_mls7sn.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119460/Casa%20Punta/GSM_1070_copiar_oxt6ys.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119479/Casa%20Punta/GSM_1075_copiar_rdi0eb.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423207/Casa%20Punta/Roberta/gramado-58--CK-Arquitetura__sdk2at.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-14--CK-Arquitetura__owui66.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119755/Casa%20Punta/GSM_1915_copiar_ug5xe9.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119790/Casa%20Punta/GSM_1867_2_copiar_oxs6uk.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-18--CK-Arquitetura__sgaao2.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423208/Casa%20Punta/Roberta/gramado-59--CK-Arquitetura__bbqyoe.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423209/Casa%20Punta/Roberta/gramado-19--CK-Arquitetura__os6i04.jpg
   - title: HALL DE ENTRADA
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119633/Casa%20Punta/GSM_1920_copiar_pz0qwz.jpg
@@ -52,21 +55,23 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/v1645710418/Casa%20Punta/GSM_1831_copiar_wunslm.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710418/Casa%20Punta/GSM_1832_2_copiar_fsosdj.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710462/Casa%20Punta/GSM_1806_2_copiar_rtpnj6.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423207/Casa%20Punta/Roberta/gramado-34--CK-Arquitetura__oicgwt.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-30--CK-Arquitetura__aembix.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423207/Casa%20Punta/Roberta/gramado-34--CK-Arquitetura__oicgwt.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423206/Casa%20Punta/Roberta/gramado-29--CK-Arquitetura__al3ypx.jpg
   - title: JANTAR EM FAMÍLIA
     images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-06--CK-Arquitetura__r5ie2w.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-42--CK-Arquitetura__b3rk2k.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702384/Casa%20Punta/GSM_1826_copiar_u7dkyu.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702400/Casa%20Punta/GSM_1570_copiar_kkkssq.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710543/Casa%20Punta/GSM_1547_copiar_fzdwbn.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710543/Casa%20Punta/GSM_1577_copiar_zhsnox.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710543/Casa%20Punta/GSM_1575_copiar_ioos1m.jpg
   - title: COZINHA GOURMET
     images:
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702443/Casa%20Punta/GSM_1572_copiar_xkbfnc.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702473/Casa%20Punta/GSM_1570_copiar_ixk1fe.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702491/Casa%20Punta/GSM_1537_copiar_jsjnrp.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119551/Casa%20Punta/GSM_1860_copiar_hsjiv7.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-05--CK-Arquitetura__zegjiz.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119843/Casa%20Punta/GSM_1932_copiar_d8s22e.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119846/Casa%20Punta/GSM_1927_copiar_qtors6.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-11--CK-Arquitetura__vszwxb.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702491/Casa%20Punta/GSM_1537_copiar_jsjnrp.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423202/Casa%20Punta/Roberta/gramado-09--CK-Arquitetura__krdafe.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702400/Casa%20Punta/GSM_1570_copiar_kkkssq.jpg
   - title: SALA DA FAMÍLIA
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702542/Casa%20Punta/GSM_1561_copiar_oppgzv.jpg
