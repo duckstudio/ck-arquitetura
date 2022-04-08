@@ -74,11 +74,17 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702400/Casa%20Punta/GSM_1570_copiar_kkkssq.jpg
   - title: SALA DA FAMÍLIA
     images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423206/Casa%20Punta/Roberta/gramado-57--CK-Arquitetura__tpc6vl.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702542/Casa%20Punta/GSM_1561_copiar_oppgzv.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702541/Casa%20Punta/GSM_1550_copiar_cdvwcq.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702590/Casa%20Punta/GSM_1558_copiar_vnluet.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702692/Casa%20Punta/GSM_1865_copiar_xypjei.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119892/Casa%20Punta/GSM_1922_copiar_rvthyb.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423207/Casa%20Punta/Roberta/gramado-13--CK-Arquitetura__jeso58.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423206/Casa%20Punta/Roberta/gramado-46--CK-Arquitetura__c5wiyn.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-12--CK-Arquitetura__nymkl3.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-41--CK-Arquitetura__yoirif.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423203/Casa%20Punta/Roberta/gramado-10--CK-Arquitetura__no3qej.jpg
   - title: DIVERSÂO EM FAMÍLIA
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702621/Casa%20Punta/GSM_1645_copiar_whajpk.jpg
