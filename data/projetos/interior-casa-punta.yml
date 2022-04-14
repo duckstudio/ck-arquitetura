@@ -39,6 +39,8 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-41--CK-Arquitetura__yoirif.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-12--CK-Arquitetura__nymkl3.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423203/Casa%20Punta/Roberta/gramado-10--CK-Arquitetura__no3qej.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423207/Casa%20Punta/Roberta/gramado-13--CK-Arquitetura__jeso58.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649956473/Casa%20Punta/Roberta/gramado-05-CK---arquitetura__izqis6.jpg
   - title: SALA DA PIPOCA
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423206/Casa%20Punta/Roberta/gramado-21--CK-Arquitetura__rj5ewv.jpg
@@ -60,6 +62,7 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-42--CK-Arquitetura__b3rk2k.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-06--CK-Arquitetura__r5ie2w.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710543/Casa%20Punta/GSM_1547_copiar_fzdwbn.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649956473/Casa%20Punta/Roberta/gramado-04-2-CK---arquitetura__eenfbb.jpg
     title: JANTAR EM FAMÍLIA
   - title: COZINHA GOURMET
     images:
@@ -69,3 +72,16 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119843/Casa%20Punta/GSM_1932_copiar_d8s22e.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119846/Casa%20Punta/GSM_1927_copiar_qtors6.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702400/Casa%20Punta/GSM_1570_copiar_kkkssq.jpg
+  - title: ADEGA
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423208/Casa%20Punta/Roberta/gramado-35--CK-Arquitetura__bynsyg.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645120011/Casa%20Punta/GSM_1751_do5k7d.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645120011/Casa%20Punta/GSM_1767_copiar_d5fjlv.jpg
+  - title: HALL DE ENTRADA
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710418/Casa%20Punta/GSM_1832_2_copiar_fsosdj.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645710418/Casa%20Punta/GSM_1831_copiar_wunslm.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119633/Casa%20Punta/GSM_1920_copiar_pz0qwz.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423207/Casa%20Punta/Roberta/gramado-45--CK-Arquitetura__wtqao5.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-30--CK-Arquitetura__aembix.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423207/Casa%20Punta/Roberta/gramado-34--CK-Arquitetura__oicgwt.jpg
