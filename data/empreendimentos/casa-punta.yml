@@ -107,7 +107,8 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423203/Casa%20Punta/Roberta/gramado-28--CK-Arquitetura__svaccb.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-24--CK-Arquitetura__lq4qfk.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423203/Casa%20Punta/Roberta/gramado-28--CK-Arquitetura__svaccb.jpg
-  - title: ADEGA SUBTERANEA
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423207/Casa%20Punta/Roberta/gramado-23--CK-Arquitetura__guyqbx.jpg
+  - title: ADEGA SUBTERRÂNEA
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423208/Casa%20Punta/Roberta/gramado-35--CK-Arquitetura__bynsyg.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645120011/Casa%20Punta/GSM_1751_do5k7d.jpg
@@ -121,6 +122,8 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649428053/Casa%20Punta/GSM_1807_copiar_opp5uo.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649428057/Casa%20Punta/GSM_1812_copiar_ain927.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649428052/Casa%20Punta/GSM_1816_copiar_zzj09a.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/v1649956473/Casa%20Punta/Roberta/gramado-01-CK---arquitetura__ima8ew.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649956473/Casa%20Punta/Roberta/gramado-02-CK---arquitetura__c0j5os.jpg
 plants:
   - title: TÉRREO
     image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1634148851/Casa%20Punta/planta_terreo_e4dg7b.png
