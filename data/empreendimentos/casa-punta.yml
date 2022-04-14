@@ -50,6 +50,7 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423209/Casa%20Punta/Roberta/gramado-19--CK-Arquitetura__os6i04.jpg
   - title: HALL DE ENTRADA
     images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649956473/Casa%20Punta/Roberta/--gramado-CK---arquitetura__mplgzc.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119633/Casa%20Punta/GSM_1920_copiar_pz0qwz.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119633/Casa%20Punta/GSM_1864_copiar_ydskjg.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/v1645710418/Casa%20Punta/GSM_1831_copiar_wunslm.jpg
@@ -73,6 +74,7 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423202/Casa%20Punta/Roberta/gramado-09--CK-Arquitetura__krdafe.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1640702400/Casa%20Punta/GSM_1570_copiar_kkkssq.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1645119551/Casa%20Punta/GSM_1860_copiar_hsjiv7.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649956473/Casa%20Punta/Roberta/gramado-04-2-CK---arquitetura__eenfbb.jpg
   - title: SALA DA FAMÍLIA
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423206/Casa%20Punta/Roberta/gramado-57--CK-Arquitetura__tpc6vl.jpg
@@ -86,6 +88,8 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-12--CK-Arquitetura__nymkl3.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-41--CK-Arquitetura__yoirif.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423203/Casa%20Punta/Roberta/gramado-10--CK-Arquitetura__no3qej.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649956473/Casa%20Punta/Roberta/gramado-06-CK---arquitetura__ykgeoe.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649956473/Casa%20Punta/Roberta/gramado-05-CK---arquitetura__izqis6.jpg
   - title: DIVERSÂO EM FAMÍLIA
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423203/Casa%20Punta/Roberta/gramado-40--CK-Arquitetura__cw1opu.jpg
