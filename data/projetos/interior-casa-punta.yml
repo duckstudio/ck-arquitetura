@@ -31,7 +31,14 @@ people:
     name: Charlene Koetz
 image_sections:
   - title: SUÍTE MASTER
-    images: []
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-26--CK-Arquitetura__ofcsxt.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-20.02--CK-Arquitetura__lq7fog.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423205/Casa%20Punta/Roberta/gramado-24--CK-Arquitetura__lq4qfk.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-20.01--CK-Arquitetura__dhhawl.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423204/Casa%20Punta/Roberta/gramado-27--CK-Arquitetura__gcrl0b.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423203/Casa%20Punta/Roberta/gramado-28--CK-Arquitetura__svaccb.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423207/Casa%20Punta/Roberta/gramado-23--CK-Arquitetura__guyqbx.jpg
   - title: SALA DOS AMIGOS
     images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1649423206/Casa%20Punta/Roberta/gramado-46--CK-Arquitetura__c5wiyn.jpg
