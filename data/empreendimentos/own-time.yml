@@ -42,8 +42,6 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1655489387/Own%20Time/Own-Time-Casa-2_fsgla7.webp
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1655489387/Own%20Time/7feda610225af2642a9f5e41b5cba3c8_xpi7s9.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1655489389/Own%20Time/render_sala_tvm0vd.png
-plants:
-  - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1655489390/Own%20Time/render-localizacao_zyloac.png
-    title: Empreendimento
+plants: []
 more_details:
   - title: Um modelo de casa de férias inteligente e flexível.
