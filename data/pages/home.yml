@@ -73,6 +73,9 @@ sustentabilidade:
   title: Um legado de **sustentabilidade** para sua família e o planeta.
 midia:
   items:
+    - link: https://www.instagram.com/p/CzUfnUivi_6/?img_index=1
+      title: "@casadycampo"
+      image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_250,q_auto,w_270/v1699382202/casadycampo_w9dfiz.jpg
     - image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_250,q_auto,w_270/v1641493557/Midia/revistaglass_jxrf35.jpg
       title: Capa edição 84 Revista Glass
       link: "#"
