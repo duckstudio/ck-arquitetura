@@ -1,10 +1,11 @@
 <% content_for(:wf_page, "5ddbe39b578bab30c22dbad5") %>
 
-<%
-  if data.pages.home.seo && data.pages.home.seo.title
-    content_for(:page_title)
-  end
-%>
+<title>Charlene Koetz Arquitetura</title> 
+<meta content="Casas extraordinárias em Gramado" name="description"> 
+<meta content="Charlene Koetz Arquitetura" property="og:title"> 
+<meta content="Casas extraordinárias em Gramado" property="og:description"> 
+<meta content="https://i.ibb.co/QJSwHBW/ogImage.png" property="og:image">
+
 <%
   if data.pages.home.seo && data.pages.home.seo.description
     content_for(:meta_description, data.pages.home.seo.description)
