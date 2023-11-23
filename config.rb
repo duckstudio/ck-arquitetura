@@ -116,9 +116,12 @@ ready do
   proxy "_redirects", "netlify-redirects", ignore: true
 end
 
+# Redirecionamento para o novo domínio
+redirect "/*", to: "https://www.charlenekoetz.com/:splat", host: "www.ckarquitetura.com"
+
 # Production
 configure :production do
-  set :url_root, "https://www.bracci.com.br"
+  set :url_root, "https://www.ckarquitetura.com"
   activate :minify_html
   activate :asset_hash, ignore: [/\.bmp\Z/, /\.jpg\Z/, /\.png\Z/, /\.gif\Z/, /\.svg\Z/, /\.ico\Z/]
 end
