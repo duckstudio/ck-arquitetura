@@ -113,12 +113,9 @@ helpers do
   end
 end
 
-# Redirecionamento para o novo domínio
-redirect "/*", to: "https://www.charlenekoetz.com/"
-
 # Production
 configure :production do
-  set :url_root, "https://www.ckarquitetura.com"
+  set :url_root, "https://www.charlenekoetz.com"
   activate :minify_html
   activate :asset_hash, ignore: [/\.bmp\Z/, /\.jpg\Z/, /\.png\Z/, /\.gif\Z/, /\.svg\Z/, /\.ico\Z/]
 end
