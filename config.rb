@@ -111,6 +111,11 @@ helpers do
   end
 end
 
+# Redirecionamento Netlify
+ready do
+  proxy "_redirects", "netlify-redirects", ignore: true
+end
+
 # Production
 configure :production do
   set :url_root, "https://www.bracci.com.br"
