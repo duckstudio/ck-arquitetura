@@ -7,11 +7,11 @@
   <meta charset="utf-8">
 
   <%
-    page_title = "Charlene Koetz Arquitetura - Gramado, RS"
+    page_title = "Charlene Koetz Arquitetura"
     meta_description = "A Charlene Koetz Arquitetura é uma jovem e arrojada empresa incorporadora da Cidade de  Gramado/RS, dirigida pela paixão, integridade e amor a arquitetura e ao bem viver."
     
     if content_for?(:page_title)
-      page_title = yield_content(:page_title) + " - Charlene Koetz Arquitetura"
+      page_title = yield_content(:page_title)
     end
     if content_for?(:meta_description)
       meta_description = yield_content(:meta_description)
