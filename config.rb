@@ -63,6 +63,7 @@ after_configuration do
   proxy "/institucional.html", "/pages/institucional.html", ignore: true
   proxy "/politicas-de-privacidade-e-termos-de-uso.html", "/pages/politicas-de-privacidade-e-termos-de-uso.html", ignore: true
   proxy "/projetos.html", "/pages/projetos.html", ignore: true
+  proxy "_redirects", "netlify-redirects", ignore: true
 
   @app.data.empreendimentos.each do |_filename, empreendimento|
     # empreendimentos is an array: [filename, {data}]
