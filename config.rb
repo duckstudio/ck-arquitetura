@@ -111,13 +111,8 @@ helpers do
   end
 end
 
-# Redirecionamento Netlify
-ready do
-  proxy "_redirects", "netlify-redirects", ignore: true
-end
-
 # Redirecionamento para o novo domínio
-redirect "/*", to: "https://www.charlenekoetz.com/:splat", host: "www.ckarquitetura.com"
+redirect "/*", to: "https://www.charlenekoetz.com/"
 
 # Production
 configure :production do
