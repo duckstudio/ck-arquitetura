@@ -9,7 +9,7 @@
   <%
     page_title = "Charlene Koetz Arquitetura"
     meta_description = "A Charlene Koetz Arquitetura é uma jovem e arrojada empresa incorporadora da Cidade de  Gramado/RS, dirigida pela paixão, integridade e amor a arquitetura e ao bem viver."
-    
+
     if content_for?(:page_title)
       page_title = yield_content(:page_title)
     end
@@ -22,7 +22,8 @@
   <meta content="<%= meta_description %>" name="description">
   <meta content="<%= page_title %>" property="og:title">
   <meta content="<%= meta_description %>" property="og:description">
-  <meta content="https://i.ibb.co/QJSwHBW/ogImage.png" property="og:image">
+  <meta property="og:image" content="/assets/images/ck-og.jpeg">
+  <meta name="twitter:image" content="/assets/images/ck-og.jpeg">
   <meta content="summary" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
 
@@ -75,7 +76,7 @@
         overflow-y: hidden !important;
       }
     </style>
-  
+
  <!-- Hotjar Tracking Code for http://ckarquitetura.com -->
 <script>
     (function(h,o,t,j,a,r){
