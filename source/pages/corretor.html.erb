@@ -92,7 +92,11 @@
   <div id="housesSection" class="broker-page_houses-section">
     <div class="container">
       <div class="broker-page_houses-section_list">
-        <% data.empreendimentos.each do |_filename, empreendimento| %>
+        <% data.settings.navemp.items.each do |item| %>
+          <% empreendimento = data.empreendimentos.find do |_filename, empreendimento| %>
+            <% item.empreendimento.parameterize == empreendimento.title.parameterize %>
+          <% end %>
+
           <% if empreendimento.download %>
             <div class="houses-section_content_block_item broker-page">
               <div class="lazyload houses-section_content_block_item_image list" data-bg="<%= empreendimento.image %>"></div>
