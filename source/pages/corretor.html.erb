@@ -97,6 +97,8 @@
             <% item.empreendimento.parameterize == empreendimento.title.parameterize %>
           <% end %>
 
+          <% empreendimento = empreendimento[1] %>
+
           <% if empreendimento.download %>
             <div class="houses-section_content_block_item broker-page">
               <div class="lazyload houses-section_content_block_item_image list" data-bg="<%= empreendimento.image %>"></div>
