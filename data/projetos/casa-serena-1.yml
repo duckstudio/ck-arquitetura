@@ -70,3 +70,14 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591196279/Casa%20Serena/DSC_7502-min_ulyhta.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591196279/Casa%20Serena/DSC_7509-min_tpjaos.jpg
     title: SALA DA PIPOCA
+  - title: QUARTO MENINO
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/v1721219748/Casa%20Serena/ASPEN_270_37_-_CK_Arquitetura_tisawv.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721219748/Casa%20Serena/ASPEN_270_36_-_CK_Arquitetura_tmfyqt.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721219748/Casa%20Serena/ASPEN_270_38_-_CK_Arquitetura_kbflnw.jpg
+  - title: QUARTO MENINA
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721219747/Casa%20Serena/ASPEN_270_32_-_CK_Arquitetura_x5j5ik.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721219748/Casa%20Serena/ASPEN_270_33_-_CK_Arquitetura_flc95q.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721219748/Casa%20Serena/ASPEN_270_34_-_CK_Arquitetura_c8vvtd.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721219748/Casa%20Serena/ASPEN_270_35_-_CK_Arquitetura_ybsyhk.jpg
