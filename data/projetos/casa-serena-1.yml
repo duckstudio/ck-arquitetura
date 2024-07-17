@@ -74,6 +74,11 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591196283/Casa%20Serena/md2019_05_14-142245-min_i9ld2r.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591196283/Casa%20Serena/md2019_05_14-142337-min_mpuc4p.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591196282/Casa%20Serena/md2019_05_14-142307_utcblf-min_froata.jpg
+  - title: ESPAÇO GOURMET
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721248734/ASPEN_270_39_-_CK_Arquitetura_naljo9.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721248733/ASPEN_270_40_-_CK_Arquitetura_agsuyr.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721248732/ASPEN_270_41_-_CK_Arquitetura_iiksgv.jpg
   - images:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591196279/Casa%20Serena/DSC_7503-min_tchsfm.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1591196279/Casa%20Serena/DSC_7502-min_ulyhta.jpg
@@ -90,8 +95,3 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721219748/Casa%20Serena/ASPEN_270_33_-_CK_Arquitetura_flc95q.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721219748/Casa%20Serena/ASPEN_270_34_-_CK_Arquitetura_c8vvtd.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721219748/Casa%20Serena/ASPEN_270_35_-_CK_Arquitetura_ybsyhk.jpg
-  - title: ESPAÇO GOURMET
-    images:
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721248734/ASPEN_270_39_-_CK_Arquitetura_naljo9.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721248733/ASPEN_270_40_-_CK_Arquitetura_agsuyr.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721248732/ASPEN_270_41_-_CK_Arquitetura_iiksgv.jpg
