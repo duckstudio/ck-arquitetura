@@ -83,3 +83,7 @@ image_sections:
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721220243/Casa%20Serena/ASPEN_270_31_-_CK_Arquitetura_bmzc36.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721220253/Casa%20Serena/ASPEN_270_28_-_CK_Arquitetura_dls6ut.jpg
       - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721220245/Casa%20Serena/ASPEN_270_11_copyCK_Arquitetura_cpx6ok.jpg
+  - title: ACADEMIA
+    images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721220425/Casa%20Serena/ASPEN_270_14_copyCK_Arquitetura_scvvpk.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1721220425/Casa%20Serena/ASPEN_270_15_copyCK_Arquitetura_da2fkz.jpg
