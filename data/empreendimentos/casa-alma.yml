@@ -11,11 +11,11 @@ title: Casa Alma
 subtitle: Um Lugar para vivenciar a plenitude em suas vidas.
 value: ""
 city: "Gramado "
-image: https://res.cloudinary.com/duckck/image/upload/v1644412205/Casa%20Alma/B1_72_edit-min_dqtir1.png
+image: https://res.cloudinary.com/duckck/image/upload/c_crop,f_auto,h_1080,q_auto,w_1920/v1725639673/Casa%20Alma/B1_R04_12_edit_8k_sn1kej.png
 highlight_images:
-  - image: https://res.cloudinary.com/duckck/image/upload/f_auto,q_auto/v1644412205/Casa%20Alma/B1_71_edit-min_xjkffk.png
-  - image: https://res.cloudinary.com/duckck/image/upload/f_auto,q_auto/v1644412205/Casa%20Alma/B1_57_edit-min_sgxbrr.png
-  - image: https://res.cloudinary.com/duckck/image/upload/f_auto,q_auto/v1644412205/Casa%20Alma/B1_69_edit-min_a88liw.png
+  - image: https://res.cloudinary.com/duckck/image/upload/f_auto,q_auto/v1725639644/Casa%20Alma/B1_R04_08_edit_8k_fdlqlb.png
+  - image: https://res.cloudinary.com/duckck/image/upload/f_auto,q_auto/v1725639504/Casa%20Alma/OTM_02_24_edit_hx9beb.png
+  - image: https://res.cloudinary.com/duckck/image/upload/f_auto,q_auto/v1725639610/Casa%20Alma/OTM_02_06_edit_mj7rvk.png
 highlight_text: Experiência arquitetônica única. Um Lar para acordar em paz e
   produzir memórias diárias de amor e alegria para você e sua família.
 status: Projeto Aprovado
@@ -44,25 +44,46 @@ download: https://drive.google.com/drive/folders/1REyYYSz_9hgfsKvH-cPA0AbzX7YHJG
 image_sections:
   - title: Casa Alma
     images:
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412207/Casa%20Alma/B1-79-edit_sehjeg.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412206/Casa%20Alma/B1-77-EDIT_gygfz7.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412206/Casa%20Alma/B1_79_edit-min_fkyeyb.png
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412205/Casa%20Alma/B1_71_edit-min_xjkffk.png
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412205/Casa%20Alma/B1_57_edit-min_sgxbrr.png
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412204/Casa%20Alma/B1_23_edit-min_wybkq2.png
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412206/Casa%20Alma/B1-65-edit_ccxb0d.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412204/Casa%20Alma/B1_41_edit-min_l93v0n.png
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412204/Casa%20Alma/B1_51_edit-min_no2yih.png
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412204/Casa%20Alma/B1_47_edit-min_bb7irt.png
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412207/Casa%20Alma/B1-84-edit_zkewos.jpg
-      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1644412207/Casa%20Alma/B1-83-edit_vmellu.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639673/Casa%20Alma/B1_R04_12_edit_8k_sn1kej.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639672/Casa%20Alma/B1_R04_04_edit_8k_gwqxhg.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639669/Casa%20Alma/B1_R04_09_edit_8k_gy0dek.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639667/Casa%20Alma/B1_R04_02_edit_8k_b5jhea.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639655/Casa%20Alma/OTM_02_05_edit_bgon8o.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639653/Casa%20Alma/B1_R04_05_edit_8k_zva0om.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639644/Casa%20Alma/B1_R04_08_edit_8k_fdlqlb.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639643/Casa%20Alma/B1_R04_01_edit_8k_cood2v.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639506/Casa%20Alma/OTM_02_19_edit_zuykcq.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639504/Casa%20Alma/OTM_02_20_edit_qag8xi.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639504/Casa%20Alma/OTM_02_23_edit_kysxxb.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639504/Casa%20Alma/OTM_02_24_edit_hx9beb.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639503/Casa%20Alma/OTM_02_27_edit_vl62dc.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639651/Casa%20Alma/B1_R04_15_edit_8k_udball.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639649/Casa%20Alma/B1_R04_14_edit_8k_cnqipl.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639524/Casa%20Alma/OTM_02_13_edit_wanazp.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639521/Casa%20Alma/OTM_02_12_edit_t9fpnb.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639510/Casa%20Alma/OTM_02_11_edit_a6xnbm.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639510/Casa%20Alma/OTM_02_07_edit_qozyhe.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639635/Casa%20Alma/OTM_02_28_edit_kn0avh.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639522/Casa%20Alma/OTM_02_26_edit_wxfp5a.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639509/Casa%20Alma/OTM_02_08_edit_x7rcn8.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639658/Casa%20Alma/B1_R04_13_edit_8k_os1v6e.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639524/Casa%20Alma/OTM_02_09_edit_mrdd0t.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639514/Casa%20Alma/OTM_02_10_edit_dj9c9p.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639658/Casa%20Alma/B1_R04_16_edit_8k_pt4dx7.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639638/Casa%20Alma/OTM_02_16_edit_ytyfnw.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639615/Casa%20Alma/OTM_02_29_edit_oxivfg.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639519/Casa%20Alma/OTM_02_25_edit_ge5tcm.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639518/Casa%20Alma/OTM_02_17_edit_jfx9hy.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639655/Casa%20Alma/OTM_02_18_edit_jyrrib.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639647/Casa%20Alma/B1_R04_07_edit_8k_hvm0cg.png
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1725639510/Casa%20Alma/OTM_02_14_edit_chsfnf.png
 plants:
   - title: TÉRREO
-    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1644435635/Casa%20Alma/PLANTA_HUMANIZADA_CASA_ALMA_T%C3%89RREO_lu7gt7.jpg
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1725640203/Casa%20Alma/PLANTA_HUMANIZADA_CASA_ALMA_T%C3%89RREO_ykcfdn.png
   - title: PAVIMENTO SUPERIOR
-    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1644435635/Casa%20Alma/PLANTA_HUMANIZADA_CASA_ALMA_1%C2%BA_PAVIMENTO_iod1vr.jpg
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1725640203/Casa%20Alma/PLANTA_HUMANIZADA_CASA_ALMA_1%C2%BA_PAVIMENTO_aotsrx.png
   - title: SUBSOLO
-    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1644435635/Casa%20Alma/PLANTA_HUMANIZADA_CASA_ALMA_SUBSOLO_xbjdis.png
+    image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1050/v1725640202/Casa%20Alma/PLANTA_HUMANIZADA_CASA_ALMA_SUBSOLO_cejbom.png
 more_details:
   - title: Acessibilidade plena nos três andares, em lajes planas, sem degraus e
       Elevador para 7 pessoas nos 3 andares
