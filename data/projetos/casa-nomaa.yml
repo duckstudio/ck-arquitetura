@@ -1,0 +1,34 @@
+seo:
+  title: CASA NOMAA
+  description: Um refúgio onde arquitetura, natureza e tecnologia se encontram
+    para criar uma experiência única de morar.
+title: CASA NOMAA
+city: GRAMADO
+image: https://res.cloudinary.com/duckck/image/upload/v1753272592/Casa%20Nomaa/JULHO_CASA_NOMMA_GRAMADODSC06905_hwdq2o.jpg
+pretitle: PROJETO ARQUTETÔNICO
+description_title: " Uma casa que desacelera o tempo e convida à presença."
+description: >-
+  A Casa Nomaa nasce do desejo de viver com mais presença, mais calma, mais
+  sentido.
+
+  Projetada para se abrir à luz, ao ar puro e ao silêncio da serra, ela convida à contemplação.
+people:
+  - title: Arquiteta responsável
+    name: Charlene Koetz
+image_sections:
+  - images:
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272583/Casa%20Nomaa/JULHO_CASA_NOMMA_GRAMADODJI_20250530155955_0814_D_l02ler.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272592/Casa%20Nomaa/JULHO_CASA_NOMMA_GRAMADODSC07353_bix0f9.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272593/Casa%20Nomaa/JULHO_CASA_NOMMA_GRAMADODSC07295_wbwz1a.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272587/Casa%20Nomaa/JULHO_CASA_NOMMA_GRAMADODSC06890_ge950r.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272583/Casa%20Nomaa/JULHO_CASA_NOMMA_GRAMADODJI_20250530155955_0814_D_l02ler.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272575/Casa%20Nomaa/JUNHO_CASA_NOMMA_GRAMADODSC06983_uhloiz.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272573/Casa%20Nomaa/JULHO_CASA_NOMMA_GRAMADODJI_20250530160704_0873_D_f5mmoq.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272572/Casa%20Nomaa/JUNHO_CASA_NOMMA_GRAMADODJI_20250531083810_0050_D_lxhknv.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272572/Casa%20Nomaa/JUNHO_-_Aspen_Ck_DJI_20250530171944_0990_D_copiar_drdr30.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272571/Casa%20Nomaa/JUNHO_CASA_NOMMA_GRAMADODJI_20250530173529_0079_D_iuvpoy.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272571/Casa%20Nomaa/JUNHO_CASA_NOMMA_GRAMADODJI_20250530172150_0999_D_lerxil.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272570/Casa%20Nomaa/JULHO_CASA_NOMMA_GRAMADODJI_20250530160443_0858_D_y5qhhx.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272570/Casa%20Nomaa/JULHO_CASA_NOMMA_GRAMADODSC07296_lri4qz.jpg
+      - image: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,q_auto,w_1900/v1753272570/Casa%20Nomaa/JULHO_CASA_NOMMA_GRAMADODJI_20250530162101_0928_D_terminar_nfpuef.jpg
+    title: "FOTOS "
