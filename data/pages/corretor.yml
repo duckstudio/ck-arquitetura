@@ -26,41 +26,30 @@ call: Acesse **Nossas Casas Extraordinárias** a venda
 button2: Quero baixar os materiais das casas
 button2_link: "#housesSection"
 title_reasons: |-
-  **8 razões** para vender uma casa
+  **5 razões** para vender uma casa
 
   da Charlene Koetz em Gramado na obra!
 items:
   - title: Economia
-    text: Adquirindo uma de nossas casas durante a obra, você tem uma economia de
-      mais de R$2.000.00,00, simplesmente pelo fato de adquirir antes de estar
-      pronta.;
+    text: Adquirindo uma de nossas casas durante a obra, você tem uma grande
+      economia, já que estará adquirindo a preço de custo;
     icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone1_j3mnmx.svg
-  - title: Interior e Decoração
-    text: Na compra da Casa em construção, Você ganha os Projetos de Interiores
-      gratuitamente;
-    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone2_m64m7z.svg
   - title: Acompanhe de Perto
-    text: Viaje até duas  vezes à Gramado durante a construção, com passagens e
-      hospedagem para casal por dois dias por nossa conta, para que possa
-      visitar a obra e participar da escolha de acabamentos se desejar;
-    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone3_jdph9u.svg
+    text: >
+      Acompanhe toda a evolução da obra através dos orçamentos, fotos e
+      cronograma mensal, bem como visitando a obra sempre que quiser;
+    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone2_m64m7z.svg
   - title: Aproveite o Condomínio
-    text: A partir da compra, você e sua família já podem usufruir de toda a
-      infraestrutura do condomínio, incluindo piscinas, spa, clube e todas áreas
-      de lazer;
+    text: APROVEITE O CONDOMÍNIO - A partir da compra, você e sua família já podem
+      usufruir de toda a infraestrutura do condomínio, incluindo piscinas, spa,
+      restaurante, clube e todas áreas de lazer;
     icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone6_bkvfei.svg
-  - title: Monitoramento Mensal
-    text: Acompanhe toda a evolução da obra através de fotos e cronograma
-      mensalmente.;
-    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone4_bfjkdi.svg
-  - title: Uma Recordação de Amor
-    text: Sua família  recebe de cortesia, uma escultura exclusiva do casal ou
-      filhos, feita por artista plástico.
-    icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone5_nmmgph.svg
   - title: Facilidade de Pagamento
-    text: Adquirindo seu imóvel durante a construção, você tem facilidades especiais
-      de parcelamento, incluindo financiamento imobiliário se preferir;
+    text: Adquirindo sua Casa Extraordinária Ck  durante a construção, você tem
+      facilidades especiais de parcelamento, incluindo financiamento imobiliário
+      se preferir;
     icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750368/icone1_j3mnmx.svg
   - title: Valorização
-    text: "Ao comprar a casa durante a construção você se beneficia da valorização. "
+    text: Ao comprar a residência  durante a construção,  você se beneficia da
+      valorização tão  logo ela fique pronta.
     icon: https://res.cloudinary.com/duckck/image/upload/c_limit,f_auto,h_70,q_auto/v1581750370/icone7_ff3jig.svg
