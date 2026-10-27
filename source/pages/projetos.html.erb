@@ -35,6 +35,7 @@
   <div class="projects-page_list">
     <% data.settings.ordem_projetos.items.each do |ordem_projetos| %>
       <% findProjeto = @app.data.projetos.find { |_filename, projeto| ordem_projetos.projeto == projeto.title } %>
+      <% next unless findProjeto %>
       <% projeto = findProjeto[1] %>
       <a href="/projeto/<%= projeto.title.parameterize %>" class="lazyload projects-page_list_item w-inline-block" data-bg="<%= projeto.image %>">
         <div class="projects-page_list_item_txt">
